@@ -1,0 +1,26 @@
+﻿.TextBox1
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 2px double #737987;
+    position: relative;
+    bottom: 2px;
+}
+
+.TextBoxBusqueda
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 2px double #737987;
+    position: relative;
+    bottom: 2px;
+    
+    background-image: url('/Resources/images/find.png');
+    background-position: left;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+

@@ -1,0 +1,14 @@
+﻿.cargandoPaginas {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: #FFFFFF !important;
+    color: #337ab7;
+    border-color: #337ab7;
+    border-top-width: 3px;
+    border-right-width: 5px;
+    border-bottom-width: 3px;
+    border-left-width: 5px;
+}

@@ -1,0 +1,76 @@
+﻿body {
+    background-color: rgba(164, 164, 164,0.6); 
+}
+
+/*.lblTabla {
+    font: 10px;
+    color: white;
+}
+
+    .lblTabla:hover {
+        font: 12px;
+        color: #438DBC;
+    }*/
+
+/*------------------------------ CONTENIDO ------------------------------*/
+#contenido {
+    position: absolute; /*El div será ubicado con relación a la pantalla*/
+    bottom: 35px; /*Abajo deje un espacio de 0px*/
+    text-align: center;
+    vertical-align: middle;    
+    height: 80%;
+    width: 100%;
+    background: #eaeaea;
+    border-color: #337ab7;
+     /*#484b4b*/
+    /*-webkit-box-shadow: -3px 3px 3px 3px rgba(0,0,0,0.69);*/
+    /*-webkit-border-radius: 7px 7px 7px 7px;*/
+    /*border: 1px solid #69afb7;*/
+    /*position: absolute; /*El div será ubicado con relación a la pantalla*/
+    /*bottom: 50px; /*Abajo deje un espacio de 0px*/
+    /* text-align: center;
+    vertical-align: middle;
+    /*height: 78.8%;
+    width: 100%;*/
+    /* padding-left: 5%;
+    width: 90%;
+    height: 50.8%;
+    padding-left: 5%;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */ /*rgba(164,164,164,0.6); /*#484b4b*/
+    /*-webkit-box-shadow: -12px 10px 23px 8px rgba(0,0,0,0.69);*/
+    /* -webkit-border-radius: 7px 7px 7px 7px;/*
+    /*border: 1px solid #072438;*/
+}
+
+/*------------------------------ PIE ------------------------------*/
+#home1:hover {
+    height: 75px;
+    width: 75px;
+}
+
+#control1:hover {
+    height: 75px;
+    width: 75px;
+}
+
+#reporte1:hover {
+    height: 75px;
+    width: 75px;
+}
+
+#alerta1:hover {
+    height: 75px;
+    width: 75px;
+}
+
+#configuracion1:hover {
+    height: 75px;
+    width: 75px;
+}
+
+/*.lblTitulo {
+    color: white;
+}*/
+
+
+

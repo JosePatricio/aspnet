@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EorDataSet" targetNamespace="http://tempuri.org/EorDataSet.xsd" xmlns:mstns="http://tempuri.org/EorDataSet.xsd" xmlns="http://tempuri.org/EorDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EorDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EorDataSet" msprop:Generator_UserDSName="EorDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EorDataTable" msprop:Generator_TableClassName="EorDataTableDataTable" msprop:Generator_TableVarName="tableEorDataTable" msprop:Generator_TablePropName="EorDataTable" msprop:Generator_RowDeletingName="EorDataTableRowDeleting" msprop:Generator_RowChangingName="EorDataTableRowChanging" msprop:Generator_RowEvHandlerName="EorDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="EorDataTableRowDeleted" msprop:Generator_UserTableName="EorDataTable" msprop:Generator_RowChangedName="EorDataTableRowChanged" msprop:Generator_RowEvArgName="EorDataTableRowChangeEvent" msprop:Generator_RowClassName="EorDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sec" msprop:Generator_ColumnVarNameInTable="columnSec" msprop:Generator_ColumnPropNameInRow="Sec" msprop:Generator_ColumnPropNameInTable="SecColumn" msprop:Generator_UserColumnName="Sec" type="xs:short" />
+              <xs:element name="Loc" msprop:Generator_ColumnVarNameInTable="columnLoc" msprop:Generator_ColumnPropNameInRow="Loc" msprop:Generator_ColumnPropNameInTable="LocColumn" msprop:Generator_UserColumnName="Loc" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:short" minOccurs="0" />
+              <xs:element name="Comp" msprop:Generator_ColumnVarNameInTable="columnComp" msprop:Generator_ColumnPropNameInRow="Comp" msprop:Generator_ColumnPropNameInTable="CompColumn" msprop:Generator_UserColumnName="Comp" type="xs:string" minOccurs="0" />
+              <xs:element name="Repair" msprop:Generator_ColumnVarNameInTable="columnRepair" msprop:Generator_ColumnPropNameInRow="Repair" msprop:Generator_ColumnPropNameInTable="RepairColumn" msprop:Generator_UserColumnName="Repair" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnPropNameInTable="LengthColumn" msprop:Generator_UserColumnName="Length" type="xs:double" minOccurs="0" />
+              <xs:element name="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" msprop:Generator_UserColumnName="Width" type="xs:double" minOccurs="0" />
+              <xs:element name="Damage" msprop:Generator_ColumnVarNameInTable="columnDamage" msprop:Generator_ColumnPropNameInRow="Damage" msprop:Generator_ColumnPropNameInTable="DamageColumn" msprop:Generator_UserColumnName="Damage" type="xs:string" minOccurs="0" />
+              <xs:element name="Resp" msprop:Generator_ColumnVarNameInTable="columnResp" msprop:Generator_ColumnPropNameInRow="Resp" msprop:Generator_ColumnPropNameInTable="RespColumn" msprop:Generator_UserColumnName="Resp" type="xs:string" minOccurs="0" />
+              <xs:element name="Hour" msprop:Generator_ColumnVarNameInTable="columnHour" msprop:Generator_ColumnPropNameInRow="Hour" msprop:Generator_ColumnPropNameInTable="HourColumn" msprop:Generator_UserColumnName="Hour" type="xs:double" minOccurs="0" />
+              <xs:element name="LaborCost" msprop:Generator_ColumnVarNameInTable="columnLaborCost" msprop:Generator_ColumnPropNameInRow="LaborCost" msprop:Generator_ColumnPropNameInTable="LaborCostColumn" msprop:Generator_UserColumnName="LaborCost" type="xs:double" minOccurs="0" />
+              <xs:element name="MaterialCost" msprop:Generator_ColumnVarNameInTable="columnMaterialCost" msprop:Generator_ColumnPropNameInRow="MaterialCost" msprop:Generator_ColumnPropNameInTable="MaterialCostColumn" msprop:Generator_UserColumnName="MaterialCost" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalMaterialCost" msprop:Generator_ColumnVarNameInTable="columnTotalMaterialCost" msprop:Generator_ColumnPropNameInRow="TotalMaterialCost" msprop:Generator_ColumnPropNameInTable="TotalMaterialCostColumn" msprop:Generator_UserColumnName="TotalMaterialCost" type="xs:double" minOccurs="0" />
+              <xs:element name="SubTotal" msprop:Generator_ColumnVarNameInTable="columnSubTotal" msprop:Generator_ColumnPropNameInRow="SubTotal" msprop:Generator_ColumnPropNameInTable="SubTotalColumn" msprop:Generator_UserColumnName="SubTotal" type="xs:double" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EorDataTable" />
+      <xs:field xpath="mstns:Sec" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

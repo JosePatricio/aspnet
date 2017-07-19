@@ -1,0 +1,155 @@
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\SigeorServices.dll.config
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\SigeorServices.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\SigeorServices.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\obj\Debug\SigeorServices.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\SigeorServices\obj\Debug\SigeorServices.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.dll.config
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaAretina.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSap.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaAretina.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\EntityFramework.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.dll.config
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\SigeorServices.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\EntityFramework.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaAretina.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Quartz.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Common.Logging.Core.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Common.Logging.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaAretina.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\bin\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\SigeorServices\obj\Debug\SigeorServices.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\SigeorServices.dll.config
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\SigeorServices.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\SigeorServices.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\EntityFramework.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\PersistenciaAretina.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\PersistenciaSigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\Quartz.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\Common.Logging.Core.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\Common.Logging.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\PersistenciaAretina.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\bin\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\obj\Debug\SigeorServices.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\obj\Debug\SigeorServices.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\SigeorServices.dll.config
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\SigeorServices.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\SigeorServices.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\EntityFramework.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Negocio.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaAretina.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSap.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSigeor.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Quartz.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Common.Logging.Core.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Common.Logging.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Negocio.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaAretina.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSap.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\obj\Debug\SigeorServices.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\obj\Debug\SigeorServices.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\SigeorServices.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\SigeorServices.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\SigeorServices.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\EntityFramework.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\obj\Debug\SigeorServices.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\SigeorServices\obj\Debug\SigeorServices.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\SigeorServices.dll.config
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\SigeorServices.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\SigeorServices.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\EntityFramework.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\PersistenciaAretina.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\PersistenciaSap.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\PersistenciaAretina.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\PersistenciaSap.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\obj\Debug\SigeorServices.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\SigeorServices\obj\Debug\SigeorServices.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\SigeorServices.dll.config
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\SigeorServices.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\SigeorServices.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\EntityFramework.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\Negocio.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\PersistenciaAretina.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\PersistenciaSap.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\PersistenciaSigeor.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\Quartz.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\Common.Logging.Core.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\Common.Logging.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\Negocio.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\PersistenciaAretina.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\PersistenciaSap.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\bin\PersistenciaSigeor.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\obj\Debug\SigeorServices.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\obj\Debug\SigeorServices.dll
+D:\PROYECTOS\ASPNET\MarGlobal\SigeorServices\obj\Debug\SigeorServices.pdb

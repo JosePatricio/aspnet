@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+    <add name="AretinaEntities" connectionString="metadata=res://*/AretinaModel.csdl|res://*/AretinaModel.ssdl|res://*/AretinaModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.237;initial catalog=Aretina;persist security info=True;user id=sa;password=Innovaciones2014;multipleactiveresultsets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+</configuration>

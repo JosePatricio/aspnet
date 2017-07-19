@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AretinaModelStoreContainer" CdmEntityContainer="AretinaEntities">
+    <FunctionImportMapping FunctionImportName="GET_EGRESO_EOR_TRINITY" FunctionName="AretinaModel.Store.GET_EGRESO_EOR_TRINITY">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="AretinaModel.GET_EGRESO_EOR_TRINITY_Result">
+          <ScalarProperty Name="ID_EGRPRODUCTO" ColumnName="ID_EGRPRODUCTO" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_BODEGA" ColumnName="ID_BODEGA" />
+          <ScalarProperty Name="ID_TIPOSALIDA" ColumnName="ID_TIPOSALIDA" />
+          <ScalarProperty Name="NUM_EOR" ColumnName="NUM_EOR" />
+          <ScalarProperty Name="PREF_CONTAINER" ColumnName="PREF_CONTAINER" />
+          <ScalarProperty Name="NUM_CONTAINER" ColumnName="NUM_CONTAINER" />
+          <ScalarProperty Name="FECHACREA" ColumnName="FECHACREA" />
+          <ScalarProperty Name="FECHASALIDA" ColumnName="FECHASALIDA" />
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="NroParte" ColumnName="NroParte" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="COSTO" ColumnName="COSTO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="COSTO_IVA" ColumnName="COSTO_IVA" />
+          <ScalarProperty Name="TOTAL_IVA" ColumnName="TOTAL_IVA" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="C_EIR">
+      <EntityTypeMapping TypeName="AretinaModel.C_EIR">
+        <MappingFragment StoreEntitySet="C_EIR">
+          <ScalarProperty Name="BOOKING_LINEA" ColumnName="BOOKING_LINEA" />
+          <ScalarProperty Name="ORDEN_VTA_SAP" ColumnName="ORDEN_VTA_SAP" />
+          <ScalarProperty Name="ORDEN_CMP_SAP" ColumnName="ORDEN_CMP_SAP" />
+          <ScalarProperty Name="TRANSPORT_SAP" ColumnName="TRANSPORT_SAP" />
+          <ScalarProperty Name="NACIONALIZADO" ColumnName="NACIONALIZADO" />
+          <ScalarProperty Name="DOC_SENAE" ColumnName="DOC_SENAE" />
+          <ScalarProperty Name="FOOD_GRADE" ColumnName="FOOD_GRADE" />
+          <ScalarProperty Name="SECUALMANIP_ITI" ColumnName="SECUALMANIP_ITI" />
+          <ScalarProperty Name="ALMANIP_ITI" ColumnName="ALMANIP_ITI" />
+          <ScalarProperty Name="OBSERV_CUTOFF" ColumnName="OBSERV_CUTOFF" />
+          <ScalarProperty Name="FECHA_SALIDAPTO" ColumnName="FECHA_SALIDAPTO" />
+          <ScalarProperty Name="NUM_PSD" ColumnName="NUM_PSD" />
+          <ScalarProperty Name="COMMODITY" ColumnName="COMMODITY" />
+          <ScalarProperty Name="NOMBFILEHANJIN" ColumnName="NOMBFILEHANJIN" />
+          <ScalarProperty Name="ULTIMOACTIVO" ColumnName="ULTIMOACTIVO" />
+          <ScalarProperty Name="FECHA_FILEEMC" ColumnName="FECHA_FILEEMC" />
+          <ScalarProperty Name="SERVFACT" ColumnName="SERVFACT" />
+          <ScalarProperty Name="FILE_EMC" ColumnName="FILE_EMC" />
+          <ScalarProperty Name="ID_MAQUINA" ColumnName="ID_MAQUINA" />
+          <ScalarProperty Name="VALOR_MANTE" ColumnName="VALOR_MANTE" />
+          <ScalarProperty Name="ID_TIPOMANTE" ColumnName="ID_TIPOMANTE" />
+          <ScalarProperty Name="COD_GARITERO" ColumnName="COD_GARITERO" />
+          <ScalarProperty Name="NOMFILEFLORENSREPAIR" ColumnName="NOMFILEFLORENSREPAIR" />
+          <ScalarProperty Name="NOMBFILECCNI" ColumnName="NOMBFILECCNI" />
+          <ScalarProperty Name="NOMBFILEFLORENS" ColumnName="NOMBFILEFLORENS" />
+          <ScalarProperty Name="NRO_BOOKING" ColumnName="NRO_BOOKING" />
+          <ScalarProperty Name="FECHAEXP_BOOK" ColumnName="FECHAEXP_BOOK" />
+          <ScalarProperty Name="FECHAEXP_PRECLEAR" ColumnName="FECHAEXP_PRECLEAR" />
+          <ScalarProperty Name="NRO_PRECLEAR" ColumnName="NRO_PRECLEAR" />
+          <ScalarProperty Name="FECHA_SUBE" ColumnName="FECHA_SUBE" />
+          <ScalarProperty Name="USUARIO_SUBE" ColumnName="USUARIO_SUBE" />
+          <ScalarProperty Name="MARCA_FLORENS" ColumnName="MARCA_FLORENS" />
+          <ScalarProperty Name="MARCA_EIRANTE" ColumnName="MARCA_EIRANTE" />
+          <ScalarProperty Name="MARCAALMA" ColumnName="MARCAALMA" />
+          <ScalarProperty Name="TIPO_SELLO5" ColumnName="TIPO_SELLO5" />
+          <ScalarProperty Name="TIPO_SELLO4" ColumnName="TIPO_SELLO4" />
+          <ScalarProperty Name="TIPO_SELLO3" ColumnName="TIPO_SELLO3" />
+          <ScalarProperty Name="TIPO_SELLO2" ColumnName="TIPO_SELLO2" />
+          <ScalarProperty Name="TIPO_SELLO1" ColumnName="TIPO_SELLO1" />
+          <ScalarProperty Name="SECUALMANIP" ColumnName="SECUALMANIP" />
+          <ScalarProperty Name="TIPO_MANIPULEO" ColumnName="TIPO_MANIPULEO" />
+          <ScalarProperty Name="ALMANIP" ColumnName="ALMANIP" />
+          <ScalarProperty Name="NROCLIPPON" ColumnName="NROCLIPPON" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREA" ColumnName="FECHA_CREA" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="HORAREPARAMAQ" ColumnName="HORAREPARAMAQ" />
+          <ScalarProperty Name="FECHAREPARAMAQ" ColumnName="FECHAREPARAMAQ" />
+          <ScalarProperty Name="HORAAUTORIZAMAQ" ColumnName="HORAAUTORIZAMAQ" />
+          <ScalarProperty Name="FECHAAUTORIZAMAQ" ColumnName="FECHAAUTORIZAMAQ" />
+          <ScalarProperty Name="HORAREPARAEST" ColumnName="HORAREPARAEST" />
+          <ScalarProperty Name="FECHAREPARAEST" ColumnName="FECHAREPARAEST" />
+          <ScalarProperty Name="HORAAUTORIZAEST" ColumnName="HORAAUTORIZAEST" />
+          <ScalarProperty Name="FECHAAUTORIZAEST" ColumnName="FECHAAUTORIZAEST" />
+          <ScalarProperty Name="USUASIGNA" ColumnName="USUASIGNA" />
+          <ScalarProperty Name="APROBASIGNA" ColumnName="APROBASIGNA" />
+          <ScalarProperty Name="FECDISPASIG" ColumnName="FECDISPASIG" />
+          <ScalarProperty Name="VALOR_CARGO" ColumnName="VALOR_CARGO" />
+          <ScalarProperty Name="CARGO" ColumnName="CARGO" />
+          <ScalarProperty Name="COD_AGENCIA" ColumnName="COD_AGENCIA" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="OBSERVACIONES" ColumnName="OBSERVACIONES" />
+          <ScalarProperty Name="PAYLOAD" ColumnName="PAYLOAD" />
+          <ScalarProperty Name="MAXGROSSWEIGHT" ColumnName="MAXGROSSWEIGHT" />
+          <ScalarProperty Name="TARA" ColumnName="TARA" />
+          <ScalarProperty Name="PESO" ColumnName="PESO" />
+          <ScalarProperty Name="ESTADO_EIRMAQ" ColumnName="ESTADO_EIRMAQ" />
+          <ScalarProperty Name="ESTADO_EIR" ColumnName="ESTADO_EIR" />
+          <ScalarProperty Name="COD_CLASIFICA" ColumnName="COD_CLASIFICA" />
+          <ScalarProperty Name="NUMGUIA" ColumnName="NUMGUIA" />
+          <ScalarProperty Name="SELLO4" ColumnName="SELLO4" />
+          <ScalarProperty Name="SELLO3" ColumnName="SELLO3" />
+          <ScalarProperty Name="SELLO2" ColumnName="SELLO2" />
+          <ScalarProperty Name="SELLO1" ColumnName="SELLO1" />
+          <ScalarProperty Name="FACTURA" ColumnName="FACTURA" />
+          <ScalarProperty Name="ORDENAPG" ColumnName="ORDENAPG" />
+          <ScalarProperty Name="COD_MOV" ColumnName="COD_MOV" />
+          <ScalarProperty Name="COD_PRODUCTO" ColumnName="COD_PRODUCTO" />
+          <ScalarProperty Name="DESTINO" ColumnName="DESTINO" />
+          <ScalarProperty Name="ORIGEN" ColumnName="ORIGEN" />
+          <ScalarProperty Name="ORIDEST" ColumnName="ORIDEST" />
+          <ScalarProperty Name="HORA_EIR" ColumnName="HORA_EIR" />
+          <ScalarProperty Name="FECHA_EIR" ColumnName="FECHA_EIR" />
+          <ScalarProperty Name="COD_INSPECTOR" ColumnName="COD_INSPECTOR" />
+          <ScalarProperty Name="COD_CHOFER" ColumnName="COD_CHOFER" />
+          <ScalarProperty Name="COD_TRAFICO" ColumnName="COD_TRAFICO" />
+          <ScalarProperty Name="COD_PLACA" ColumnName="COD_PLACA" />
+          <ScalarProperty Name="COD_TRANSPORTISTA" ColumnName="COD_TRANSPORTISTA" />
+          <ScalarProperty Name="COD_IMPORTA" ColumnName="COD_IMPORTA" />
+          <ScalarProperty Name="COD_EXPORTA" ColumnName="COD_EXPORTA" />
+          <ScalarProperty Name="COD_ITINERARIO" ColumnName="COD_ITINERARIO" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+          <ScalarProperty Name="COD_TIPCONT" ColumnName="COD_TIPCONT" />
+          <ScalarProperty Name="NUM_CONTAINER" ColumnName="NUM_CONTAINER" />
+          <ScalarProperty Name="PREF_CONTAINER" ColumnName="PREF_CONTAINER" />
+          <ScalarProperty Name="IMPEXP" ColumnName="IMPEXP" />
+          <ScalarProperty Name="CONDICION_MAQ" ColumnName="CONDICION_MAQ" />
+          <ScalarProperty Name="CONDICION_EST" ColumnName="CONDICION_EST" />
+          <ScalarProperty Name="TIPO_MOV" ColumnName="TIPO_MOV" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="COD_BL" ColumnName="COD_BL" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_EIR" ColumnName="ID_EIR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_EORESTRUCTURA">
+      <EntityTypeMapping TypeName="AretinaModel.C_EORESTRUCTURA">
+        <MappingFragment StoreEntitySet="C_EORESTRUCTURA">
+          <ScalarProperty Name="NOMBEDIREPAIR" ColumnName="NOMBEDIREPAIR" />
+          <ScalarProperty Name="FECHA_IMPRESION" ColumnName="FECHA_IMPRESION" />
+          <ScalarProperty Name="IMPRESO" ColumnName="IMPRESO" />
+          <ScalarProperty Name="NUM_EORLINEA" ColumnName="NUM_EORLINEA" />
+          <ScalarProperty Name="COD_INSPECTOR3" ColumnName="COD_INSPECTOR3" />
+          <ScalarProperty Name="COD_INSPECTOR2" ColumnName="COD_INSPECTOR2" />
+          <ScalarProperty Name="COD_INSPECTOR1" ColumnName="COD_INSPECTOR1" />
+          <ScalarProperty Name="REFERENCIA_IAS" ColumnName="REFERENCIA_IAS" />
+          <ScalarProperty Name="NOMBDESTIM" ColumnName="NOMBDESTIM" />
+          <ScalarProperty Name="NOMBFILEEMCCR" ColumnName="NOMBFILEEMCCR" />
+          <ScalarProperty Name="FECHAFACTURA" ColumnName="FECHAFACTURA" />
+          <ScalarProperty Name="FACTURA" ColumnName="FACTURA" />
+          <ScalarProperty Name="NOMBFILEEMCFACT" ColumnName="NOMBFILEEMCFACT" />
+          <ScalarProperty Name="NOMBFILE_USER" ColumnName="NOMBFILE_USER" />
+          <ScalarProperty Name="CNT_REPO" ColumnName="CNT_REPO" />
+          <ScalarProperty Name="NOMBFILECCNI_REP" ColumnName="NOMBFILECCNI_REP" />
+          <ScalarProperty Name="NOMBFILECCNI_EST" ColumnName="NOMBFILECCNI_EST" />
+          <ScalarProperty Name="NOMBFILECCNI" ColumnName="NOMBFILECCNI" />
+          <ScalarProperty Name="INICIO_IAS" ColumnName="INICIO_IAS" />
+          <ScalarProperty Name="NUM_AUTORIZA" ColumnName="NUM_AUTORIZA" />
+          <ScalarProperty Name="PAS_REPARADO" ColumnName="PAS_REPARADO" />
+          <ScalarProperty Name="PAS_APROBADO" ColumnName="PAS_APROBADO" />
+          <ScalarProperty Name="PAS_ESTIMADO" ColumnName="PAS_ESTIMADO" />
+          <ScalarProperty Name="COSTOMAOBRA" ColumnName="COSTOMAOBRA" />
+          <ScalarProperty Name="ISO_CODE" ColumnName="ISO_CODE" />
+          <ScalarProperty Name="SECREVISION" ColumnName="SECREVISION" />
+          <ScalarProperty Name="TOTALEST" ColumnName="TOTALEST" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="HORA_FINREPARA" ColumnName="HORA_FINREPARA" />
+          <ScalarProperty Name="FECHA_FINREPARA" ColumnName="FECHA_FINREPARA" />
+          <ScalarProperty Name="HORA_INIREPARA" ColumnName="HORA_INIREPARA" />
+          <ScalarProperty Name="FECHA_INIREPARA" ColumnName="FECHA_INIREPARA" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="FECHA_APROBACION" ColumnName="FECHA_APROBACION" />
+          <ScalarProperty Name="APROBADO" ColumnName="APROBADO" />
+          <ScalarProperty Name="COD_CONTRATISTA" ColumnName="COD_CONTRATISTA" />
+          <ScalarProperty Name="COD_RESPONSABLE" ColumnName="COD_RESPONSABLE" />
+          <ScalarProperty Name="FECHA_EOR" ColumnName="FECHA_EOR" />
+          <ScalarProperty Name="COD_INSPECTOR" ColumnName="COD_INSPECTOR" />
+          <ScalarProperty Name="NUM_CONTAINER" ColumnName="NUM_CONTAINER" />
+          <ScalarProperty Name="PREF_CONTAINER" ColumnName="PREF_CONTAINER" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_EIR" ColumnName="ID_EIR" />
+          <ScalarProperty Name="NUM_EOREST" ColumnName="NUM_EOREST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_EORMAQUINARIA">
+      <EntityTypeMapping TypeName="AretinaModel.C_EORMAQUINARIA">
+        <MappingFragment StoreEntitySet="C_EORMAQUINARIA">
+          <ScalarProperty Name="NOMBEDIREPAIR" ColumnName="NOMBEDIREPAIR" />
+          <ScalarProperty Name="FECHA_IMPRESION" ColumnName="FECHA_IMPRESION" />
+          <ScalarProperty Name="IMPRESO" ColumnName="IMPRESO" />
+          <ScalarProperty Name="NUM_EORLINEA" ColumnName="NUM_EORLINEA" />
+          <ScalarProperty Name="COD_INSPECTOR2" ColumnName="COD_INSPECTOR2" />
+          <ScalarProperty Name="COD_INSPECTOR1" ColumnName="COD_INSPECTOR1" />
+          <ScalarProperty Name="SELLO" ColumnName="SELLO" />
+          <ScalarProperty Name="COD_TIPOSELLO" ColumnName="COD_TIPOSELLO" />
+          <ScalarProperty Name="REFERENCIA_IAS" ColumnName="REFERENCIA_IAS" />
+          <ScalarProperty Name="NOMBDESTIM" ColumnName="NOMBDESTIM" />
+          <ScalarProperty Name="NOMBFILEEMCCR" ColumnName="NOMBFILEEMCCR" />
+          <ScalarProperty Name="FECHAFACTURA" ColumnName="FECHAFACTURA" />
+          <ScalarProperty Name="FACTURA" ColumnName="FACTURA" />
+          <ScalarProperty Name="NOMBFILEEMCFACT" ColumnName="NOMBFILEEMCFACT" />
+          <ScalarProperty Name="NOMBFILE_USER" ColumnName="NOMBFILE_USER" />
+          <ScalarProperty Name="CNT_REPO" ColumnName="CNT_REPO" />
+          <ScalarProperty Name="NOMBFILECCNI_REP" ColumnName="NOMBFILECCNI_REP" />
+          <ScalarProperty Name="NOMBFILECCNI_EST" ColumnName="NOMBFILECCNI_EST" />
+          <ScalarProperty Name="NOMBFILECCNI" ColumnName="NOMBFILECCNI" />
+          <ScalarProperty Name="INICIO_IAS" ColumnName="INICIO_IAS" />
+          <ScalarProperty Name="NUM_AUTORIZA" ColumnName="NUM_AUTORIZA" />
+          <ScalarProperty Name="PAS_REPARADO" ColumnName="PAS_REPARADO" />
+          <ScalarProperty Name="PAS_APROBADO" ColumnName="PAS_APROBADO" />
+          <ScalarProperty Name="PAS_ESTIMADO" ColumnName="PAS_ESTIMADO" />
+          <ScalarProperty Name="COSTOMAOBRA" ColumnName="COSTOMAOBRA" />
+          <ScalarProperty Name="ISO_CODE" ColumnName="ISO_CODE" />
+          <ScalarProperty Name="SECREVISION" ColumnName="SECREVISION" />
+          <ScalarProperty Name="TOTALMAQ" ColumnName="TOTALMAQ" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="HORA_FINREPARA" ColumnName="HORA_FINREPARA" />
+          <ScalarProperty Name="FECHA_FINREPARA" ColumnName="FECHA_FINREPARA" />
+          <ScalarProperty Name="HORA_INIREPARA" ColumnName="HORA_INIREPARA" />
+          <ScalarProperty Name="FECHA_INIREPARA" ColumnName="FECHA_INIREPARA" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="FECHA_APROBACION" ColumnName="FECHA_APROBACION" />
+          <ScalarProperty Name="APROBADO" ColumnName="APROBADO" />
+          <ScalarProperty Name="COD_CONTRATISTA" ColumnName="COD_CONTRATISTA" />
+          <ScalarProperty Name="COD_RESPONSABLE" ColumnName="COD_RESPONSABLE" />
+          <ScalarProperty Name="FECHA_EORMAQ" ColumnName="FECHA_EORMAQ" />
+          <ScalarProperty Name="COD_INSPECTOR" ColumnName="COD_INSPECTOR" />
+          <ScalarProperty Name="NUM_CONTAINER" ColumnName="NUM_CONTAINER" />
+          <ScalarProperty Name="PREF_CONTAINER" ColumnName="PREF_CONTAINER" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_EIR" ColumnName="ID_EIR" />
+          <ScalarProperty Name="NUM_EORMAQ" ColumnName="NUM_EORMAQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_EORTRANSITO">
+      <EntityTypeMapping TypeName="AretinaModel.C_EORTRANSITO">
+        <MappingFragment StoreEntitySet="C_EORTRANSITO">
+          <ScalarProperty Name="NOMBEDIREPAIR" ColumnName="NOMBEDIREPAIR" />
+          <ScalarProperty Name="NOMBDESTIM" ColumnName="NOMBDESTIM" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="NOMBFILEMAQ" ColumnName="NOMBFILEMAQ" />
+          <ScalarProperty Name="NOMBFILEEST" ColumnName="NOMBFILEEST" />
+          <ScalarProperty Name="PAS_REPARADO" ColumnName="PAS_REPARADO" />
+          <ScalarProperty Name="PAS_APROBADO" ColumnName="PAS_APROBADO" />
+          <ScalarProperty Name="PAS_ESTIMADO" ColumnName="PAS_ESTIMADO" />
+          <ScalarProperty Name="ISO_CODE" ColumnName="ISO_CODE" />
+          <ScalarProperty Name="SECREVISION" ColumnName="SECREVISION" />
+          <ScalarProperty Name="TOTALMAQ" ColumnName="TOTALMAQ" />
+          <ScalarProperty Name="TOTALEST" ColumnName="TOTALEST" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADOMAQ" ColumnName="ESTADOMAQ" />
+          <ScalarProperty Name="ESTADOEST" ColumnName="ESTADOEST" />
+          <ScalarProperty Name="HORA_FINREPARAMAQ" ColumnName="HORA_FINREPARAMAQ" />
+          <ScalarProperty Name="FECHA_FINREPARAMAQ" ColumnName="FECHA_FINREPARAMAQ" />
+          <ScalarProperty Name="HORA_INIREPARAMAQ" ColumnName="HORA_INIREPARAMAQ" />
+          <ScalarProperty Name="FECHA_INIREPARAMAQ" ColumnName="FECHA_INIREPARAMAQ" />
+          <ScalarProperty Name="HORA_FINREPARAEST" ColumnName="HORA_FINREPARAEST" />
+          <ScalarProperty Name="FECHA_FINREPARAEST" ColumnName="FECHA_FINREPARAEST" />
+          <ScalarProperty Name="HORA_INIREPARAEST" ColumnName="HORA_INIREPARAEST" />
+          <ScalarProperty Name="FECHA_INIREPARAEST" ColumnName="FECHA_INIREPARAEST" />
+          <ScalarProperty Name="SUSTENTOMAQ" ColumnName="SUSTENTOMAQ" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="FECHA_APROBACIONMAQ" ColumnName="FECHA_APROBACIONMAQ" />
+          <ScalarProperty Name="FECHA_APROBACIONEST" ColumnName="FECHA_APROBACIONEST" />
+          <ScalarProperty Name="APROBADOMAQ" ColumnName="APROBADOMAQ" />
+          <ScalarProperty Name="APROBADOEST" ColumnName="APROBADOEST" />
+          <ScalarProperty Name="COD_CONTRATISTA" ColumnName="COD_CONTRATISTA" />
+          <ScalarProperty Name="FECHA_EOR" ColumnName="FECHA_EOR" />
+          <ScalarProperty Name="COD_RESPONSABLEMAQ" ColumnName="COD_RESPONSABLEMAQ" />
+          <ScalarProperty Name="COD_RESPONSABLEEST" ColumnName="COD_RESPONSABLEEST" />
+          <ScalarProperty Name="COD_INSPECTOR" ColumnName="COD_INSPECTOR" />
+          <ScalarProperty Name="NUM_CONTAINER" ColumnName="NUM_CONTAINER" />
+          <ScalarProperty Name="PREF_CONTAINER" ColumnName="PREF_CONTAINER" />
+          <ScalarProperty Name="NUM_EORTRANSITO" ColumnName="NUM_EORTRANSITO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_PTI">
+      <EntityTypeMapping TypeName="AretinaModel.C_PTI">
+        <MappingFragment StoreEntitySet="C_PTI">
+          <ScalarProperty Name="RESULT_FLAME_TEST" ColumnName="RESULT_FLAME_TEST" />
+          <ScalarProperty Name="FLAME_TEST" ColumnName="FLAME_TEST" />
+          <ScalarProperty Name="TOTALPTI" ColumnName="TOTALPTI" />
+          <ScalarProperty Name="SELLO" ColumnName="SELLO" />
+          <ScalarProperty Name="COD_TIPOSELLO" ColumnName="COD_TIPOSELLO" />
+          <ScalarProperty Name="SERVFACT" ColumnName="SERVFACT" />
+          <ScalarProperty Name="PEND_GARANTIA" ColumnName="PEND_GARANTIA" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREA" ColumnName="FECHA_CREA" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="ANIO_FABRICA" ColumnName="ANIO_FABRICA" />
+          <ScalarProperty Name="MES_FABRICA" ColumnName="MES_FABRICA" />
+          <ScalarProperty Name="ESTADO_MAQ" ColumnName="ESTADO_MAQ" />
+          <ScalarProperty Name="HUMEDAD" ColumnName="HUMEDAD" />
+          <ScalarProperty Name="DISCO" ColumnName="DISCO" />
+          <ScalarProperty Name="NUM_VALVULA" ColumnName="NUM_VALVULA" />
+          <ScalarProperty Name="UNIDAD_SELECTOR" ColumnName="UNIDAD_SELECTOR" />
+          <ScalarProperty Name="TEMPAMBIENTE" ColumnName="TEMPAMBIENTE" />
+          <ScalarProperty Name="TEMPMIN" ColumnName="TEMPMIN" />
+          <ScalarProperty Name="TEMPMAX" ColumnName="TEMPMAX" />
+          <ScalarProperty Name="CANTIDADMAX" ColumnName="CANTIDADMAX" />
+          <ScalarProperty Name="REFRIGERANTE" ColumnName="REFRIGERANTE" />
+          <ScalarProperty Name="VOLTAJE" ColumnName="VOLTAJE" />
+          <ScalarProperty Name="UNIDAD_SERIE" ColumnName="UNIDAD_SERIE" />
+          <ScalarProperty Name="COD_MODELO" ColumnName="COD_MODELO" />
+          <ScalarProperty Name="COD_FABRICANTE" ColumnName="COD_FABRICANTE" />
+          <ScalarProperty Name="COD_ATMOSFERA" ColumnName="COD_ATMOSFERA" />
+          <ScalarProperty Name="COD_INSPECTOR" ColumnName="COD_INSPECTOR" />
+          <ScalarProperty Name="FECHA_PTI" ColumnName="FECHA_PTI" />
+          <ScalarProperty Name="NUM_PTI" ColumnName="NUM_PTI" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_EIR" ColumnName="ID_EIR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="D_EORESTRUCTURA">
+      <EntityTypeMapping TypeName="AretinaModel.D_EORESTRUCTURA">
+        <MappingFragment StoreEntitySet="D_EORESTRUCTURA">
+          <ScalarProperty Name="EDIT_FECHAWEB" ColumnName="EDIT_FECHAWEB" />
+          <ScalarProperty Name="EDIT_USUARIOWEB" ColumnName="EDIT_USUARIOWEB" />
+          <ScalarProperty Name="EDIT_WEB" ColumnName="EDIT_WEB" />
+          <ScalarProperty Name="NUM_AUTORIZA" ColumnName="NUM_AUTORIZA" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="FECHA_APROBACION" ColumnName="FECHA_APROBACION" />
+          <ScalarProperty Name="COD_RESPONSABLE" ColumnName="COD_RESPONSABLE" />
+          <ScalarProperty Name="AproRepara" ColumnName="AproRepara" />
+          <ScalarProperty Name="CODPARTE" ColumnName="CODPARTE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="TOTALCOSTOMAT" ColumnName="TOTALCOSTOMAT" />
+          <ScalarProperty Name="COSTOMATERIAL" ColumnName="COSTOMATERIAL" />
+          <ScalarProperty Name="TOTALMAOBRA" ColumnName="TOTALMAOBRA" />
+          <ScalarProperty Name="COSTOMAOBRA" ColumnName="COSTOMAOBRA" />
+          <ScalarProperty Name="HORAS" ColumnName="HORAS" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="ALTO" ColumnName="ALTO" />
+          <ScalarProperty Name="ANCHO" ColumnName="ANCHO" />
+          <ScalarProperty Name="LONGITUD" ColumnName="LONGITUD" />
+          <ScalarProperty Name="DETAREPARACION" ColumnName="DETAREPARACION" />
+          <ScalarProperty Name="COD_ESTIMACOMPO" ColumnName="COD_ESTIMACOMPO" />
+          <ScalarProperty Name="COD_TIPOCOMPO" ColumnName="COD_TIPOCOMPO" />
+          <ScalarProperty Name="SUBGRUPO" ColumnName="SUBGRUPO" />
+          <ScalarProperty Name="COD_DAMAGE" ColumnName="COD_DAMAGE" />
+          <ScalarProperty Name="TIPO_DANIO" ColumnName="TIPO_DANIO" />
+          <ScalarProperty Name="COD_REPAIR" ColumnName="COD_REPAIR" />
+          <ScalarProperty Name="COD_PARTY" ColumnName="COD_PARTY" />
+          <ScalarProperty Name="COD_MATERIAL" ColumnName="COD_MATERIAL" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+          <ScalarProperty Name="COD_UOM" ColumnName="COD_UOM" />
+          <ScalarProperty Name="UBICA4" ColumnName="UBICA4" />
+          <ScalarProperty Name="UBICA3" ColumnName="UBICA3" />
+          <ScalarProperty Name="UBICA2" ColumnName="UBICA2" />
+          <ScalarProperty Name="UBICA1" ColumnName="UBICA1" />
+          <ScalarProperty Name="SECUENCIAL" ColumnName="SECUENCIAL" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_EIR" ColumnName="ID_EIR" />
+          <ScalarProperty Name="NUM_EOREST" ColumnName="NUM_EOREST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="D_EORMAQUINARIA">
+      <EntityTypeMapping TypeName="AretinaModel.D_EORMAQUINARIA">
+        <MappingFragment StoreEntitySet="D_EORMAQUINARIA">
+          <ScalarProperty Name="EDIT_FECHAWEB" ColumnName="EDIT_FECHAWEB" />
+          <ScalarProperty Name="EDIT_USUARIOWEB" ColumnName="EDIT_USUARIOWEB" />
+          <ScalarProperty Name="EDIT_WEB" ColumnName="EDIT_WEB" />
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="NUM_AUTORIZA" ColumnName="NUM_AUTORIZA" />
+          <ScalarProperty Name="SUSTENTO" ColumnName="SUSTENTO" />
+          <ScalarProperty Name="FECHA_APROBACION" ColumnName="FECHA_APROBACION" />
+          <ScalarProperty Name="COD_RESPONSABLE" ColumnName="COD_RESPONSABLE" />
+          <ScalarProperty Name="AproRepara" ColumnName="AproRepara" />
+          <ScalarProperty Name="CODPARTE" ColumnName="CODPARTE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="TOTALCOSTOMAT" ColumnName="TOTALCOSTOMAT" />
+          <ScalarProperty Name="COSTOMATERIAL" ColumnName="COSTOMATERIAL" />
+          <ScalarProperty Name="TOTALMAOBRA" ColumnName="TOTALMAOBRA" />
+          <ScalarProperty Name="COSTOMAOBRA" ColumnName="COSTOMAOBRA" />
+          <ScalarProperty Name="HORAS" ColumnName="HORAS" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="ALTO" ColumnName="ALTO" />
+          <ScalarProperty Name="ANCHO" ColumnName="ANCHO" />
+          <ScalarProperty Name="LONGITUD" ColumnName="LONGITUD" />
+          <ScalarProperty Name="DETAREPARACION" ColumnName="DETAREPARACION" />
+          <ScalarProperty Name="COD_ESTIMACOMPO" ColumnName="COD_ESTIMACOMPO" />
+          <ScalarProperty Name="COD_TIPOCOMPO" ColumnName="COD_TIPOCOMPO" />
+          <ScalarProperty Name="SUBGRUPO" ColumnName="SUBGRUPO" />
+          <ScalarProperty Name="COD_DAMAGE" ColumnName="COD_DAMAGE" />
+          <ScalarProperty Name="TIPO_DANIO" ColumnName="TIPO_DANIO" />
+          <ScalarProperty Name="COD_PARTY" ColumnName="COD_PARTY" />
+          <ScalarProperty Name="COD_REPAIR" ColumnName="COD_REPAIR" />
+          <ScalarProperty Name="COD_MATERIAL" ColumnName="COD_MATERIAL" />
+          <ScalarProperty Name="COD_UOM" ColumnName="COD_UOM" />
+          <ScalarProperty Name="UBICA4" ColumnName="UBICA4" />
+          <ScalarProperty Name="UBICA3" ColumnName="UBICA3" />
+          <ScalarProperty Name="UBICA2" ColumnName="UBICA2" />
+          <ScalarProperty Name="UBICA1" ColumnName="UBICA1" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+          <ScalarProperty Name="SECUENCIAL" ColumnName="SECUENCIAL" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+          <ScalarProperty Name="ID_EIR" ColumnName="ID_EIR" />
+          <ScalarProperty Name="NUM_EORMAQ" ColumnName="NUM_EORMAQ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="D_EORTRANSITO">
+      <EntityTypeMapping TypeName="AretinaModel.D_EORTRANSITO">
+        <MappingFragment StoreEntitySet="D_EORTRANSITO">
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="TOTALCOSTOMAT" ColumnName="TOTALCOSTOMAT" />
+          <ScalarProperty Name="COSTOMATERIAL" ColumnName="COSTOMATERIAL" />
+          <ScalarProperty Name="TOTALMAOBRA" ColumnName="TOTALMAOBRA" />
+          <ScalarProperty Name="COSTOMAOBRA" ColumnName="COSTOMAOBRA" />
+          <ScalarProperty Name="HORAS" ColumnName="HORAS" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="ALTO" ColumnName="ALTO" />
+          <ScalarProperty Name="ANCHO" ColumnName="ANCHO" />
+          <ScalarProperty Name="LONGITUD" ColumnName="LONGITUD" />
+          <ScalarProperty Name="DETAREPARACION" ColumnName="DETAREPARACION" />
+          <ScalarProperty Name="COD_ESTIMACOMPO" ColumnName="COD_ESTIMACOMPO" />
+          <ScalarProperty Name="COD_TIPOCOMPO" ColumnName="COD_TIPOCOMPO" />
+          <ScalarProperty Name="SUBGRUPO" ColumnName="SUBGRUPO" />
+          <ScalarProperty Name="COD_DAMAGE" ColumnName="COD_DAMAGE" />
+          <ScalarProperty Name="TIPO_DANIO" ColumnName="TIPO_DANIO" />
+          <ScalarProperty Name="COD_REPAIR" ColumnName="COD_REPAIR" />
+          <ScalarProperty Name="COD_PARTY" ColumnName="COD_PARTY" />
+          <ScalarProperty Name="COD_MATERIAL" ColumnName="COD_MATERIAL" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+          <ScalarProperty Name="COD_UOM" ColumnName="COD_UOM" />
+          <ScalarProperty Name="UBICA4" ColumnName="UBICA4" />
+          <ScalarProperty Name="UBICA3" ColumnName="UBICA3" />
+          <ScalarProperty Name="UBICA2" ColumnName="UBICA2" />
+          <ScalarProperty Name="UBICA1" ColumnName="UBICA1" />
+          <ScalarProperty Name="SECUENCIA" ColumnName="SECUENCIA" />
+          <ScalarProperty Name="TIPODETALLE" ColumnName="TIPODETALLE" />
+          <ScalarProperty Name="NUM_EORTRANSITO" ColumnName="NUM_EORTRANSITO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO_EIR">
+      <EntityTypeMapping TypeName="AretinaModel.ESTADO_EIR">
+        <MappingFragment StoreEntitySet="ESTADO_EIR">
+          <ScalarProperty Name="TIPO_ESTADO" ColumnName="TIPO_ESTADO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="NOM_ESTADO" ColumnName="NOM_ESTADO" />
+          <ScalarProperty Name="ESTADO_EIR1" ColumnName="ESTADO_EIR1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTIMATE_COMPONENT_CODE">
+      <EntityTypeMapping TypeName="AretinaModel.ESTIMATE_COMPONENT_CODE">
+        <MappingFragment StoreEntitySet="ESTIMATE_COMPONENT_CODE">
+          <ScalarProperty Name="EMCCODE" ColumnName="EMCCODE" />
+          <ScalarProperty Name="C40VT" ColumnName="C40VT" />
+          <ScalarProperty Name="C40TK" ColumnName="C40TK" />
+          <ScalarProperty Name="C40FL" ColumnName="C40FL" />
+          <ScalarProperty Name="C40FC" ColumnName="C40FC" />
+          <ScalarProperty Name="C40RH" ColumnName="C40RH" />
+          <ScalarProperty Name="C40RF" ColumnName="C40RF" />
+          <ScalarProperty Name="C40OT" ColumnName="C40OT" />
+          <ScalarProperty Name="C40IS" ColumnName="C40IS" />
+          <ScalarProperty Name="C40HC" ColumnName="C40HC" />
+          <ScalarProperty Name="C40FR" ColumnName="C40FR" />
+          <ScalarProperty Name="C40DV" ColumnName="C40DV" />
+          <ScalarProperty Name="C20FL" ColumnName="C20FL" />
+          <ScalarProperty Name="C20RF" ColumnName="C20RF" />
+          <ScalarProperty Name="C20FC" ColumnName="C20FC" />
+          <ScalarProperty Name="C20VT" ColumnName="C20VT" />
+          <ScalarProperty Name="C20FR" ColumnName="C20FR" />
+          <ScalarProperty Name="C20TK" ColumnName="C20TK" />
+          <ScalarProperty Name="C20RH" ColumnName="C20RH" />
+          <ScalarProperty Name="C20OT" ColumnName="C20OT" />
+          <ScalarProperty Name="C20IS" ColumnName="C20IS" />
+          <ScalarProperty Name="C20HC" ColumnName="C20HC" />
+          <ScalarProperty Name="C20DV" ColumnName="C20DV" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="LOCALIZACION" ColumnName="LOCALIZACION" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="SUBGRUPO" ColumnName="SUBGRUPO" />
+          <ScalarProperty Name="COD_ESTIMACOMPO" ColumnName="COD_ESTIMACOMPO" />
+          <ScalarProperty Name="COD_TIPOCOMPO" ColumnName="COD_TIPOCOMPO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTIMATE_DAMAGE_CODE">
+      <EntityTypeMapping TypeName="AretinaModel.ESTIMATE_DAMAGE_CODE">
+        <MappingFragment StoreEntitySet="ESTIMATE_DAMAGE_CODE">
+          <ScalarProperty Name="EMCCode" ColumnName="EMCCode" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="CANTHH" ColumnName="CANTHH" />
+          <ScalarProperty Name="TIPO_REPARACION" ColumnName="TIPO_REPARACION" />
+          <ScalarProperty Name="DESCRIP" ColumnName="DESCRIP" />
+          <ScalarProperty Name="COD_DAMAGE" ColumnName="COD_DAMAGE" />
+          <ScalarProperty Name="TIPO_DANIO" ColumnName="TIPO_DANIO" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTIMATE_PARTY_RESPON">
+      <EntityTypeMapping TypeName="AretinaModel.ESTIMATE_PARTY_RESPON">
+        <MappingFragment StoreEntitySet="ESTIMATE_PARTY_RESPON">
+          <ScalarProperty Name="EmcCode" ColumnName="EmcCode" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="DESCRIP" ColumnName="DESCRIP" />
+          <ScalarProperty Name="COD_PARTY" ColumnName="COD_PARTY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTIMATE_REPAIR_CODE">
+      <EntityTypeMapping TypeName="AretinaModel.ESTIMATE_REPAIR_CODE">
+        <MappingFragment StoreEntitySet="ESTIMATE_REPAIR_CODE">
+          <ScalarProperty Name="ESTADO_BAK" ColumnName="ESTADO_BAK" />
+          <ScalarProperty Name="DESCRIP_BAK" ColumnName="DESCRIP_BAK" />
+          <ScalarProperty Name="COD_REPAIR_BAK" ColumnName="COD_REPAIR_BAK" />
+          <ScalarProperty Name="COD_LINEA_BAK" ColumnName="COD_LINEA_BAK" />
+          <ScalarProperty Name="EmcCode" ColumnName="EmcCode" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="DESCRIP" ColumnName="DESCRIP" />
+          <ScalarProperty Name="COD_REPAIR" ColumnName="COD_REPAIR" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inv_H_CEgrProducto">
+      <EntityTypeMapping TypeName="AretinaModel.Inv_H_CEgrProducto">
+        <MappingFragment StoreEntitySet="Inv_H_CEgrProducto">
+          <ScalarProperty Name="codServicio" ColumnName="codServicio" />
+          <ScalarProperty Name="codLinea" ColumnName="codLinea" />
+          <ScalarProperty Name="usuarioTransferSAP" ColumnName="usuarioTransferSAP" />
+          <ScalarProperty Name="fechaTransferSAP" ColumnName="fechaTransferSAP" />
+          <ScalarProperty Name="numEgrSAP" ColumnName="numEgrSAP" />
+          <ScalarProperty Name="exportSAP" ColumnName="exportSAP" />
+          <ScalarProperty Name="obs" ColumnName="obs" />
+          <ScalarProperty Name="FechaCrea" ColumnName="FechaCrea" />
+          <ScalarProperty Name="UsuarioCrea" ColumnName="UsuarioCrea" />
+          <ScalarProperty Name="FechaSalida" ColumnName="FechaSalida" />
+          <ScalarProperty Name="Num_container" ColumnName="Num_container" />
+          <ScalarProperty Name="Pref_Container" ColumnName="Pref_Container" />
+          <ScalarProperty Name="Num_Eir" ColumnName="Num_Eir" />
+          <ScalarProperty Name="Num_Eor" ColumnName="Num_Eor" />
+          <ScalarProperty Name="Resp_Recepcion" ColumnName="Resp_Recepcion" />
+          <ScalarProperty Name="Id_TipoSalida" ColumnName="Id_TipoSalida" />
+          <ScalarProperty Name="Id_Bodega" ColumnName="Id_Bodega" />
+          <ScalarProperty Name="Cod_Deposito" ColumnName="Cod_Deposito" />
+          <ScalarProperty Name="Id_Proveedor" ColumnName="Id_Proveedor" />
+          <ScalarProperty Name="Id_EgrProducto" ColumnName="Id_EgrProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inv_H_DEgrProducto">
+      <EntityTypeMapping TypeName="AretinaModel.Inv_H_DEgrProducto">
+        <MappingFragment StoreEntitySet="Inv_H_DEgrProducto">
+          <ScalarProperty Name="id_Secdanio" ColumnName="id_Secdanio" />
+          <ScalarProperty Name="Total_iva" ColumnName="Total_iva" />
+          <ScalarProperty Name="Costo_Iva" ColumnName="Costo_Iva" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Costo" ColumnName="Costo" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="id_bodega" ColumnName="id_bodega" />
+          <ScalarProperty Name="Cod_deposito" ColumnName="Cod_deposito" />
+          <ScalarProperty Name="Id_SecEgreso" ColumnName="Id_SecEgreso" />
+          <ScalarProperty Name="Id_EgrProducto" ColumnName="Id_EgrProducto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_AGENCIA">
+      <EntityTypeMapping TypeName="AretinaModel.M_AGENCIA">
+        <MappingFragment StoreEntitySet="M_AGENCIA">
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CAMPO_COD2" ColumnName="CAMPO_COD2" />
+          <ScalarProperty Name="CAMPO_COD1" ColumnName="CAMPO_COD1" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="NOMBRE_AGENCIA" ColumnName="NOMBRE_AGENCIA" />
+          <ScalarProperty Name="COD_AGENCIA" ColumnName="COD_AGENCIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_CONTAINER">
+      <EntityTypeMapping TypeName="AretinaModel.M_CONTAINER">
+        <MappingFragment StoreEntitySet="M_CONTAINER">
+          <ScalarProperty Name="ISO_CODE" ColumnName="ISO_CODE" />
+          <ScalarProperty Name="NOVALIDA_ISO" ColumnName="NOVALIDA_ISO" />
+          <ScalarProperty Name="ESTADO_CONEX" ColumnName="ESTADO_CONEX" />
+          <ScalarProperty Name="SECU_CONEX" ColumnName="SECU_CONEX" />
+          <ScalarProperty Name="PESO" ColumnName="PESO" />
+          <ScalarProperty Name="PAYLOAD" ColumnName="PAYLOAD" />
+          <ScalarProperty Name="MAXGROSSW" ColumnName="MAXGROSSW" />
+          <ScalarProperty Name="ANIOFABRICA" ColumnName="ANIOFABRICA" />
+          <ScalarProperty Name="MESFABRICA" ColumnName="MESFABRICA" />
+          <ScalarProperty Name="PROVEEDOR" ColumnName="PROVEEDOR" />
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="COD_CONTAINER3" ColumnName="COD_CONTAINER3" />
+          <ScalarProperty Name="COD_CONTAINER2" ColumnName="COD_CONTAINER2" />
+          <ScalarProperty Name="COD_CONTAINER1" ColumnName="COD_CONTAINER1" />
+          <ScalarProperty Name="TARA" ColumnName="TARA" />
+          <ScalarProperty Name="TAMAÑO" ColumnName="TAMAÑO" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+          <ScalarProperty Name="COD_TIPCONT" ColumnName="COD_TIPCONT" />
+          <ScalarProperty Name="NUM_CONTAINER" ColumnName="NUM_CONTAINER" />
+          <ScalarProperty Name="PREF_CONTAINER" ColumnName="PREF_CONTAINER" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_DEPOSITO">
+      <EntityTypeMapping TypeName="AretinaModel.M_DEPOSITO">
+        <MappingFragment StoreEntitySet="M_DEPOSITO">
+          <ScalarProperty Name="ISDEPOT" ColumnName="ISDEPOT" />
+          <ScalarProperty Name="CodIas" ColumnName="CodIas" />
+          <ScalarProperty Name="MARCA_DEPORPTALMA" ColumnName="MARCA_DEPORPTALMA" />
+          <ScalarProperty Name="DEPOGENFILE" ColumnName="DEPOGENFILE" />
+          <ScalarProperty Name="MOSTREPSELLO" ColumnName="MOSTREPSELLO" />
+          <ScalarProperty Name="CIUDAD" ColumnName="CIUDAD" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="NOMBRE_DEPOSITO" ColumnName="NOMBRE_DEPOSITO" />
+          <ScalarProperty Name="COD_DEPOSITO" ColumnName="COD_DEPOSITO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_INSPECTOR">
+      <EntityTypeMapping TypeName="AretinaModel.M_INSPECTOR">
+        <MappingFragment StoreEntitySet="M_INSPECTOR">
+          <ScalarProperty Name="FECHA_MOD" ColumnName="FECHA_MOD" />
+          <ScalarProperty Name="USUARIO_MOD" ColumnName="USUARIO_MOD" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="USUARIO_CREA" ColumnName="USUARIO_CREA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="OBSERVACION" ColumnName="OBSERVACION" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+          <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+          <ScalarProperty Name="COD_INSPECTOR" ColumnName="COD_INSPECTOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_LINEA">
+      <EntityTypeMapping TypeName="AretinaModel.M_LINEA">
+        <MappingFragment StoreEntitySet="M_LINEA">
+          <ScalarProperty Name="COD_CLISAP" ColumnName="COD_CLISAP" />
+          <ScalarProperty Name="COD_SAP" ColumnName="COD_SAP" />
+          <ScalarProperty Name="REPARADEPOT" ColumnName="REPARADEPOT" />
+          <ScalarProperty Name="LINEGENFILE" ColumnName="LINEGENFILE" />
+          <ScalarProperty Name="MOSTREPSELLO" ColumnName="MOSTREPSELLO" />
+          <ScalarProperty Name="ASIGPAGDANOP" ColumnName="ASIGPAGDANOP" />
+          <ScalarProperty Name="LOG_LINEA" ColumnName="LOG_LINEA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="COD_LINEA3" ColumnName="COD_LINEA3" />
+          <ScalarProperty Name="COD_LINEA2" ColumnName="COD_LINEA2" />
+          <ScalarProperty Name="COD_LINEA1" ColumnName="COD_LINEA1" />
+          <ScalarProperty Name="COD_COMERCIAL" ColumnName="COD_COMERCIAL" />
+          <ScalarProperty Name="DESC_LINEA" ColumnName="DESC_LINEA" />
+          <ScalarProperty Name="NOM_LINEA" ColumnName="NOM_LINEA" />
+          <ScalarProperty Name="COD_LINEA" ColumnName="COD_LINEA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_TIPCONTAINER">
+      <EntityTypeMapping TypeName="AretinaModel.M_TIPCONTAINER">
+        <MappingFragment StoreEntitySet="M_TIPCONTAINER">
+          <ScalarProperty Name="TIPO_EQUIPOFLOR" ColumnName="TIPO_EQUIPOFLOR" />
+          <ScalarProperty Name="TIPO_EQUIPO" ColumnName="TIPO_EQUIPO" />
+          <ScalarProperty Name="TIP_CONECTADO" ColumnName="TIP_CONECTADO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="ESREEFER" ColumnName="ESREEFER" />
+          <ScalarProperty Name="COD_TIPCONT3" ColumnName="COD_TIPCONT3" />
+          <ScalarProperty Name="COD_TIPCONT2" ColumnName="COD_TIPCONT2" />
+          <ScalarProperty Name="COD_TIPCONT1" ColumnName="COD_TIPCONT1" />
+          <ScalarProperty Name="VAL_TARA" ColumnName="VAL_TARA" />
+          <ScalarProperty Name="DES_TIPCONT" ColumnName="DES_TIPCONT" />
+          <ScalarProperty Name="NOM_TIPCONT" ColumnName="NOM_TIPCONT" />
+          <ScalarProperty Name="COD_TIPCONT" ColumnName="COD_TIPCONT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inv_M_Producto">
+      <EntityTypeMapping TypeName="AretinaModel.Inv_M_Producto">
+        <MappingFragment StoreEntitySet="Inv_M_Producto">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="COD_SAP" ColumnName="COD_SAP" />
+          <ScalarProperty Name="NroParte" ColumnName="NroParte" />
+          <ScalarProperty Name="FechaModifica" ColumnName="FechaModifica" />
+          <ScalarProperty Name="UsuarioModifica" ColumnName="UsuarioModifica" />
+          <ScalarProperty Name="FechaCrea" ColumnName="FechaCrea" />
+          <ScalarProperty Name="UsuarioCrea" ColumnName="UsuarioCrea" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Pvp" ColumnName="Pvp" />
+          <ScalarProperty Name="PtoReorden" ColumnName="PtoReorden" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Completo" ColumnName="Completo" />
+          <ScalarProperty Name="Id_TipoMedida" ColumnName="Id_TipoMedida" />
+          <ScalarProperty Name="Id_TipoCompo" ColumnName="Id_TipoCompo" />
+          <ScalarProperty Name="Id_TipoProducto" ColumnName="Id_TipoProducto" />
+          <ScalarProperty Name="Id_Categoria3" ColumnName="Id_Categoria3" />
+          <ScalarProperty Name="Id_categoria2" ColumnName="Id_categoria2" />
+          <ScalarProperty Name="id_categoria1" ColumnName="id_categoria1" />
+          <ScalarProperty Name="id_Producto" ColumnName="id_Producto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_BRAND">
+      <EntityTypeMapping TypeName="AretinaModel.M_BRAND">
+        <MappingFragment StoreEntitySet="M_BRAND">
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="NOMBRE_BRAND" ColumnName="NOMBRE_BRAND" />
+          <ScalarProperty Name="COD_BRAND" ColumnName="COD_BRAND" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

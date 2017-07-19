@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GestionMglService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SigeorServices/GestionMgl/GestionMglService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/GestionMgl/GestionMglService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGestionMglService_ObtenerEorEstructuraPorNumero_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorEstructuraPorNumero" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerEorEstructuraPorNumero_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorEstructuraPorNumeroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerResponsablesReparaciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerResponsablesReparaciones" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerResponsablesReparaciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerResponsablesReparacionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerDepositos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDepositos" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerDepositos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDepositosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerDepositosPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDepositosPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerDepositosPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDepositosPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerDespositoPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDespositoPorId" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerDespositoPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDespositoPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerTipoContenedorPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTipoContenedorPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerTipoContenedorPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTipoContenedorPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerTipoContenedorPorTipoEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTipoContenedorPorTipoEstado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerTipoContenedorPorTipoEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTipoContenedorPorTipoEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerLineas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLineas" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerLineas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLineasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerLineasPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLineasPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerLineasPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLineasPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerLineaPorCodigo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLineaPorCodigo" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerLineaPorCodigo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLineaPorCodigoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedores_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedores" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedores_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedoresPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedoresPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedoresPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedoresPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedoresPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedoresPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedoresPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedorPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedorPorId" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ObtenerProveedorPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerProveedorPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_InsertarProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_InsertarProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ModificarProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ModificarProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_EliminarProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_EliminarProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ModificarProveedorEstadoMasivamente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarProveedorEstadoMasivamente" />
+  </wsdl:message>
+  <wsdl:message name="IGestionMglService_ModificarProveedorEstadoMasivamente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarProveedorEstadoMasivamenteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IGestionMglService">
+    <wsdl:operation name="ObtenerEorEstructuraPorNumero">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerEorEstructuraPorNumero" message="tns:IGestionMglService_ObtenerEorEstructuraPorNumero_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerEorEstructuraPorNumeroResponse" message="tns:IGestionMglService_ObtenerEorEstructuraPorNumero_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerResponsablesReparaciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerResponsablesReparaciones" message="tns:IGestionMglService_ObtenerResponsablesReparaciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerResponsablesReparacionesResponse" message="tns:IGestionMglService_ObtenerResponsablesReparaciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDepositos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerDepositos" message="tns:IGestionMglService_ObtenerDepositos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerDepositosResponse" message="tns:IGestionMglService_ObtenerDepositos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDepositosPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerDepositosPorEstado" message="tns:IGestionMglService_ObtenerDepositosPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerDepositosPorEstadoResponse" message="tns:IGestionMglService_ObtenerDepositosPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDespositoPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerDespositoPorId" message="tns:IGestionMglService_ObtenerDespositoPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerDespositoPorIdResponse" message="tns:IGestionMglService_ObtenerDespositoPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTipoContenedorPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerTipoContenedorPorEstado" message="tns:IGestionMglService_ObtenerTipoContenedorPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerTipoContenedorPorEstadoResponse" message="tns:IGestionMglService_ObtenerTipoContenedorPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTipoContenedorPorTipoEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerTipoContenedorPorTipoEstado" message="tns:IGestionMglService_ObtenerTipoContenedorPorTipoEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerTipoContenedorPorTipoEstadoResponse" message="tns:IGestionMglService_ObtenerTipoContenedorPorTipoEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLineas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerLineas" message="tns:IGestionMglService_ObtenerLineas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerLineasResponse" message="tns:IGestionMglService_ObtenerLineas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLineasPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerLineasPorEstado" message="tns:IGestionMglService_ObtenerLineasPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerLineasPorEstadoResponse" message="tns:IGestionMglService_ObtenerLineasPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLineaPorCodigo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerLineaPorCodigo" message="tns:IGestionMglService_ObtenerLineaPorCodigo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerLineaPorCodigoResponse" message="tns:IGestionMglService_ObtenerLineaPorCodigo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedores">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedores" message="tns:IGestionMglService_ObtenerProveedores_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresResponse" message="tns:IGestionMglService_ObtenerProveedores_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedoresPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorEstado" message="tns:IGestionMglService_ObtenerProveedoresPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorEstadoResponse" message="tns:IGestionMglService_ObtenerProveedoresPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedoresPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorEstadoPaginado" message="tns:IGestionMglService_ObtenerProveedoresPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorEstadoPaginadoResponse" message="tns:IGestionMglService_ObtenerProveedoresPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedoresPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorCoincidenciaPaginado" message="tns:IGestionMglService_ObtenerProveedoresPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorCoincidenciaPaginadoResponse" message="tns:IGestionMglService_ObtenerProveedoresPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedorPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedorPorId" message="tns:IGestionMglService_ObtenerProveedorPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ObtenerProveedorPorIdResponse" message="tns:IGestionMglService_ObtenerProveedorPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/InsertarProveedor" message="tns:IGestionMglService_InsertarProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/InsertarProveedorResponse" message="tns:IGestionMglService_InsertarProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ModificarProveedor" message="tns:IGestionMglService_ModificarProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ModificarProveedorResponse" message="tns:IGestionMglService_ModificarProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/EliminarProveedor" message="tns:IGestionMglService_EliminarProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/EliminarProveedorResponse" message="tns:IGestionMglService_EliminarProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarProveedorEstadoMasivamente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IGestionMglService/ModificarProveedorEstadoMasivamente" message="tns:IGestionMglService_ModificarProveedorEstadoMasivamente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IGestionMglService/ModificarProveedorEstadoMasivamenteResponse" message="tns:IGestionMglService_ModificarProveedorEstadoMasivamente_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IGestionMglService" type="tns:IGestionMglService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerEorEstructuraPorNumero">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerEorEstructuraPorNumero" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerResponsablesReparaciones">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerResponsablesReparaciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDepositos">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerDepositos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDepositosPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerDepositosPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDespositoPorId">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerDespositoPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTipoContenedorPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerTipoContenedorPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTipoContenedorPorTipoEstado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerTipoContenedorPorTipoEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLineas">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerLineas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLineasPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerLineasPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLineaPorCodigo">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerLineaPorCodigo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedores">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerProveedores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedoresPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedoresPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedoresPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerProveedoresPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerProveedorPorId">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ObtenerProveedorPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarProveedor">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/InsertarProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarProveedor">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ModificarProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarProveedor">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/EliminarProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarProveedorEstadoMasivamente">
+      <soap:operation soapAction="http://tempuri.org/IGestionMglService/ModificarProveedorEstadoMasivamente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GestionMglService">
+    <wsdl:port name="BasicHttpBinding_IGestionMglService" binding="tns:BasicHttpBinding_IGestionMglService">
+      <soap:address location="http://localhost/SigeorServices/GestionMgl/GestionMglService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

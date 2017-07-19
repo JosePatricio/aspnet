@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigeor", "Sigeor\Sigeor.csproj", "{035013B8-4D2C-4BC4-9CC1-DB692A4886D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2} = {DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{822F03B3-FD07-40FD-8ECD-788E851E4DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaSigeor", "PersistenciaSigeor\PersistenciaSigeor.csproj", "{C0A2F745-B3E0-4674-89BF-761B91819090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigeorServices", "SigeorServices\SigeorServices.csproj", "{DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaSap", "PersistenciaSap\PersistenciaSap.csproj", "{A074FA0C-E31E-49DD-BB09-390AA61F8D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenciaAretina", "PersistenciaAretina\PersistenciaAretina.csproj", "{7B30549F-935F-4A84-BAB5-982158A07528}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{035013B8-4D2C-4BC4-9CC1-DB692A4886D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035013B8-4D2C-4BC4-9CC1-DB692A4886D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035013B8-4D2C-4BC4-9CC1-DB692A4886D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035013B8-4D2C-4BC4-9CC1-DB692A4886D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822F03B3-FD07-40FD-8ECD-788E851E4DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822F03B3-FD07-40FD-8ECD-788E851E4DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822F03B3-FD07-40FD-8ECD-788E851E4DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822F03B3-FD07-40FD-8ECD-788E851E4DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A2F745-B3E0-4674-89BF-761B91819090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A2F745-B3E0-4674-89BF-761B91819090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A2F745-B3E0-4674-89BF-761B91819090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A2F745-B3E0-4674-89BF-761B91819090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8E25BE-ACB7-41F6-BAA7-BCA5809B28F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A074FA0C-E31E-49DD-BB09-390AA61F8D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A074FA0C-E31E-49DD-BB09-390AA61F8D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A074FA0C-E31E-49DD-BB09-390AA61F8D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A074FA0C-E31E-49DD-BB09-390AA61F8D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B30549F-935F-4A84-BAB5-982158A07528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B30549F-935F-4A84-BAB5-982158A07528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B30549F-935F-4A84-BAB5-982158A07528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B30549F-935F-4A84-BAB5-982158A07528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

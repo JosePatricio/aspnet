@@ -1,0 +1,169 @@
+﻿body
+{
+    background: url(../images/bg-body.jpg) repeat left top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------ CABECERA ------------------------------*/
+#header
+{
+    background-image: url(../images/bg-header.png);
+    border-top: 1px solid #fdfcfc;
+    position: absolute;
+    height: 160px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 0;
+    text-align: center;
+    font-size: small;
+    padding-top: 5px;
+}
+
+#header a
+{
+    color: #efefef;
+}
+#header a:hover
+{
+    color: #44b2f1;
+    font-weight: bold;
+}
+#wrap
+{
+    padding-left: 14%;
+}
+#home
+{
+    float: left;
+    padding-left: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+#home1:hover
+{
+    height: 75px;
+    width: 75px;
+}
+#control
+{
+    float: left;
+    padding-left: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+#control1:hover
+{
+    height: 75px;
+    width: 75px;
+}
+#reporte
+{
+    float: left;
+    padding-left: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+#reporte1:hover
+{
+    height: 75px;
+    width: 75px;
+}
+#alerta
+{
+    float: left;
+    padding-left: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+#alerta1:hover
+{
+    height: 75px;
+    width: 75px;
+}
+#configuracion
+{
+    float: left;
+    padding-left: 100px;
+    font-size: medium;
+    font-weight: bold;
+}
+#configuracion1:hover
+{
+    height: 75px;
+    width: 75px;
+}
+
+/*------------------------------ CONTENIDO ------------------------------*/
+#contenido
+{
+    position: absolute; /*El div será ubicado con relación a la pantalla*/
+    bottom: 60px; /*Abajo deje un espacio de 0px*/
+    text-align: center;
+    vertical-align: middle;
+    left: 5%;
+    height: 75%;
+    width: 90%;
+    background: #484b4b; /*#484b4b*/
+    -webkit-box-shadow: -12px 10px 23px 8px rgba(0,0,0,0.69);
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 1px solid #072438;
+    
+}
+/*------------------------------ PIE ------------------------------*/
+
+#pie
+{
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #072438), color-stop(0.8, #000000 ));
+    border-top: 1px solid #fdfcfc;
+    position: absolute; /*El div será ubicado con relación a la pantalla*/
+    left: 0px; /*A la derecha deje un espacio de 0px*/
+    right: 0px; /*A la izquierda deje un espacio de 0px*/
+    bottom: 0px; /*Abajo deje un espacio de 0px*/
+    height: 25px; /*alto del div*/
+    z-index: 0;
+    text-align: center;
+    padding-top: 5px;
+    font-size: small;
+}
+#imglogoPrincipal
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute; /*El div será ubicado con relación a la pantalla*/
+    left: 0px;
+    top: 0px;
+    height: 30px;
+}
+#copy
+{
+    color: White;
+    font-style: oblique;
+    padding-left: 200px;
+}
+
+#imgOff
+{
+    position: relative;
+    float: right;
+    padding-right: 8px;
+    bottom: 8px;
+}
+#imgHelp
+{
+    position: relative;
+    float: right;
+    padding-right: 8px;
+    bottom: 8px;
+}
+#imgInformacion
+{
+    position: relative;
+    float: right;
+    padding-right: 8px;
+    bottom: 8px;
+}
+

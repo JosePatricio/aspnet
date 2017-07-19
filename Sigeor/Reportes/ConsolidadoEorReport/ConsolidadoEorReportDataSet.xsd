@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConsolidadoEorReportDataSet" targetNamespace="http://tempuri.org/ConsolidadoEorReportDataSet.xsd" xmlns:mstns="http://tempuri.org/ConsolidadoEorReportDataSet.xsd" xmlns="http://tempuri.org/ConsolidadoEorReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="SigeorEFConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SigeorEFConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.SigeorEFConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConsolidadoEorReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ConsolidadoEorReportDataSet" msprop:Generator_UserDSName="ConsolidadoEorReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GET_CONSOLIDADO_EOR" msprop:Generator_TableClassName="GET_CONSOLIDADO_EORDataTable" msprop:Generator_TableVarName="tableGET_CONSOLIDADO_EOR" msprop:Generator_TablePropName="GET_CONSOLIDADO_EOR" msprop:Generator_RowDeletingName="GET_CONSOLIDADO_EORRowDeleting" msprop:Generator_RowChangingName="GET_CONSOLIDADO_EORRowChanging" msprop:Generator_RowEvHandlerName="GET_CONSOLIDADO_EORRowChangeEventHandler" msprop:Generator_RowDeletedName="GET_CONSOLIDADO_EORRowDeleted" msprop:Generator_UserTableName="GET_CONSOLIDADO_EOR" msprop:Generator_RowChangedName="GET_CONSOLIDADO_EORRowChanged" msprop:Generator_RowEvArgName="GET_CONSOLIDADO_EORRowChangeEvent" msprop:Generator_RowClassName="GET_CONSOLIDADO_EORRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_EOR" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNUM_EOR" msprop:Generator_ColumnPropNameInRow="NUM_EOR" msprop:Generator_ColumnPropNameInTable="NUM_EORColumn" msprop:Generator_UserColumnName="NUM_EOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID_EIR" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnID_EIR" msprop:Generator_ColumnPropNameInRow="ID_EIR" msprop:Generator_ColumnPropNameInTable="ID_EIRColumn" msprop:Generator_UserColumnName="ID_EIR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONTAINER" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCONTAINER" msprop:Generator_ColumnPropNameInRow="CONTAINER" msprop:Generator_ColumnPropNameInTable="CONTAINERColumn" msprop:Generator_UserColumnName="CONTAINER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_TIPCONT" msprop:Generator_ColumnVarNameInTable="columnCOD_TIPCONT" msprop:Generator_ColumnPropNameInRow="COD_TIPCONT" msprop:Generator_ColumnPropNameInTable="COD_TIPCONTColumn" msprop:Generator_UserColumnName="COD_TIPCONT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_DEPOSITO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCOD_DEPOSITO" msprop:Generator_ColumnPropNameInRow="COD_DEPOSITO" msprop:Generator_ColumnPropNameInTable="COD_DEPOSITOColumn" msprop:Generator_UserColumnName="COD_DEPOSITO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_DEPOSITO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_DEPOSITO" msprop:Generator_ColumnPropNameInRow="NOMBRE_DEPOSITO" msprop:Generator_ColumnPropNameInTable="NOMBRE_DEPOSITOColumn" msprop:Generator_UserColumnName="NOMBRE_DEPOSITO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_LINEA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCOD_LINEA" msprop:Generator_ColumnPropNameInRow="COD_LINEA" msprop:Generator_ColumnPropNameInTable="COD_LINEAColumn" msprop:Generator_UserColumnName="COD_LINEA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOM_LINEA" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNOM_LINEA" msprop:Generator_ColumnPropNameInRow="NOM_LINEA" msprop:Generator_ColumnPropNameInTable="NOM_LINEAColumn" msprop:Generator_UserColumnName="NOM_LINEA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FECHA_EOR" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_EOR" msprop:Generator_ColumnPropNameInRow="FECHA_EOR" msprop:Generator_ColumnPropNameInTable="FECHA_EORColumn" msprop:Generator_UserColumnName="FECHA_EOR" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_APROBACIONEST" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_APROBACIONEST" msprop:Generator_ColumnPropNameInRow="FECHA_APROBACIONEST" msprop:Generator_ColumnPropNameInTable="FECHA_APROBACIONESTColumn" msprop:Generator_UserColumnName="FECHA_APROBACIONEST" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_APROBACIONMAQ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_APROBACIONMAQ" msprop:Generator_ColumnPropNameInRow="FECHA_APROBACIONMAQ" msprop:Generator_ColumnPropNameInTable="FECHA_APROBACIONMAQColumn" msprop:Generator_UserColumnName="FECHA_APROBACIONMAQ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_INIREPARAEST" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_INIREPARAEST" msprop:Generator_ColumnPropNameInRow="FECHA_INIREPARAEST" msprop:Generator_ColumnPropNameInTable="FECHA_INIREPARAESTColumn" msprop:Generator_UserColumnName="FECHA_INIREPARAEST" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_INIREPARAMAQ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_INIREPARAMAQ" msprop:Generator_ColumnPropNameInRow="FECHA_INIREPARAMAQ" msprop:Generator_ColumnPropNameInTable="FECHA_INIREPARAMAQColumn" msprop:Generator_UserColumnName="FECHA_INIREPARAMAQ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_FINREPARAEST" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_FINREPARAEST" msprop:Generator_ColumnPropNameInRow="FECHA_FINREPARAEST" msprop:Generator_ColumnPropNameInTable="FECHA_FINREPARAESTColumn" msprop:Generator_UserColumnName="FECHA_FINREPARAEST" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_FINREPARAMAQ" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_FINREPARAMAQ" msprop:Generator_ColumnPropNameInRow="FECHA_FINREPARAMAQ" msprop:Generator_ColumnPropNameInTable="FECHA_FINREPARAMAQColumn" msprop:Generator_UserColumnName="FECHA_FINREPARAMAQ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FECHA_FINREPARACION" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFECHA_FINREPARACION" msprop:Generator_ColumnPropNameInRow="FECHA_FINREPARACION" msprop:Generator_ColumnPropNameInTable="FECHA_FINREPARACIONColumn" msprop:Generator_UserColumnName="FECHA_FINREPARACION" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TOTAL_ESTIMAT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOTAL_ESTIMAT" msprop:Generator_ColumnPropNameInRow="TOTAL_ESTIMAT" msprop:Generator_ColumnPropNameInTable="TOTAL_ESTIMATColumn" msprop:Generator_UserColumnName="TOTAL_ESTIMAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_REALMAT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOTAL_REALMAT" msprop:Generator_ColumnPropNameInRow="TOTAL_REALMAT" msprop:Generator_ColumnPropNameInTable="TOTAL_REALMATColumn" msprop:Generator_UserColumnName="TOTAL_REALMAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_ESTICOSTOHH" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOTAL_ESTICOSTOHH" msprop:Generator_ColumnPropNameInRow="TOTAL_ESTICOSTOHH" msprop:Generator_ColumnPropNameInTable="TOTAL_ESTICOSTOHHColumn" msprop:Generator_UserColumnName="TOTAL_ESTICOSTOHH" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL_REALCOSTOHH" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTOTAL_REALCOSTOHH" msprop:Generator_ColumnPropNameInRow="TOTAL_REALCOSTOHH" msprop:Generator_ColumnPropNameInTable="TOTAL_REALCOSTOHHColumn" msprop:Generator_UserColumnName="TOTAL_REALCOSTOHH" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTI_ESTIMADO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPTI_ESTIMADO" msprop:Generator_ColumnPropNameInRow="PTI_ESTIMADO" msprop:Generator_ColumnPropNameInTable="PTI_ESTIMADOColumn" msprop:Generator_UserColumnName="PTI_ESTIMADO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PTI_NEGOCIACION" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPTI_NEGOCIACION" msprop:Generator_ColumnPropNameInRow="PTI_NEGOCIACION" msprop:Generator_ColumnPropNameInTable="PTI_NEGOCIACIONColumn" msprop:Generator_UserColumnName="PTI_NEGOCIACION" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ESTADO_FINAL" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnESTADO_FINAL" msprop:Generator_ColumnPropNameInRow="ESTADO_FINAL" msprop:Generator_ColumnPropNameInTable="ESTADO_FINALColumn" msprop:Generator_UserColumnName="ESTADO_FINAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="23" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:GET_CONSOLIDADO_EOR" />
+      <xs:field xpath="mstns:COD_TIPCONT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

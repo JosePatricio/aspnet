@@ -1,0 +1,37 @@
+﻿.GridStyle {
+    border: 1px solid #333333;
+    background-color: White;
+    font-family: arial;
+    font-size: 12px;
+    border-collapse: collapse;
+    margin-bottom: 0px;    
+}
+
+    .GridStyle tr {
+        border: 1px solid white;
+        color: #333333;
+        height: 25px;
+    }
+    /* Your grid header column style */
+    .GridStyle th {
+        background-color: #333333;
+        border: double;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 4px;
+        color: white;
+    }
+    /* Your grid header link style */
+    .GridStyle tr th a, .GridStyle tr th a:visited {
+        color: white;
+    }
+
+    .GridStyle tr th, .GridStyle tr td table tr td {
+        border: none;
+    }
+
+    .GridStyle td {
+        border-bottom: 1px solid white;
+        padding: 2px;
+    }

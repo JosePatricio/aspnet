@@ -1,0 +1,21 @@
+﻿.label
+{
+    color:#fdfdfd;
+    font-family:sans-serif;
+}
+
+.LabelTituloModalPanel
+{
+    
+    font-weight: normal; 
+    font-family: HelveticaNeue-Light;
+    font-size: large;
+    padding-top: 1px;
+    text-transform: uppercase;
+    border-bottom: black;
+    }
+ 
+.LabelTituloModalPanel:first-letter
+{
+    font-size: x-large;
+}

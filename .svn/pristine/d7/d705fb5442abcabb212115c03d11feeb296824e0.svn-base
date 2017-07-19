@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EorEstructuraDataSet" targetNamespace="http://tempuri.org/EorEstructuraDataSet.xsd" xmlns:mstns="http://tempuri.org/EorEstructuraDataSet.xsd" xmlns="http://tempuri.org/EorEstructuraDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EorEstructuraDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EorEstructuraDataSet" msprop:Generator_UserDSName="EorEstructuraDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EorEstructuraDataTable" msprop:Generator_TableClassName="EorEstructuraDataTableDataTable" msprop:Generator_TableVarName="tableEorEstructuraDataTable" msprop:Generator_TablePropName="EorEstructuraDataTable" msprop:Generator_RowDeletingName="EorEstructuraDataTableRowDeleting" msprop:Generator_RowChangingName="EorEstructuraDataTableRowChanging" msprop:Generator_RowEvHandlerName="EorEstructuraDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="EorEstructuraDataTableRowDeleted" msprop:Generator_UserTableName="EorEstructuraDataTable" msprop:Generator_RowChangedName="EorEstructuraDataTableRowChanged" msprop:Generator_RowEvArgName="EorEstructuraDataTableRowChangeEvent" msprop:Generator_RowClassName="EorEstructuraDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sec" msprop:Generator_ColumnVarNameInTable="columnSec" msprop:Generator_ColumnPropNameInRow="Sec" msprop:Generator_ColumnPropNameInTable="SecColumn" msprop:Generator_UserColumnName="Sec" type="xs:short" />
+              <xs:element name="Loc" msprop:Generator_ColumnVarNameInTable="columnLoc" msprop:Generator_ColumnPropNameInRow="Loc" msprop:Generator_ColumnPropNameInTable="LocColumn" msprop:Generator_UserColumnName="Loc" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:short" minOccurs="0" />
+              <xs:element name="Comp" msprop:Generator_ColumnVarNameInTable="columnComp" msprop:Generator_ColumnPropNameInRow="Comp" msprop:Generator_ColumnPropNameInTable="CompColumn" msprop:Generator_UserColumnName="Comp" type="xs:string" minOccurs="0" />
+              <xs:element name="Repair" msprop:Generator_ColumnVarNameInTable="columnRepair" msprop:Generator_ColumnPropNameInRow="Repair" msprop:Generator_ColumnPropNameInTable="RepairColumn" msprop:Generator_UserColumnName="Repair" type="xs:string" minOccurs="0" />
+              <xs:element name="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnPropNameInTable="LengthColumn" msprop:Generator_UserColumnName="Length" type="xs:double" minOccurs="0" />
+              <xs:element name="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" msprop:Generator_UserColumnName="Width" type="xs:double" minOccurs="0" />
+              <xs:element name="Damage" msprop:Generator_ColumnVarNameInTable="columnDamage" msprop:Generator_ColumnPropNameInRow="Damage" msprop:Generator_ColumnPropNameInTable="DamageColumn" msprop:Generator_UserColumnName="Damage" type="xs:string" minOccurs="0" />
+              <xs:element name="Resp" msprop:Generator_ColumnVarNameInTable="columnResp" msprop:Generator_ColumnPropNameInRow="Resp" msprop:Generator_ColumnPropNameInTable="RespColumn" msprop:Generator_UserColumnName="Resp" type="xs:string" minOccurs="0" />
+              <xs:element name="Hour" msprop:Generator_ColumnVarNameInTable="columnHour" msprop:Generator_ColumnPropNameInRow="Hour" msprop:Generator_ColumnPropNameInTable="HourColumn" msprop:Generator_UserColumnName="Hour" type="xs:double" minOccurs="0" />
+              <xs:element name="LaborCost" msprop:Generator_ColumnVarNameInTable="columnLaborCost" msprop:Generator_ColumnPropNameInRow="LaborCost" msprop:Generator_ColumnPropNameInTable="LaborCostColumn" msprop:Generator_UserColumnName="LaborCost" type="xs:double" minOccurs="0" />
+              <xs:element name="MaterialCost" msprop:Generator_ColumnVarNameInTable="columnMaterialCost" msprop:Generator_ColumnPropNameInRow="MaterialCost" msprop:Generator_ColumnPropNameInTable="MaterialCostColumn" msprop:Generator_UserColumnName="MaterialCost" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalMaterialCost" msprop:Generator_ColumnVarNameInTable="columnTotalMaterialCost" msprop:Generator_ColumnPropNameInRow="TotalMaterialCost" msprop:Generator_ColumnPropNameInTable="TotalMaterialCostColumn" msprop:Generator_UserColumnName="TotalMaterialCost" type="xs:double" minOccurs="0" />
+              <xs:element name="SubTotal" msprop:Generator_ColumnVarNameInTable="columnSubTotal" msprop:Generator_ColumnPropNameInRow="SubTotal" msprop:Generator_ColumnPropNameInTable="SubTotalColumn" msprop:Generator_UserColumnName="SubTotal" type="xs:double" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_UserColumnName="Descripcion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TotalesDataTable" msprop:Generator_TableClassName="TotalesDataTableDataTable" msprop:Generator_TableVarName="tableTotalesDataTable" msprop:Generator_RowChangedName="TotalesDataTableRowChanged" msprop:Generator_TablePropName="TotalesDataTable" msprop:Generator_RowDeletingName="TotalesDataTableRowDeleting" msprop:Generator_RowChangingName="TotalesDataTableRowChanging" msprop:Generator_RowEvHandlerName="TotalesDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="TotalesDataTableRowDeleted" msprop:Generator_RowClassName="TotalesDataTableRow" msprop:Generator_UserTableName="TotalesDataTable" msprop:Generator_RowEvArgName="TotalesDataTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombre" msdata:Caption="Loc" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="Labor" msdata:Caption="Comp" msprop:Generator_ColumnVarNameInTable="columnLabor" msprop:Generator_ColumnPropNameInRow="Labor" msprop:Generator_ColumnPropNameInTable="LaborColumn" msprop:Generator_UserColumnName="Labor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Material" msdata:Caption="Repair" msprop:Generator_ColumnVarNameInTable="columnMaterial" msprop:Generator_ColumnPropNameInRow="Material" msprop:Generator_ColumnPropNameInTable="MaterialColumn" msprop:Generator_UserColumnName="Material" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Tax" msdata:Caption="Length" msprop:Generator_ColumnVarNameInTable="columnTax" msprop:Generator_ColumnPropNameInRow="Tax" msprop:Generator_ColumnPropNameInTable="TaxColumn" msprop:Generator_UserColumnName="Tax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SubTotal" msprop:Generator_ColumnVarNameInTable="columnSubTotal" msprop:Generator_ColumnPropNameInRow="SubTotal" msprop:Generator_ColumnPropNameInTable="SubTotalColumn" msprop:Generator_UserColumnName="SubTotal" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EorEstructuraDataTable" />
+      <xs:field xpath="mstns:Sec" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

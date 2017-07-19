@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ObtenerEorCabeceraEstructuraPorFiltrosPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEorCabeceraEstructuraPorFiltrosPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerEorCabeceraEstructuraPorFiltrosPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEorCabeceraMaquinariaPorFiltrosPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEorCabeceraMaquinariaPorFiltrosPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerEorCabeceraMaquinariaPorFiltrosPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEorCabeceraTransitoPorFiltrosPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEorCabeceraTransitoPorFiltrosPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerEorCabeceraTransitoPorFiltrosPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerConsolidadoEorsPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerConsolidadoEorsPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerConsolidadoEorsPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirEstructuraPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirEstructuraPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosEirEstructuraPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirMaquinariaPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirMaquinariaPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosEirMaquinariaPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEstimacionEirPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEstimacionEirPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosEstimacionEirPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosPTIPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosPTIPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosPTIPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosEstimado">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosEstimadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraTodosEstimadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraPorAnioEstimado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraPorAnioEstimadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraPorAnioEstimadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosReal">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosRealResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraTodosRealResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraRealPorAnio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraRealPorAnioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraRealPorAnioResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosEstimado">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosEstimadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaTodosEstimadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaPorAnioEstimado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaPorAnioEstimadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaPorAnioEstimadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosReal">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosRealResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaTodosRealResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaRealPorAnio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaRealPorAnioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaRealPorAnioResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosEstimado">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosEstimadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoTodosEstimadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoPorAnioEstimado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoPorAnioEstimadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoPorAnioEstimadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosReal">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosRealResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoTodosRealResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoRealPorAnio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoRealPorAnioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoRealPorAnioResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosEstimadoPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosEstimadoPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraTodosEstimadoPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraPorAnioEstimadoPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraPorAnioEstimadoPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosRealPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraTodosRealPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraTodosRealPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraRealPorAnioPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorEstructuraRealPorAnioPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorEstructuraRealPorAnioPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosEstimadoPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosEstimadoPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaTodosEstimadoPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaPorAnioEstimadoPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaPorAnioEstimadoPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosRealPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaTodosRealPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaTodosRealPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaRealPorAnioPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorMaquinariaRealPorAnioPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorMaquinariaRealPorAnioPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosEstimadoPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosEstimadoPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoTodosEstimadoPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoPorAnioEstimadoPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoPorAnioEstimadoPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoPorAnioEstimadoPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosRealPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoTodosRealPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoTodosRealPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoRealPorAnioPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="linea" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="obtenerTotalesEorTransitoRealPorAnioPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="obtenerTotalesEorTransitoRealPorAnioPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirEstructuraReporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirEstructuraReporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosEirEstructuraReporteResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirMaquinariaReporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEirMaquinariaReporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosEirMaquinariaReporteResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEstimacionEirReporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosEstimacionEirReporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosEstimacionEirReporteResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosPTIReporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosPTIReporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosPTIReporteResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosPTI_EIR_Reporte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametros" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosPTI_EIR_ReporteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDatosPTI_EIR_ReporteResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEstadosEorEstructuraMaquinaria">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerEstadosEorEstructuraMaquinariaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerEstadosEorEstructuraMaquinariaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CargarTipoAlertas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CargarTipoAlertasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CargarTipoAlertasResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerFabricantesPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametro" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerFabricantesPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerFabricantesPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,477 @@
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\Sigeor.Mensajes.ConfiguracionMail.resources
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\Sigeor.Resources.Mensajes.TipoNotificacionesResource.resources
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\Sigeor.csproj.GenerateResource.Cache
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\RdlCompile.cache
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\RdlCompile.compiled
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Resources\Styles\CalendarStyle.css
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Sigeor.dll.config
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Sigeor.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Sigeor.pdb
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\AjaxControlToolkit.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\itextsharp.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Negocio.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\pdfcrowd.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\PersistenciaSigeor.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Quartz.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Microsoft.SqlServer.Types.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Common.Logging.Core.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Common.Logging.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\Negocio.pdb
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\PersistenciaSigeor.pdb
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\Sigeor.dll
+E:\Proyectos .NET\MARGLOBAL\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Resources\Styles\CalendarStyle.css
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Sigeor.dll.config
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Sigeor.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Sigeor.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\Sigeor.Mensajes.ConfiguracionMail.resources
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\Sigeor.Resources.Mensajes.TipoNotificacionesResource.resources
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\Sigeor.csproj.GenerateResource.Cache
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\RdlCompile.cache
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\RdlCompile.compiled
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\Sigeor.Mensajes.ConfiguracionMail.resources
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\Sigeor.Resources.Mensajes.TipoNotificacionesResource.resources
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\Sigeor.csproj.GenerateResource.Cache
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\RdlCompile.cache
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\RdlCompile.compiled
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Sigeor.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Sigeor\obj\Debug\Sigeor.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Sigeor.dll.config
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Sigeor.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Sigeor.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\AjaxControlToolkit.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Microsoft.SqlServer.Types.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\Sigeor.Resources.Mensajes.TipoNotificacionesResource.resources
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\Sigeor.csproj.GenerateResource.Cache
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\RdlCompile.cache
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\RdlCompile.compiled
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\Sigeor.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Sigeor\obj\Debug\Sigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Sigeor.dll.config
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Sigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Sigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\AjaxControlToolkit.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Microsoft.SqlServer.Types.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\Sigeor.Resources.Mensajes.TipoNotificacionesResource.resources
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\Sigeor.csproj.GenerateResource.Cache
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\RdlCompile.cache
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\RdlCompile.compiled
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\Sigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Sigeor\obj\Debug\Sigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.dll.config
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\AjaxControlToolkit.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.SqlServer.Types.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\RdlCompile.cache
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\RdlCompile.compiled
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaAretina.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaAretina.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSap.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\RdlCompile.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\RdlCompile.compiled
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\EntityFramework.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.dll.config
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Sigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\EntityFramework.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Quartz.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Common.Logging.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Sigeor.dll.config
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Sigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Sigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\EntityFramework.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Quartz.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Common.Logging.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Sigeor.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\EntityFramework.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\RdlCompile.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\RdlCompile.compiled
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLORS\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Sigeor.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\EntityFramework.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\obj\Debug\RdlCompile.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\obj\Debug\RdlCompile.compiled
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR_hoy\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Sigeor.dll.config
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Sigeor.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Sigeor.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\EntityFramework.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Negocio.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Quartz.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSap.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Common.Logging.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Negocio.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Sigeor.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Sigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\AjaxControlToolkit.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\EntityFramework.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Quartz.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Microsoft.SqlServer.Types.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Common.Logging.Core.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Common.Logging.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\RdlCompile.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\RdlCompile.compiled
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\Sigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Sigeor\obj\Debug\Sigeor.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Sigeor.dll.config
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Sigeor.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Sigeor.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\AjaxControlToolkit.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\EntityFramework.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Microsoft.ReportViewer.Common.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Negocio.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Quartz.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Microsoft.SqlServer.Types.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\PersistenciaSap.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\PersistenciaAretina.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Common.Logging.Core.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Common.Logging.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\Negocio.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\PersistenciaSap.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\PersistenciaAretina.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\obj\Debug\RdlCompile.cache
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\obj\Debug\RdlCompile.compiled
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\obj\Debug\Sigeor.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Sigeor\obj\Debug\Sigeor.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\Sigeor\obj\Debug\Sigeor.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\ASPNET\MarGlobal\Sigeor\obj\Debug\Sigeor.dll
+D:\PROYECTOS\ASPNET\MarGlobal\Sigeor\obj\Debug\Sigeor.pdb

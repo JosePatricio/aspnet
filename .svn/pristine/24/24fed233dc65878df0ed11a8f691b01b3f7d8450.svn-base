@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ConfiguracionService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Configuracion/ConfiguracionService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Configuracion/ConfiguracionService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IConfiguracionService_InsertarPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarMasivamentePerfiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarMasivamentePerfiles" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarMasivamentePerfiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarMasivamentePerfilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfiles" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorId" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorCodigo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorCodigo" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilesPorCodigo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilesPorCodigoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPorPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPorPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPorPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPorPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCedula_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCedula" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCedula_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCedulaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCorreo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCorreo" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCorreo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCorreoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarUsuarioMasivamente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioMasivamente" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarUsuarioMasivamente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioMasivamenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarUsuarioPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarUsuarioPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarUsuarioPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarUsuarioPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarUsuarioPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarUsuarioPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarUsuarioPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarUsuarioPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarUsuarioPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarUsuarioPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPerfilPorCedula_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPerfilPorCedula" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUsuarioPerfilPorCedula_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPerfilPorCedulaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarEstructura_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEstructura" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarEstructura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarEstructura_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarEstructura" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarEstructura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarEstructura_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEstructura" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarEstructura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPorId" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructura_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructura" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerTituloPorPagina_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTituloPorPagina" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerTituloPorPagina_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTituloPorPaginaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarEstructuraPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEstructuraPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarEstructuraPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEstructuraPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarEstructuraPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarEstructuraPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarEstructuraPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarEstructuraPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarEstructuraPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEstructuraPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_EliminarEstructuraPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEstructuraPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorIdPerfil_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorIdPerfil" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorIdPerfil_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorIdPerfilResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorIdEstructura_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorIdEstructura" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorIdEstructura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorIdEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerEstructuraPerfilesPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstructuraPerfilesPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarMasivamentePerfilEstructura_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarMasivamentePerfilEstructura" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarMasivamentePerfilEstructura_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarMasivamentePerfilEstructuraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilEstructuraPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilEstructuraPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilPorCedula_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilPorCedula" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPerfilPorCedula_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPerfilPorCedulaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAuditoria_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAuditoria" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAuditoria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAuditoriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAuditoriaPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAuditoriaPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAuditoriaPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAuditoriaPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAuditoriaPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAuditoriaPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAuditoriaPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAuditoriaPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarAuditoria_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarAuditoria" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarAuditoria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarAuditoriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_Insertar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertar" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_Insertar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_Modificar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Modificar" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_Modificar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_Eliminar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Eliminar" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_Eliminar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDoumentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDoumentos" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDoumentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDoumentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDoumentosPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDoumentosPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDoumentosPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDoumentosPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDocumentosPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDocumentosPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDocumentosPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDocumentosPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDocumentosPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosPorId" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerDocumentosPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDocumentosPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarConfiguracionEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarConfiguracionEmail" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarConfiguracionEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarConfiguracionEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerConfiguracionEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerConfiguracionEmail" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerConfiguracionEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerConfiguracionEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPaginadeInicioPorCedula_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPaginadeInicioPorCedula" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPaginadeInicioPorCedula_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPaginadeInicioPorCedulaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUrlPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUrlPorId" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerUrlPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUrlPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarPolitica_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPolitica" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_InsertarPolitica_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarPoliticaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarPolitica_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarPolitica" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarPolitica_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarPoliticaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPoliticaPorcodigo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPoliticaPorcodigo" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPoliticaPorcodigo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPoliticaPorcodigoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPoliticaPorGrupo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPoliticaPorGrupo" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerPoliticaPorGrupo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerPoliticaPorGrupoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarAlertaReparacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarAlertaReparacion" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ModificarAlertaReparacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarAlertaReparacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertaReparacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertaReparacion" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertaReparacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertaReparacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerResumenAlertasReparacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerResumenAlertasReparacion" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerResumenAlertasReparacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerResumenAlertasReparacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IConfiguracionService_ObtenerAlertasReparacionPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerAlertasReparacionPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IConfiguracionService">
+    <wsdl:operation name="InsertarPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarPerfil" message="tns:IConfiguracionService_InsertarPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarPerfilResponse" message="tns:IConfiguracionService_InsertarPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarPerfil" message="tns:IConfiguracionService_ModificarPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarPerfilResponse" message="tns:IConfiguracionService_ModificarPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarMasivamentePerfiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarMasivamentePerfiles" message="tns:IConfiguracionService_ModificarMasivamentePerfiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarMasivamentePerfilesResponse" message="tns:IConfiguracionService_ModificarMasivamentePerfiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarPerfil" message="tns:IConfiguracionService_EliminarPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarPerfilResponse" message="tns:IConfiguracionService_EliminarPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorEstado" message="tns:IConfiguracionService_ObtenerPerfilesPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorEstadoResponse" message="tns:IConfiguracionService_ObtenerPerfilesPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorEstadoPaginado" message="tns:IConfiguracionService_ObtenerPerfilesPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorEstadoPaginadoResponse" message="tns:IConfiguracionService_ObtenerPerfilesPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfiles" message="tns:IConfiguracionService_ObtenerPerfiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesResponse" message="tns:IConfiguracionService_ObtenerPerfiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPaginado" message="tns:IConfiguracionService_ObtenerPerfilesPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPaginadoResponse" message="tns:IConfiguracionService_ObtenerPerfilesPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorId" message="tns:IConfiguracionService_ObtenerPerfilesPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorIdResponse" message="tns:IConfiguracionService_ObtenerPerfilesPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCoincidencia" message="tns:IConfiguracionService_ObtenerPerfilesPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCoincidenciaResponse" message="tns:IConfiguracionService_ObtenerPerfilesPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCoincidenciaPaginado" message="tns:IConfiguracionService_ObtenerPerfilesPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCoincidenciaPaginadoResponse" message="tns:IConfiguracionService_ObtenerPerfilesPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorCodigo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCodigo" message="tns:IConfiguracionService_ObtenerPerfilesPorCodigo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCodigoResponse" message="tns:IConfiguracionService_ObtenerPerfilesPorCodigo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPorPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorPerfil" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPorPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorPerfilResponse" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPorPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarUsuario" message="tns:IConfiguracionService_InsertarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarUsuarioResponse" message="tns:IConfiguracionService_InsertarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarUsuario" message="tns:IConfiguracionService_ModificarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarUsuarioResponse" message="tns:IConfiguracionService_ModificarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarUsuario" message="tns:IConfiguracionService_EliminarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarUsuarioResponse" message="tns:IConfiguracionService_EliminarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorEstado" message="tns:IConfiguracionService_ObtenerUsuarioPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorEstadoResponse" message="tns:IConfiguracionService_ObtenerUsuarioPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuario" message="tns:IConfiguracionService_ObtenerUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioResponse" message="tns:IConfiguracionService_ObtenerUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCedula">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCedula" message="tns:IConfiguracionService_ObtenerUsuarioPorCedula_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCedulaResponse" message="tns:IConfiguracionService_ObtenerUsuarioPorCedula_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCorreo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCorreo" message="tns:IConfiguracionService_ObtenerUsuarioPorCorreo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCorreoResponse" message="tns:IConfiguracionService_ObtenerUsuarioPorCorreo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCoincidencia" message="tns:IConfiguracionService_ObtenerUsuarioPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCoincidenciaResponse" message="tns:IConfiguracionService_ObtenerUsuarioPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuarioMasivamente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarUsuarioMasivamente" message="tns:IConfiguracionService_ModificarUsuarioMasivamente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarUsuarioMasivamenteResponse" message="tns:IConfiguracionService_ModificarUsuarioMasivamente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorEstadoPaginado" message="tns:IConfiguracionService_ObtenerUsuarioPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorEstadoPaginadoResponse" message="tns:IConfiguracionService_ObtenerUsuarioPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPaginado" message="tns:IConfiguracionService_ObtenerUsuarioPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPaginadoResponse" message="tns:IConfiguracionService_ObtenerUsuarioPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCoincidenciaPaginado" message="tns:IConfiguracionService_ObtenerUsuarioPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCoincidenciaPaginadoResponse" message="tns:IConfiguracionService_ObtenerUsuarioPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarUsuarioPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarUsuarioPerfil" message="tns:IConfiguracionService_InsertarUsuarioPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarUsuarioPerfilResponse" message="tns:IConfiguracionService_InsertarUsuarioPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuarioPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarUsuarioPerfil" message="tns:IConfiguracionService_ModificarUsuarioPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarUsuarioPerfilResponse" message="tns:IConfiguracionService_ModificarUsuarioPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuarioPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarUsuarioPerfil" message="tns:IConfiguracionService_EliminarUsuarioPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarUsuarioPerfilResponse" message="tns:IConfiguracionService_EliminarUsuarioPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPerfilPorCedula">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPerfilPorCedula" message="tns:IConfiguracionService_ObtenerUsuarioPerfilPorCedula_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPerfilPorCedulaResponse" message="tns:IConfiguracionService_ObtenerUsuarioPerfilPorCedula_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEstructura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarEstructura" message="tns:IConfiguracionService_InsertarEstructura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarEstructuraResponse" message="tns:IConfiguracionService_InsertarEstructura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarEstructura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarEstructura" message="tns:IConfiguracionService_ModificarEstructura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarEstructuraResponse" message="tns:IConfiguracionService_ModificarEstructura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEstructura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarEstructura" message="tns:IConfiguracionService_EliminarEstructura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarEstructuraResponse" message="tns:IConfiguracionService_EliminarEstructura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPorEstado" message="tns:IConfiguracionService_ObtenerEstructuraPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPorEstadoResponse" message="tns:IConfiguracionService_ObtenerEstructuraPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPorId" message="tns:IConfiguracionService_ObtenerEstructuraPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPorIdResponse" message="tns:IConfiguracionService_ObtenerEstructuraPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructura" message="tns:IConfiguracionService_ObtenerEstructura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraResponse" message="tns:IConfiguracionService_ObtenerEstructura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTituloPorPagina">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerTituloPorPagina" message="tns:IConfiguracionService_ObtenerTituloPorPagina_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerTituloPorPaginaResponse" message="tns:IConfiguracionService_ObtenerTituloPorPagina_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEstructuraPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarEstructuraPerfil" message="tns:IConfiguracionService_InsertarEstructuraPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarEstructuraPerfilResponse" message="tns:IConfiguracionService_InsertarEstructuraPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarEstructuraPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarEstructuraPerfil" message="tns:IConfiguracionService_ModificarEstructuraPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarEstructuraPerfilResponse" message="tns:IConfiguracionService_ModificarEstructuraPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEstructuraPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarEstructuraPerfil" message="tns:IConfiguracionService_EliminarEstructuraPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarEstructuraPerfilResponse" message="tns:IConfiguracionService_EliminarEstructuraPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorIdPerfil">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorIdPerfil" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorIdPerfil_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorIdPerfilResponse" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorIdPerfil_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorIdEstructura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorIdEstructura" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorIdEstructura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorIdEstructuraResponse" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorIdEstructura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorEstado" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorEstadoResponse" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorCoincidencia" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorCoincidenciaResponse" message="tns:IConfiguracionService_ObtenerEstructuraPerfilesPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarMasivamentePerfilEstructura">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarMasivamentePerfilEstructura" message="tns:IConfiguracionService_ModificarMasivamentePerfilEstructura_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarMasivamentePerfilEstructuraResponse" message="tns:IConfiguracionService_ModificarMasivamentePerfilEstructura_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorEstadoPaginado" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorEstadoPaginadoResponse" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPaginado" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPaginadoResponse" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorCoincidenciaPaginado" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorCoincidenciaPaginadoResponse" message="tns:IConfiguracionService_ObtenerPerfilEstructuraPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilPorCedula">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilPorCedula" message="tns:IConfiguracionService_ObtenerPerfilPorCedula_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPerfilPorCedulaResponse" message="tns:IConfiguracionService_ObtenerPerfilPorCedula_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAuditoria">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAuditoria" message="tns:IConfiguracionService_ObtenerAuditoria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaResponse" message="tns:IConfiguracionService_ObtenerAuditoria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAuditoriaPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaPorCoincidencia" message="tns:IConfiguracionService_ObtenerAuditoriaPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaPorCoincidenciaResponse" message="tns:IConfiguracionService_ObtenerAuditoriaPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAuditoriaPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaPorCoincidenciaPaginado" message="tns:IConfiguracionService_ObtenerAuditoriaPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaPorCoincidenciaPaginadoResponse" message="tns:IConfiguracionService_ObtenerAuditoriaPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarAuditoria">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarAuditoria" message="tns:IConfiguracionService_InsertarAuditoria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarAuditoriaResponse" message="tns:IConfiguracionService_InsertarAuditoria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/Insertar" message="tns:IConfiguracionService_Insertar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarResponse" message="tns:IConfiguracionService_Insertar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Modificar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/Modificar" message="tns:IConfiguracionService_Modificar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarResponse" message="tns:IConfiguracionService_Modificar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Eliminar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/Eliminar" message="tns:IConfiguracionService_Eliminar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/EliminarResponse" message="tns:IConfiguracionService_Eliminar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDoumentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDoumentos" message="tns:IConfiguracionService_ObtenerDoumentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDoumentosResponse" message="tns:IConfiguracionService_ObtenerDoumentos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDoumentosPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDoumentosPaginado" message="tns:IConfiguracionService_ObtenerDoumentosPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDoumentosPaginadoResponse" message="tns:IConfiguracionService_ObtenerDoumentosPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentosPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorCoincidencia" message="tns:IConfiguracionService_ObtenerDocumentosPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorCoincidenciaResponse" message="tns:IConfiguracionService_ObtenerDocumentosPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentosPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorCoincidenciaPaginado" message="tns:IConfiguracionService_ObtenerDocumentosPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorCoincidenciaPaginadoResponse" message="tns:IConfiguracionService_ObtenerDocumentosPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentosPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorId" message="tns:IConfiguracionService_ObtenerDocumentosPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorIdResponse" message="tns:IConfiguracionService_ObtenerDocumentosPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarConfiguracionEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarConfiguracionEmail" message="tns:IConfiguracionService_InsertarConfiguracionEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarConfiguracionEmailResponse" message="tns:IConfiguracionService_InsertarConfiguracionEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConfiguracionEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerConfiguracionEmail" message="tns:IConfiguracionService_ObtenerConfiguracionEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerConfiguracionEmailResponse" message="tns:IConfiguracionService_ObtenerConfiguracionEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPaginadeInicioPorCedula">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPaginadeInicioPorCedula" message="tns:IConfiguracionService_ObtenerPaginadeInicioPorCedula_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPaginadeInicioPorCedulaResponse" message="tns:IConfiguracionService_ObtenerPaginadeInicioPorCedula_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUrlPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUrlPorId" message="tns:IConfiguracionService_ObtenerUrlPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerUrlPorIdResponse" message="tns:IConfiguracionService_ObtenerUrlPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarPolitica">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarPolitica" message="tns:IConfiguracionService_InsertarPolitica_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/InsertarPoliticaResponse" message="tns:IConfiguracionService_InsertarPolitica_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarPolitica">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarPolitica" message="tns:IConfiguracionService_ModificarPolitica_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarPoliticaResponse" message="tns:IConfiguracionService_ModificarPolitica_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPoliticaPorcodigo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPoliticaPorcodigo" message="tns:IConfiguracionService_ObtenerPoliticaPorcodigo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPoliticaPorcodigoResponse" message="tns:IConfiguracionService_ObtenerPoliticaPorcodigo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPoliticaPorGrupo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPoliticaPorGrupo" message="tns:IConfiguracionService_ObtenerPoliticaPorGrupo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerPoliticaPorGrupoResponse" message="tns:IConfiguracionService_ObtenerPoliticaPorGrupo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarAlertaReparacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarAlertaReparacion" message="tns:IConfiguracionService_ModificarAlertaReparacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ModificarAlertaReparacionResponse" message="tns:IConfiguracionService_ModificarAlertaReparacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertaReparacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertaReparacion" message="tns:IConfiguracionService_ObtenerAlertaReparacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertaReparacionResponse" message="tns:IConfiguracionService_ObtenerAlertaReparacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorEstadoPaginado" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorEstadoPaginadoResponse" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorEstado" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorEstadoResponse" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerResumenAlertasReparacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerResumenAlertasReparacion" message="tns:IConfiguracionService_ObtenerResumenAlertasReparacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerResumenAlertasReparacionResponse" message="tns:IConfiguracionService_ObtenerResumenAlertasReparacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorCoincidenciaPaginado" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorCoincidenciaPaginadoResponse" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorCoincidencia" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorCoincidenciaResponse" message="tns:IConfiguracionService_ObtenerAlertasReparacionPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IConfiguracionService" type="tns:IConfiguracionService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertarPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarMasivamentePerfiles">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarMasivamentePerfiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/EliminarPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfiles">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorId">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilesPorCodigo">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilesPorCodigo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPorPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuario">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/EliminarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuario">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCedula">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCedula" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCorreo">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCorreo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuarioMasivamente">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarUsuarioMasivamente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarUsuarioPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarUsuarioPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarUsuarioPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarUsuarioPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarUsuarioPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/EliminarUsuarioPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPerfilPorCedula">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUsuarioPerfilPorCedula" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEstructura">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarEstructura">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEstructura">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/EliminarEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPorId">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructura">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTituloPorPagina">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerTituloPorPagina" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEstructuraPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarEstructuraPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarEstructuraPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarEstructuraPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEstructuraPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/EliminarEstructuraPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorIdPerfil">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorIdPerfil" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorIdEstructura">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorIdEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstructuraPerfilesPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerEstructuraPerfilesPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarMasivamentePerfilEstructura">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarMasivamentePerfilEstructura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilEstructuraPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilEstructuraPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPerfilPorCedula">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPerfilPorCedula" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAuditoria">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAuditoria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAuditoriaPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAuditoriaPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAuditoriaPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarAuditoria">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarAuditoria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertar">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/Insertar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Modificar">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/Modificar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Eliminar">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/Eliminar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDoumentos">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerDoumentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDoumentosPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerDoumentosPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentosPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentosPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDocumentosPorId">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerDocumentosPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarConfiguracionEmail">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarConfiguracionEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConfiguracionEmail">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerConfiguracionEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPaginadeInicioPorCedula">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPaginadeInicioPorCedula" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUrlPorId">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerUrlPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarPolitica">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/InsertarPolitica" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarPolitica">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarPolitica" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPoliticaPorcodigo">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPoliticaPorcodigo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerPoliticaPorGrupo">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerPoliticaPorGrupo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarAlertaReparacion">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ModificarAlertaReparacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertaReparacion">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAlertaReparacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerResumenAlertasReparacion">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerResumenAlertasReparacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerAlertasReparacionPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IConfiguracionService/ObtenerAlertasReparacionPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConfiguracionService">
+    <wsdl:port name="BasicHttpBinding_IConfiguracionService" binding="tns:BasicHttpBinding_IConfiguracionService">
+      <soap:address location="http://localhost/SigeorServices/Configuracion/ConfiguracionService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

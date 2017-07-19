@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CargarTipoDanios">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CargarTipoDaniosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CargarTipoDaniosResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CargarEstadosNegociaciones">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CargarEstadosNegociacionesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CargarEstadosNegociacionesResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarNegociacionLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="negociacionSerializada" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarNegociacionLineaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="negociacionSerializada" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionLineaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarNegociacionLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="negociacionSerializada" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarNegociacionLineaResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLinea">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorCoincidencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorCoincidenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaPorCoincidenciaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idSerialziado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaPorIdResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionLineaMasivamente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionLineaMasivamenteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorEstadoPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorEstadoPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaPorEstadoPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorCoincidenciaPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaPorCoincidenciaPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaPorCoincidenciaPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaHistoricoPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametro" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaHistoricoPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaHistoricoPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaHistorico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametro" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesLineaHistoricoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesLineaHistoricoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorHistoricoPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametro" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorHistoricoPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorHistoricoPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorHistorico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametro" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorHistoricoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorHistoricoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarNegociacionProveedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="negociacionSerializada" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarNegociacionProveedorResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionProveedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="negociacionSerializada" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionProveedorResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarNegociacionProveedor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="negociacionSerializada" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarNegociacionProveedorResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedor">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorCoincidencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorCoincidenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorPorCoincidenciaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorId">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idSerialziado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorPorIdResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionProveedoresMasivamente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarNegociacionProveedoresMasivamenteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorEstadoPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorEstadoPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorPorEstadoPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorCoincidenciaPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" type="xs:boolean" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerNegociacionesProveedorPorCoincidenciaPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerNegociacionesProveedorPorCoincidenciaPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarDanio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="danioSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarDanioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarDanio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="danioSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarDanioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarDanioMasivo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametroDanio" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarDanioMasivoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarDanio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="danioSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarDanioResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDaniosPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorEstadoPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorEstadoPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDaniosPorEstadoPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDanios">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDaniosResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDanioPorCodigo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDanioPorCodigoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDanioPorCodigoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorCoincidencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorCoincidenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDaniosPorCoincidenciaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorCoincidenciaPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorCoincidenciaPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDaniosPorCoincidenciaPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistros" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idLinea" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDaniosPorLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDaniosPorLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDanioPorIdLineaIdTipoDanio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="clavePrimaria" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDanioPorIdLineaIdTipoDanioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerDanioPorIdLineaIdTipoDanioResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarReparacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="reparacionSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarReparacionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarReparacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="reparacionSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarReparacionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarReparacionMasivo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="parametroSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarReparacionMasivoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarReparacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="reparacionSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarReparacionResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReparacionesPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparaciones">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReparacionesResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionPorClave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="clavePrimaria" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionPorClaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReparacionPorClaveResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorCoincidencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorCoincidenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReparacionesPorCoincidenciaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorIdLinea">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="clavePrimaria" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorIdLineaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReparacionesPorIdLineaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorCoincidenciaPaginado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagesize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerReparacionesPorCoincidenciaPaginadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerReparacionesPorCoincidenciaPaginadoResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalRegistro" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarComponente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="componenteSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarComponenteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarComponente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="componenteSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarComponenteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarComponente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="componenteSerializado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarComponenteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerComponentesPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerComponentesPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerComponentesPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerInspectoresPorEstado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="estado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerInspectoresPorEstadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObtenerInspectoresPorEstadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

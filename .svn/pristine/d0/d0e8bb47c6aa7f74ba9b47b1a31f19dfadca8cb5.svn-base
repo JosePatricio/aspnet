@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ControlService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SigeorServices/GestionControl/ControlService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/GestionControl/ControlService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IControlService_CargarTipoDanios_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarTipoDanios" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_CargarTipoDanios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarTipoDaniosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_CargarEstadosNegociaciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarEstadosNegociaciones" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_CargarEstadosNegociaciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarEstadosNegociacionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarNegociacionLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarNegociacionLinea" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarNegociacionLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarNegociacionLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionLinea" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarNegociacionLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarNegociacionLinea" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarNegociacionLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarNegociacionLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLinea" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorId" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionLineaMasivamente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionLineaMasivamente" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionLineaMasivamente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionLineaMasivamenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaHistoricoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaHistoricoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaHistoricoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaHistoricoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaHistorico_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaHistorico" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesLineaHistorico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesLineaHistoricoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorHistoricoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorHistoricoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorHistoricoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorHistoricoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorHistorico_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorHistorico" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorHistorico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorHistoricoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarNegociacionProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarNegociacionProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarNegociacionProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarNegociacionProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarNegociacionProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarNegociacionProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarNegociacionProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarNegociacionProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedor" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorId" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionProveedoresMasivamente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionProveedoresMasivamente" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarNegociacionProveedoresMasivamente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarNegociacionProveedoresMasivamenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerNegociacionesProveedorPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerNegociacionesProveedorPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarDanio_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarDanio" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarDanio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarDanioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarDanio_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarDanio" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarDanio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarDanioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarDanioMasivo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarDanioMasivo" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarDanioMasivo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarDanioMasivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarDanio_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarDanio" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarDanio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarDanioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorEstadoPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorEstadoPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorEstadoPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorEstadoPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDanios_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDanios" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDanios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDanioPorCodigo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDanioPorCodigo" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDanioPorCodigo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDanioPorCodigoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDaniosPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDaniosPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDanioPorIdLineaIdTipoDanio_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDanioPorIdLineaIdTipoDanio" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerDanioPorIdLineaIdTipoDanio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDanioPorIdLineaIdTipoDanioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarReparacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarReparacion" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarReparacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarReparacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarReparacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarReparacion" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarReparacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarReparacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarReparacionMasivo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarReparacionMasivo" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarReparacionMasivo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarReparacionMasivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarReparacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarReparacion" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarReparacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarReparacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparaciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparaciones" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparaciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionPorClave_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionPorClave" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionPorClave_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionPorClaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorCoincidencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorCoincidencia" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorCoincidencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorCoincidenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorIdLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorIdLinea" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorIdLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorIdLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorCoincidenciaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorCoincidenciaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerReparacionesPorCoincidenciaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReparacionesPorCoincidenciaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarComponente_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarComponente" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_InsertarComponente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarComponenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarComponente_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarComponente" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ModificarComponente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarComponenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarComponente_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarComponente" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_EliminarComponente_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarComponenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerComponentesPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerComponentesPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerComponentesPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerComponentesPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerInspectoresPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerInspectoresPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IControlService_ObtenerInspectoresPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerInspectoresPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IControlService">
+    <wsdl:operation name="CargarTipoDanios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/CargarTipoDanios" message="tns:IControlService_CargarTipoDanios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/CargarTipoDaniosResponse" message="tns:IControlService_CargarTipoDanios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarEstadosNegociaciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/CargarEstadosNegociaciones" message="tns:IControlService_CargarEstadosNegociaciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/CargarEstadosNegociacionesResponse" message="tns:IControlService_CargarEstadosNegociaciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarNegociacionLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/InsertarNegociacionLinea" message="tns:IControlService_InsertarNegociacionLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/InsertarNegociacionLineaResponse" message="tns:IControlService_InsertarNegociacionLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionLinea" message="tns:IControlService_ModificarNegociacionLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionLineaResponse" message="tns:IControlService_ModificarNegociacionLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarNegociacionLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/EliminarNegociacionLinea" message="tns:IControlService_EliminarNegociacionLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/EliminarNegociacionLineaResponse" message="tns:IControlService_EliminarNegociacionLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorEstado" message="tns:IControlService_ObtenerNegociacionesLineaPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorEstadoResponse" message="tns:IControlService_ObtenerNegociacionesLineaPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLinea" message="tns:IControlService_ObtenerNegociacionesLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaResponse" message="tns:IControlService_ObtenerNegociacionesLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorCoincidencia" message="tns:IControlService_ObtenerNegociacionesLineaPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorCoincidenciaResponse" message="tns:IControlService_ObtenerNegociacionesLineaPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorId" message="tns:IControlService_ObtenerNegociacionesLineaPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorIdResponse" message="tns:IControlService_ObtenerNegociacionesLineaPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionLineaMasivamente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionLineaMasivamente" message="tns:IControlService_ModificarNegociacionLineaMasivamente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionLineaMasivamenteResponse" message="tns:IControlService_ModificarNegociacionLineaMasivamente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorEstadoPaginado" message="tns:IControlService_ObtenerNegociacionesLineaPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorEstadoPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesLineaPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPaginado" message="tns:IControlService_ObtenerNegociacionesLineaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesLineaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorCoincidenciaPaginado" message="tns:IControlService_ObtenerNegociacionesLineaPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorCoincidenciaPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesLineaPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaHistoricoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaHistoricoPaginado" message="tns:IControlService_ObtenerNegociacionesLineaHistoricoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaHistoricoPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesLineaHistoricoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaHistorico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaHistorico" message="tns:IControlService_ObtenerNegociacionesLineaHistorico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesLineaHistoricoResponse" message="tns:IControlService_ObtenerNegociacionesLineaHistorico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorHistoricoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorHistoricoPaginado" message="tns:IControlService_ObtenerNegociacionesProveedorHistoricoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorHistoricoPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesProveedorHistoricoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorHistorico">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorHistorico" message="tns:IControlService_ObtenerNegociacionesProveedorHistorico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorHistoricoResponse" message="tns:IControlService_ObtenerNegociacionesProveedorHistorico_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarNegociacionProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/InsertarNegociacionProveedor" message="tns:IControlService_InsertarNegociacionProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/InsertarNegociacionProveedorResponse" message="tns:IControlService_InsertarNegociacionProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionProveedor" message="tns:IControlService_ModificarNegociacionProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionProveedorResponse" message="tns:IControlService_ModificarNegociacionProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarNegociacionProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/EliminarNegociacionProveedor" message="tns:IControlService_EliminarNegociacionProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/EliminarNegociacionProveedorResponse" message="tns:IControlService_EliminarNegociacionProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorEstado" message="tns:IControlService_ObtenerNegociacionesProveedorPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorEstadoResponse" message="tns:IControlService_ObtenerNegociacionesProveedorPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedor" message="tns:IControlService_ObtenerNegociacionesProveedor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorResponse" message="tns:IControlService_ObtenerNegociacionesProveedor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorCoincidencia" message="tns:IControlService_ObtenerNegociacionesProveedorPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorCoincidenciaResponse" message="tns:IControlService_ObtenerNegociacionesProveedorPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorId" message="tns:IControlService_ObtenerNegociacionesProveedorPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorIdResponse" message="tns:IControlService_ObtenerNegociacionesProveedorPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionProveedoresMasivamente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionProveedoresMasivamente" message="tns:IControlService_ModificarNegociacionProveedoresMasivamente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarNegociacionProveedoresMasivamenteResponse" message="tns:IControlService_ModificarNegociacionProveedoresMasivamente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorEstadoPaginado" message="tns:IControlService_ObtenerNegociacionesProveedorPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorEstadoPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesProveedorPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPaginado" message="tns:IControlService_ObtenerNegociacionesProveedorPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesProveedorPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorCoincidenciaPaginado" message="tns:IControlService_ObtenerNegociacionesProveedorPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorCoincidenciaPaginadoResponse" message="tns:IControlService_ObtenerNegociacionesProveedorPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarDanio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/InsertarDanio" message="tns:IControlService_InsertarDanio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/InsertarDanioResponse" message="tns:IControlService_InsertarDanio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarDanio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarDanio" message="tns:IControlService_ModificarDanio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarDanioResponse" message="tns:IControlService_ModificarDanio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarDanioMasivo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarDanioMasivo" message="tns:IControlService_ModificarDanioMasivo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarDanioMasivoResponse" message="tns:IControlService_ModificarDanioMasivo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDanio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/EliminarDanio" message="tns:IControlService_EliminarDanio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/EliminarDanioResponse" message="tns:IControlService_EliminarDanio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorEstado" message="tns:IControlService_ObtenerDaniosPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorEstadoResponse" message="tns:IControlService_ObtenerDaniosPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorEstadoPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorEstadoPaginado" message="tns:IControlService_ObtenerDaniosPorEstadoPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorEstadoPaginadoResponse" message="tns:IControlService_ObtenerDaniosPorEstadoPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDanios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDanios" message="tns:IControlService_ObtenerDanios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosResponse" message="tns:IControlService_ObtenerDanios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDanioPorCodigo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDanioPorCodigo" message="tns:IControlService_ObtenerDanioPorCodigo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDanioPorCodigoResponse" message="tns:IControlService_ObtenerDanioPorCodigo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorCoincidencia" message="tns:IControlService_ObtenerDaniosPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorCoincidenciaResponse" message="tns:IControlService_ObtenerDaniosPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorCoincidenciaPaginado" message="tns:IControlService_ObtenerDaniosPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorCoincidenciaPaginadoResponse" message="tns:IControlService_ObtenerDaniosPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorLinea" message="tns:IControlService_ObtenerDaniosPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDaniosPorLineaResponse" message="tns:IControlService_ObtenerDaniosPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDanioPorIdLineaIdTipoDanio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerDanioPorIdLineaIdTipoDanio" message="tns:IControlService_ObtenerDanioPorIdLineaIdTipoDanio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerDanioPorIdLineaIdTipoDanioResponse" message="tns:IControlService_ObtenerDanioPorIdLineaIdTipoDanio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarReparacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/InsertarReparacion" message="tns:IControlService_InsertarReparacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/InsertarReparacionResponse" message="tns:IControlService_InsertarReparacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarReparacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarReparacion" message="tns:IControlService_ModificarReparacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarReparacionResponse" message="tns:IControlService_ModificarReparacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarReparacionMasivo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarReparacionMasivo" message="tns:IControlService_ModificarReparacionMasivo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarReparacionMasivoResponse" message="tns:IControlService_ModificarReparacionMasivo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReparacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/EliminarReparacion" message="tns:IControlService_EliminarReparacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/EliminarReparacionResponse" message="tns:IControlService_EliminarReparacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorEstado" message="tns:IControlService_ObtenerReparacionesPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorEstadoResponse" message="tns:IControlService_ObtenerReparacionesPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparaciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerReparaciones" message="tns:IControlService_ObtenerReparaciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesResponse" message="tns:IControlService_ObtenerReparaciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionPorClave">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionPorClave" message="tns:IControlService_ObtenerReparacionPorClave_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionPorClaveResponse" message="tns:IControlService_ObtenerReparacionPorClave_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorCoincidencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorCoincidencia" message="tns:IControlService_ObtenerReparacionesPorCoincidencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorCoincidenciaResponse" message="tns:IControlService_ObtenerReparacionesPorCoincidencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorIdLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorIdLinea" message="tns:IControlService_ObtenerReparacionesPorIdLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorIdLineaResponse" message="tns:IControlService_ObtenerReparacionesPorIdLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorCoincidenciaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorCoincidenciaPaginado" message="tns:IControlService_ObtenerReparacionesPorCoincidenciaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerReparacionesPorCoincidenciaPaginadoResponse" message="tns:IControlService_ObtenerReparacionesPorCoincidenciaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarComponente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/InsertarComponente" message="tns:IControlService_InsertarComponente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/InsertarComponenteResponse" message="tns:IControlService_InsertarComponente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarComponente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ModificarComponente" message="tns:IControlService_ModificarComponente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ModificarComponenteResponse" message="tns:IControlService_ModificarComponente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarComponente">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/EliminarComponente" message="tns:IControlService_EliminarComponente_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/EliminarComponenteResponse" message="tns:IControlService_EliminarComponente_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerComponentesPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerComponentesPorEstado" message="tns:IControlService_ObtenerComponentesPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerComponentesPorEstadoResponse" message="tns:IControlService_ObtenerComponentesPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerInspectoresPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlService/ObtenerInspectoresPorEstado" message="tns:IControlService_ObtenerInspectoresPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlService/ObtenerInspectoresPorEstadoResponse" message="tns:IControlService_ObtenerInspectoresPorEstado_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IControlService" type="tns:IControlService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CargarTipoDanios">
+      <soap:operation soapAction="http://tempuri.org/IControlService/CargarTipoDanios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarEstadosNegociaciones">
+      <soap:operation soapAction="http://tempuri.org/IControlService/CargarEstadosNegociaciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarNegociacionLinea">
+      <soap:operation soapAction="http://tempuri.org/IControlService/InsertarNegociacionLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionLinea">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarNegociacionLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarNegociacionLinea">
+      <soap:operation soapAction="http://tempuri.org/IControlService/EliminarNegociacionLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLinea">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorId">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionLineaMasivamente">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarNegociacionLineaMasivamente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaHistoricoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaHistoricoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesLineaHistorico">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesLineaHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorHistoricoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorHistoricoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorHistorico">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarNegociacionProveedor">
+      <soap:operation soapAction="http://tempuri.org/IControlService/InsertarNegociacionProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionProveedor">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarNegociacionProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarNegociacionProveedor">
+      <soap:operation soapAction="http://tempuri.org/IControlService/EliminarNegociacionProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedor">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorId">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarNegociacionProveedoresMasivamente">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarNegociacionProveedoresMasivamente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerNegociacionesProveedorPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerNegociacionesProveedorPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarDanio">
+      <soap:operation soapAction="http://tempuri.org/IControlService/InsertarDanio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarDanio">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarDanio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarDanioMasivo">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarDanioMasivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDanio">
+      <soap:operation soapAction="http://tempuri.org/IControlService/EliminarDanio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDaniosPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorEstadoPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDaniosPorEstadoPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDanios">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDanios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDanioPorCodigo">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDanioPorCodigo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDaniosPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDaniosPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDaniosPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDaniosPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDanioPorIdLineaIdTipoDanio">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerDanioPorIdLineaIdTipoDanio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarReparacion">
+      <soap:operation soapAction="http://tempuri.org/IControlService/InsertarReparacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarReparacion">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarReparacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarReparacionMasivo">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarReparacionMasivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReparacion">
+      <soap:operation soapAction="http://tempuri.org/IControlService/EliminarReparacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerReparacionesPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparaciones">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerReparaciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionPorClave">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerReparacionPorClave" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorCoincidencia">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerReparacionesPorCoincidencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorIdLinea">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerReparacionesPorIdLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReparacionesPorCoincidenciaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerReparacionesPorCoincidenciaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarComponente">
+      <soap:operation soapAction="http://tempuri.org/IControlService/InsertarComponente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarComponente">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ModificarComponente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarComponente">
+      <soap:operation soapAction="http://tempuri.org/IControlService/EliminarComponente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerComponentesPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerComponentesPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerInspectoresPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IControlService/ObtenerInspectoresPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ControlService">
+    <wsdl:port name="BasicHttpBinding_IControlService" binding="tns:BasicHttpBinding_IControlService">
+      <soap:address location="http://localhost/SigeorServices/GestionControl/ControlService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

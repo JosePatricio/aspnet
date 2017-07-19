@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AutenticacionService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PersistenciaSigeor" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAutenticacionService_ObtenerUsuarioPorCredenciales_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCredenciales" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerUsuarioPorCredenciales_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorCredencialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_CompararCoordenadaEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:CompararCoordenadaEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_CompararCoordenadaEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CompararCoordenadaEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerUsuarioPorEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorEmail" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerUsuarioPorEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerUsuarioPorEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarEKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEKey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarEKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarEKeyCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEKeyCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarEKeyCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEKeyCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ModificarEKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarEKey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ModificarEKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarEKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_EliminarEKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEKey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_EliminarEKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEkeyPorCedulaUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEkeyPorCedulaUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEkeyPorCedulaUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEkeyPorCedulaUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEkeyPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEkeyPorId" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEkeyPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEkeyPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEKey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEKeyPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEKeyPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerEKeyPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEKeyPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarListaCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarListaCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_InsertarListaCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarListaCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ModificarCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ModificarCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ModificarListaCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarListaCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ModificarListaCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarListaCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_EliminarCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_EliminarCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerCoordenadaEkeyPorId_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCoordenadaEkeyPorId" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerCoordenadaEkeyPorId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCoordenadaEkeyPorIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerCoordenadasEkeyPorIdEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCoordenadasEkeyPorIdEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_ObtenerCoordenadasEkeyPorIdEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCoordenadasEkeyPorIdEkeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_GenerarCoordenadasEkey_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarCoordenadasEkey" />
+  </wsdl:message>
+  <wsdl:message name="IAutenticacionService_GenerarCoordenadasEkey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarCoordenadasEkeyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAutenticacionService">
+    <wsdl:operation name="ObtenerUsuarioPorCredenciales">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerUsuarioPorCredenciales" message="tns:IAutenticacionService_ObtenerUsuarioPorCredenciales_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerUsuarioPorCredencialesResponse" message="tns:IAutenticacionService_ObtenerUsuarioPorCredenciales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CompararCoordenadaEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/CompararCoordenadaEkey" message="tns:IAutenticacionService_CompararCoordenadaEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/CompararCoordenadaEkeyResponse" message="tns:IAutenticacionService_CompararCoordenadaEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerUsuarioPorEmail" message="tns:IAutenticacionService_ObtenerUsuarioPorEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerUsuarioPorEmailResponse" message="tns:IAutenticacionService_ObtenerUsuarioPorEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarEKey" message="tns:IAutenticacionService_InsertarEKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarEKeyResponse" message="tns:IAutenticacionService_InsertarEKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEKeyCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarEKeyCoordenadasEkey" message="tns:IAutenticacionService_InsertarEKeyCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarEKeyCoordenadasEkeyResponse" message="tns:IAutenticacionService_InsertarEKeyCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarEKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ModificarEKey" message="tns:IAutenticacionService_ModificarEKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ModificarEKeyResponse" message="tns:IAutenticacionService_ModificarEKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/EliminarEKey" message="tns:IAutenticacionService_EliminarEKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/EliminarEKeyResponse" message="tns:IAutenticacionService_EliminarEKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEkeyPorCedulaUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEkeyPorCedulaUsuario" message="tns:IAutenticacionService_ObtenerEkeyPorCedulaUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEkeyPorCedulaUsuarioResponse" message="tns:IAutenticacionService_ObtenerEkeyPorCedulaUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEkeyPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEkeyPorId" message="tns:IAutenticacionService_ObtenerEkeyPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEkeyPorIdResponse" message="tns:IAutenticacionService_ObtenerEkeyPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEKey" message="tns:IAutenticacionService_ObtenerEKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEKeyResponse" message="tns:IAutenticacionService_ObtenerEKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEKeyPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEKeyPorEstado" message="tns:IAutenticacionService_ObtenerEKeyPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerEKeyPorEstadoResponse" message="tns:IAutenticacionService_ObtenerEKeyPorEstado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarCoordenadasEkey" message="tns:IAutenticacionService_InsertarCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarCoordenadasEkeyResponse" message="tns:IAutenticacionService_InsertarCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarListaCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarListaCoordenadasEkey" message="tns:IAutenticacionService_InsertarListaCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/InsertarListaCoordenadasEkeyResponse" message="tns:IAutenticacionService_InsertarListaCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ModificarCoordenadasEkey" message="tns:IAutenticacionService_ModificarCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ModificarCoordenadasEkeyResponse" message="tns:IAutenticacionService_ModificarCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarListaCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ModificarListaCoordenadasEkey" message="tns:IAutenticacionService_ModificarListaCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ModificarListaCoordenadasEkeyResponse" message="tns:IAutenticacionService_ModificarListaCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/EliminarCoordenadasEkey" message="tns:IAutenticacionService_EliminarCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/EliminarCoordenadasEkeyResponse" message="tns:IAutenticacionService_EliminarCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCoordenadaEkeyPorId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerCoordenadaEkeyPorId" message="tns:IAutenticacionService_ObtenerCoordenadaEkeyPorId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerCoordenadaEkeyPorIdResponse" message="tns:IAutenticacionService_ObtenerCoordenadaEkeyPorId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCoordenadasEkeyPorIdEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerCoordenadasEkeyPorIdEkey" message="tns:IAutenticacionService_ObtenerCoordenadasEkeyPorIdEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/ObtenerCoordenadasEkeyPorIdEkeyResponse" message="tns:IAutenticacionService_ObtenerCoordenadasEkeyPorIdEkey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarCoordenadasEkey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAutenticacionService/GenerarCoordenadasEkey" message="tns:IAutenticacionService_GenerarCoordenadasEkey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAutenticacionService/GenerarCoordenadasEkeyResponse" message="tns:IAutenticacionService_GenerarCoordenadasEkey_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAutenticacionService" type="tns:IAutenticacionService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerUsuarioPorCredenciales">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerUsuarioPorCredenciales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompararCoordenadaEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/CompararCoordenadaEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerUsuarioPorEmail">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerUsuarioPorEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEKey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/InsertarEKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEKeyCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/InsertarEKeyCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarEKey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ModificarEKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEKey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/EliminarEKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEkeyPorCedulaUsuario">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerEkeyPorCedulaUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEkeyPorId">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerEkeyPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEKey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerEKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEKeyPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerEKeyPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/InsertarCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarListaCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/InsertarListaCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ModificarCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarListaCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ModificarListaCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/EliminarCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCoordenadaEkeyPorId">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerCoordenadaEkeyPorId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCoordenadasEkeyPorIdEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/ObtenerCoordenadasEkeyPorIdEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarCoordenadasEkey">
+      <soap:operation soapAction="http://tempuri.org/IAutenticacionService/GenerarCoordenadasEkey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AutenticacionService">
+    <wsdl:port name="BasicHttpBinding_IAutenticacionService" binding="tns:BasicHttpBinding_IAutenticacionService">
+      <soap:address location="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

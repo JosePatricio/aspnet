@@ -1,0 +1,30 @@
+c:\users\fyaulema\documents\visual studio 2010\Projects\PersistenciaSap\PersistenciaSap\bin\Debug\PersistenciaSap.dll.config
+c:\users\fyaulema\documents\visual studio 2010\Projects\PersistenciaSap\PersistenciaSap\bin\Debug\PersistenciaSap.dll
+c:\users\fyaulema\documents\visual studio 2010\Projects\PersistenciaSap\PersistenciaSap\bin\Debug\PersistenciaSap.pdb
+c:\users\fyaulema\documents\visual studio 2010\Projects\PersistenciaSap\PersistenciaSap\obj\Debug\PersistenciaSap.dll
+c:\users\fyaulema\documents\visual studio 2010\Projects\PersistenciaSap\PersistenciaSap\obj\Debug\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.dll.config
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.dll.CodeAnalysisLog.xml
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.dll.lastcodeanalysissucceeded
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\obj\Debug\PersistenciaSap.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\obj\Debug\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\PersistenciaSap\obj\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.dll.config
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\PersistenciaSap\bin\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\PersistenciaSap\obj\Debug\PersistenciaSap.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\PersistenciaSap\obj\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\PersistenciaSap\obj\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\PersistenciaSap\bin\Debug\PersistenciaSap.dll.config
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\PersistenciaSap\bin\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\PersistenciaSap\bin\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\PersistenciaSap\obj\Debug\PersistenciaSap.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\PersistenciaSap\obj\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\PersistenciaSap\obj\Debug\PersistenciaSap.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\PersistenciaSap\bin\Debug\PersistenciaSap.dll.config
+D:\PROYECTOS\ASPNET\MarGlobal\PersistenciaSap\bin\Debug\PersistenciaSap.dll
+D:\PROYECTOS\ASPNET\MarGlobal\PersistenciaSap\bin\Debug\PersistenciaSap.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\PersistenciaSap\obj\Debug\PersistenciaSap.dll
+D:\PROYECTOS\ASPNET\MarGlobal\PersistenciaSap\obj\Debug\PersistenciaSap.pdb

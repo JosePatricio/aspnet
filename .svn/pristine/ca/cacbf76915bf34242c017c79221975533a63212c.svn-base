@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/PersistenciaSigeor" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PersistenciaSigeor" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="EKey">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CedulaUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CoordenadasEkey" nillable="true" type="tns:ArrayOfCoordenadasEkey" />
+          <xs:element minOccurs="0" name="Estado" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Fecha_Generacion" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="Usuario" nillable="true" type="tns:Usuario" />
+          <xs:element minOccurs="0" name="UsuarioReference" nillable="true" type="q1:EntityReferenceOfUsuarioVQpfUyxC" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EKey" nillable="true" type="tns:EKey" />
+  <xs:complexType name="ArrayOfCoordenadasEkey">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CoordenadasEkey" nillable="true" type="tns:CoordenadasEkey" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCoordenadasEkey" nillable="true" type="tns:ArrayOfCoordenadasEkey" />
+  <xs:complexType name="CoordenadasEkey">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q2:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CampoCedulaUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CampoIpUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CampoTipoAccion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CoordenadaX" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CoordenadaY" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EKey" nillable="true" type="tns:EKey" />
+          <xs:element minOccurs="0" name="EKeyReference" nillable="true" type="q2:EntityReferenceOfEKeyVQpfUyxC" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IdEkey" type="ser:guid" />
+          <xs:element minOccurs="0" name="Valor" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CoordenadasEkey" nillable="true" type="tns:CoordenadasEkey" />
+  <xs:complexType name="Usuario">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q3:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Apellido" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CampoCedulaUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CampoIpUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Cedula" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Celular" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Contrasenia" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="EKey" nillable="true" type="tns:ArrayOfEKey" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NombreUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="OlvidoContrasenia" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UsuarioPerfil" nillable="true" type="tns:ArrayOfUsuarioPerfil" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Usuario" nillable="true" type="tns:Usuario" />
+  <xs:complexType name="ArrayOfEKey">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EKey" nillable="true" type="tns:EKey" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEKey" nillable="true" type="tns:ArrayOfEKey" />
+  <xs:complexType name="ArrayOfUsuarioPerfil">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioPerfil" nillable="true" type="tns:UsuarioPerfil" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsuarioPerfil" nillable="true" type="tns:ArrayOfUsuarioPerfil" />
+  <xs:complexType name="UsuarioPerfil">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q4:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Cedula" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Estado" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Fecha" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IdPerfil" type="ser:guid" />
+          <xs:element minOccurs="0" name="Perfil" nillable="true" type="tns:Perfil" />
+          <xs:element minOccurs="0" name="PerfilReference" nillable="true" type="q4:EntityReferenceOfPerfilVQpfUyxC" />
+          <xs:element minOccurs="0" name="Usuario" nillable="true" type="tns:Usuario" />
+          <xs:element minOccurs="0" name="UsuarioReference" nillable="true" type="q4:EntityReferenceOfUsuarioVQpfUyxC" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UsuarioPerfil" nillable="true" type="tns:UsuarioPerfil" />
+  <xs:complexType name="Perfil">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q5:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CampoCedulaUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CampoIpUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Estado" type="xs:boolean" />
+          <xs:element minOccurs="0" name="EstructuraPerfil" nillable="true" type="tns:ArrayOfEstructuraPerfil" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="PaginaInicio" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UsuarioPerfil" nillable="true" type="tns:ArrayOfUsuarioPerfil" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Perfil" nillable="true" type="tns:Perfil" />
+  <xs:complexType name="ArrayOfEstructuraPerfil">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EstructuraPerfil" nillable="true" type="tns:EstructuraPerfil" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEstructuraPerfil" nillable="true" type="tns:ArrayOfEstructuraPerfil" />
+  <xs:complexType name="EstructuraPerfil">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q6:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CampoCedulaUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CampoIpUsuario" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CodigoEstructrua" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DescripcionEstructura" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DescripcionPerfil" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Estado" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Estructura" nillable="true" type="tns:Estructura" />
+          <xs:element minOccurs="0" name="EstructuraReference" nillable="true" type="q6:EntityReferenceOfEstructuraVQpfUyxC" />
+          <xs:element minOccurs="0" name="Fecha" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="IdEstructura" type="ser:guid" />
+          <xs:element minOccurs="0" name="IdPerfil" type="ser:guid" />
+          <xs:element minOccurs="0" name="Perfil" nillable="true" type="tns:Perfil" />
+          <xs:element minOccurs="0" name="PerfilReference" nillable="true" type="q6:EntityReferenceOfPerfilVQpfUyxC" />
+          <xs:element minOccurs="0" name="UrlEstructura" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EstructuraPerfil" nillable="true" type="tns:EstructuraPerfil" />
+  <xs:complexType name="Estructura">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q7:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Codigo" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Estado" type="xs:boolean" />
+          <xs:element minOccurs="0" name="EstructuraPerfil" nillable="true" type="tns:ArrayOfEstructuraPerfil" />
+          <xs:element minOccurs="0" name="Id" type="ser:guid" />
+          <xs:element minOccurs="0" name="IdPadre" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="Nivel" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Orden" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Estructura" nillable="true" type="tns:Estructura" />
+</xs:schema>

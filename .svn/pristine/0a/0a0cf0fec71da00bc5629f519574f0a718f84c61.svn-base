@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SigeorServices.GestionControl.ControlService" CodeBehind="MglService.svc.cs" %>

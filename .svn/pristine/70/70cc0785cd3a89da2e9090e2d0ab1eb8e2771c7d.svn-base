@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2e679354-80a3-4e40-8eee-0ce0f7d61b7f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SigeorServices/GestionControl/ControlService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ControlService.xsd" MetadataType="Schema" ID="b3e069bd-0ac9-4f24-ae9b-e2aaaf6362ee" SourceId="1" SourceUrl="http://localhost/SigeorServices/GestionControl/ControlService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ControlService.wsdl" MetadataType="Wsdl" ID="14385ded-5765-40fd-a5f5-2f44531d1e0c" SourceId="1" SourceUrl="http://localhost/SigeorServices/GestionControl/ControlService.svc?wsdl" />
+    <MetadataFile FileName="ControlService1.xsd" MetadataType="Schema" ID="b32c865a-456e-4541-92f6-48aa16965a81" SourceId="1" SourceUrl="http://localhost/SigeorServices/GestionControl/ControlService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

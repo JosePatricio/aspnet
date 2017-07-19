@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ReportesService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Reportes/ReportesService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/SigeorServices/Reportes/ReportesService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReportesService_ObtenerEorCabeceraEstructuraPorFiltrosPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorCabeceraEstructuraPorFiltrosPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEorCabeceraEstructuraPorFiltrosPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorCabeceraEstructuraPorFiltrosPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEorCabeceraMaquinariaPorFiltrosPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorCabeceraMaquinariaPorFiltrosPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEorCabeceraMaquinariaPorFiltrosPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorCabeceraMaquinariaPorFiltrosPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEorCabeceraTransitoPorFiltrosPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorCabeceraTransitoPorFiltrosPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEorCabeceraTransitoPorFiltrosPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEorCabeceraTransitoPorFiltrosPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerConsolidadoEorsPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerConsolidadoEorsPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerConsolidadoEorsPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerConsolidadoEorsPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirEstructuraPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirEstructuraPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirEstructuraPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirEstructuraPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirMaquinariaPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirMaquinariaPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirMaquinariaPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirMaquinariaPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEstimacionEirPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEstimacionEirPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEstimacionEirPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEstimacionEirPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosPTIPaginado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosPTIPaginado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosPTIPaginado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosPTIPaginadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosEstimado_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosEstimado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosEstimado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosEstimadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraPorAnioEstimado_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraPorAnioEstimado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraPorAnioEstimado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraPorAnioEstimadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosReal_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosReal" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosReal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosRealResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraRealPorAnio_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraRealPorAnio" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraRealPorAnio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraRealPorAnioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosEstimado_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosEstimado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosEstimado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosEstimadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimado_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaPorAnioEstimado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaPorAnioEstimadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosReal_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosReal" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosReal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosRealResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaRealPorAnio_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaRealPorAnio" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaRealPorAnio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaRealPorAnioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosEstimado_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosEstimado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosEstimado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosEstimadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoPorAnioEstimado_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoPorAnioEstimado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoPorAnioEstimado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoPorAnioEstimadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosReal_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosReal" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosReal_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosRealResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoRealPorAnio_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoRealPorAnio" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoRealPorAnio_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoRealPorAnioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosEstimadoPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosEstimadoPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosEstimadoPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosEstimadoPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraPorAnioEstimadoPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosRealPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosRealPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraTodosRealPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraTodosRealPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraRealPorAnioPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraRealPorAnioPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorEstructuraRealPorAnioPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorEstructuraRealPorAnioPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosEstimadoPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosEstimadoPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosEstimadoPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosEstimadoPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaPorAnioEstimadoPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosRealPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosRealPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaTodosRealPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaTodosRealPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaRealPorAnioPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaRealPorAnioPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorMaquinariaRealPorAnioPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorMaquinariaRealPorAnioPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosEstimadoPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosEstimadoPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosEstimadoPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosEstimadoPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoPorAnioEstimadoPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoPorAnioEstimadoPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoPorAnioEstimadoPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoPorAnioEstimadoPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosRealPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosRealPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoTodosRealPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoTodosRealPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoRealPorAnioPorLinea_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoRealPorAnioPorLinea" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_obtenerTotalesEorTransitoRealPorAnioPorLinea_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerTotalesEorTransitoRealPorAnioPorLineaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirEstructuraReporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirEstructuraReporte" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirEstructuraReporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirEstructuraReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirMaquinariaReporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirMaquinariaReporte" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEirMaquinariaReporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEirMaquinariaReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEstimacionEirReporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEstimacionEirReporte" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosEstimacionEirReporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosEstimacionEirReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosPTIReporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosPTIReporte" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosPTIReporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosPTIReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosPTI_EIR_Reporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosPTI_EIR_Reporte" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerDatosPTI_EIR_Reporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosPTI_EIR_ReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEstadosEorEstructuraMaquinaria_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstadosEorEstructuraMaquinaria" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerEstadosEorEstructuraMaquinaria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEstadosEorEstructuraMaquinariaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_CargarTipoAlertas_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarTipoAlertas" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_CargarTipoAlertas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarTipoAlertasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerFabricantesPorEstado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerFabricantesPorEstado" />
+  </wsdl:message>
+  <wsdl:message name="IReportesService_ObtenerFabricantesPorEstado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerFabricantesPorEstadoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IReportesService">
+    <wsdl:operation name="ObtenerEorCabeceraEstructuraPorFiltrosPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerEorCabeceraEstructuraPorFiltrosPaginado" message="tns:IReportesService_ObtenerEorCabeceraEstructuraPorFiltrosPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerEorCabeceraEstructuraPorFiltrosPaginadoResponse" message="tns:IReportesService_ObtenerEorCabeceraEstructuraPorFiltrosPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEorCabeceraMaquinariaPorFiltrosPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerEorCabeceraMaquinariaPorFiltrosPaginado" message="tns:IReportesService_ObtenerEorCabeceraMaquinariaPorFiltrosPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerEorCabeceraMaquinariaPorFiltrosPaginadoResponse" message="tns:IReportesService_ObtenerEorCabeceraMaquinariaPorFiltrosPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEorCabeceraTransitoPorFiltrosPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerEorCabeceraTransitoPorFiltrosPaginado" message="tns:IReportesService_ObtenerEorCabeceraTransitoPorFiltrosPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerEorCabeceraTransitoPorFiltrosPaginadoResponse" message="tns:IReportesService_ObtenerEorCabeceraTransitoPorFiltrosPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConsolidadoEorsPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerConsolidadoEorsPaginado" message="tns:IReportesService_ObtenerConsolidadoEorsPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerConsolidadoEorsPaginadoResponse" message="tns:IReportesService_ObtenerConsolidadoEorsPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirEstructuraPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirEstructuraPaginado" message="tns:IReportesService_ObtenerDatosEirEstructuraPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirEstructuraPaginadoResponse" message="tns:IReportesService_ObtenerDatosEirEstructuraPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirMaquinariaPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirMaquinariaPaginado" message="tns:IReportesService_ObtenerDatosEirMaquinariaPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirMaquinariaPaginadoResponse" message="tns:IReportesService_ObtenerDatosEirMaquinariaPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEstimacionEirPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEstimacionEirPaginado" message="tns:IReportesService_ObtenerDatosEstimacionEirPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEstimacionEirPaginadoResponse" message="tns:IReportesService_ObtenerDatosEstimacionEirPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosPTIPaginado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosPTIPaginado" message="tns:IReportesService_ObtenerDatosPTIPaginado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosPTIPaginadoResponse" message="tns:IReportesService_ObtenerDatosPTIPaginado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosEstimado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosEstimado" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosEstimado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosEstimadoResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosEstimado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraPorAnioEstimado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraPorAnioEstimado" message="tns:IReportesService_obtenerTotalesEorEstructuraPorAnioEstimado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraPorAnioEstimadoResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraPorAnioEstimado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosReal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosReal" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosReal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosRealResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosReal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraRealPorAnio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraRealPorAnio" message="tns:IReportesService_obtenerTotalesEorEstructuraRealPorAnio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraRealPorAnioResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraRealPorAnio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosEstimado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosEstimado" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosEstimado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosEstimadoResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosEstimado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaPorAnioEstimado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaPorAnioEstimado" message="tns:IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaPorAnioEstimadoResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosReal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosReal" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosReal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosRealResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosReal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaRealPorAnio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaRealPorAnio" message="tns:IReportesService_obtenerTotalesEorMaquinariaRealPorAnio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaRealPorAnioResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaRealPorAnio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosEstimado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosEstimado" message="tns:IReportesService_obtenerTotalesEorTransitoTodosEstimado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosEstimadoResponse" message="tns:IReportesService_obtenerTotalesEorTransitoTodosEstimado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoPorAnioEstimado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoPorAnioEstimado" message="tns:IReportesService_obtenerTotalesEorTransitoPorAnioEstimado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoPorAnioEstimadoResponse" message="tns:IReportesService_obtenerTotalesEorTransitoPorAnioEstimado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosReal">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosReal" message="tns:IReportesService_obtenerTotalesEorTransitoTodosReal_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosRealResponse" message="tns:IReportesService_obtenerTotalesEorTransitoTodosReal_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoRealPorAnio">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoRealPorAnio" message="tns:IReportesService_obtenerTotalesEorTransitoRealPorAnio_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoRealPorAnioResponse" message="tns:IReportesService_obtenerTotalesEorTransitoRealPorAnio_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosEstimadoPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosEstimadoPorLinea" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosEstimadoPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosEstimadoPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosEstimadoPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea" message="tns:IReportesService_obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraPorAnioEstimadoPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosRealPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosRealPorLinea" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosRealPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosRealPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraTodosRealPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraRealPorAnioPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraRealPorAnioPorLinea" message="tns:IReportesService_obtenerTotalesEorEstructuraRealPorAnioPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraRealPorAnioPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorEstructuraRealPorAnioPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosEstimadoPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosEstimadoPorLinea" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosEstimadoPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosEstimadoPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosEstimadoPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea" message="tns:IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaPorAnioEstimadoPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosRealPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosRealPorLinea" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosRealPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosRealPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaTodosRealPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaRealPorAnioPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaRealPorAnioPorLinea" message="tns:IReportesService_obtenerTotalesEorMaquinariaRealPorAnioPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaRealPorAnioPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorMaquinariaRealPorAnioPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosEstimadoPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosEstimadoPorLinea" message="tns:IReportesService_obtenerTotalesEorTransitoTodosEstimadoPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosEstimadoPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorTransitoTodosEstimadoPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoPorAnioEstimadoPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoPorAnioEstimadoPorLinea" message="tns:IReportesService_obtenerTotalesEorTransitoPorAnioEstimadoPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoPorAnioEstimadoPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorTransitoPorAnioEstimadoPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosRealPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosRealPorLinea" message="tns:IReportesService_obtenerTotalesEorTransitoTodosRealPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosRealPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorTransitoTodosRealPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoRealPorAnioPorLinea">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoRealPorAnioPorLinea" message="tns:IReportesService_obtenerTotalesEorTransitoRealPorAnioPorLinea_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoRealPorAnioPorLineaResponse" message="tns:IReportesService_obtenerTotalesEorTransitoRealPorAnioPorLinea_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirEstructuraReporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirEstructuraReporte" message="tns:IReportesService_ObtenerDatosEirEstructuraReporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirEstructuraReporteResponse" message="tns:IReportesService_ObtenerDatosEirEstructuraReporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirMaquinariaReporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirMaquinariaReporte" message="tns:IReportesService_ObtenerDatosEirMaquinariaReporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEirMaquinariaReporteResponse" message="tns:IReportesService_ObtenerDatosEirMaquinariaReporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEstimacionEirReporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEstimacionEirReporte" message="tns:IReportesService_ObtenerDatosEstimacionEirReporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosEstimacionEirReporteResponse" message="tns:IReportesService_ObtenerDatosEstimacionEirReporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosPTIReporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosPTIReporte" message="tns:IReportesService_ObtenerDatosPTIReporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosPTIReporteResponse" message="tns:IReportesService_ObtenerDatosPTIReporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosPTI_EIR_Reporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosPTI_EIR_Reporte" message="tns:IReportesService_ObtenerDatosPTI_EIR_Reporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerDatosPTI_EIR_ReporteResponse" message="tns:IReportesService_ObtenerDatosPTI_EIR_Reporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstadosEorEstructuraMaquinaria">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerEstadosEorEstructuraMaquinaria" message="tns:IReportesService_ObtenerEstadosEorEstructuraMaquinaria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerEstadosEorEstructuraMaquinariaResponse" message="tns:IReportesService_ObtenerEstadosEorEstructuraMaquinaria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarTipoAlertas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/CargarTipoAlertas" message="tns:IReportesService_CargarTipoAlertas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/CargarTipoAlertasResponse" message="tns:IReportesService_CargarTipoAlertas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFabricantesPorEstado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportesService/ObtenerFabricantesPorEstado" message="tns:IReportesService_ObtenerFabricantesPorEstado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportesService/ObtenerFabricantesPorEstadoResponse" message="tns:IReportesService_ObtenerFabricantesPorEstado_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IReportesService" type="tns:IReportesService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerEorCabeceraEstructuraPorFiltrosPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerEorCabeceraEstructuraPorFiltrosPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEorCabeceraMaquinariaPorFiltrosPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerEorCabeceraMaquinariaPorFiltrosPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEorCabeceraTransitoPorFiltrosPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerEorCabeceraTransitoPorFiltrosPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerConsolidadoEorsPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerConsolidadoEorsPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirEstructuraPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosEirEstructuraPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirMaquinariaPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosEirMaquinariaPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEstimacionEirPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosEstimacionEirPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosPTIPaginado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosPTIPaginado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosEstimado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosEstimado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraPorAnioEstimado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraPorAnioEstimado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosReal">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosReal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraRealPorAnio">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraRealPorAnio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosEstimado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosEstimado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaPorAnioEstimado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaPorAnioEstimado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosReal">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosReal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaRealPorAnio">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaRealPorAnio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosEstimado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosEstimado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoPorAnioEstimado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoPorAnioEstimado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosReal">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosReal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoRealPorAnio">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoRealPorAnio" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosEstimadoPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosEstimadoPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraPorAnioEstimadoPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraTodosRealPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraTodosRealPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorEstructuraRealPorAnioPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorEstructuraRealPorAnioPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosEstimadoPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosEstimadoPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaPorAnioEstimadoPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaTodosRealPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaTodosRealPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorMaquinariaRealPorAnioPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorMaquinariaRealPorAnioPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosEstimadoPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosEstimadoPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoPorAnioEstimadoPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoPorAnioEstimadoPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoTodosRealPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoTodosRealPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTotalesEorTransitoRealPorAnioPorLinea">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/obtenerTotalesEorTransitoRealPorAnioPorLinea" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirEstructuraReporte">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosEirEstructuraReporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEirMaquinariaReporte">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosEirMaquinariaReporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosEstimacionEirReporte">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosEstimacionEirReporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosPTIReporte">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosPTIReporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosPTI_EIR_Reporte">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerDatosPTI_EIR_Reporte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEstadosEorEstructuraMaquinaria">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerEstadosEorEstructuraMaquinaria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarTipoAlertas">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/CargarTipoAlertas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerFabricantesPorEstado">
+      <soap:operation soapAction="http://tempuri.org/IReportesService/ObtenerFabricantesPorEstado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ReportesService">
+    <wsdl:port name="BasicHttpBinding_IReportesService" binding="tns:BasicHttpBinding_IReportesService">
+      <soap:address location="http://localhost/SigeorServices/Reportes/ReportesService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

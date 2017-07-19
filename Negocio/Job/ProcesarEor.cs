@@ -1,0 +1,18 @@
+﻿using System;using System.Collections.Generic;using System.Diagnostics;using System.Linq;using System.Text;using System.Transactions;using Negocio.LecturaAretina;using Negocio.LecturaSap;using Negocio.Utilidades;using PersistenciaSigeor;using Quartz;using System.Threading;namespace Negocio.Job{    public class ProcesarEor : IProcesarEor    {        public void Execute(IJobExecutionContext context)        {            try            {                ProcesarEors();            }            catch (ThreadAbortException ex)            {                Log.WriteEntry("No se pudo obtener ejecutar los procesos de los EORs correctamente (ThreadAbortException) " + ex, EventLogEntryType.Error);            }            catch (Exception ex)            {                Log.WriteEntry("No se pudo obtener ejecutar los procesos de los EORs correctamente " + ex, EventLogEntryType.Error);            }        }        public void ProcesarEors()        {
+
+
+
+            //try
+            //{
+            #region Procesamiento de Estimaciones por Estructura
+            Log.WriteEntry("Iniciando Verificacion de Eliminacion de Reparaciones por Estructura...", EventLogEntryType.Information);            EorEstructuraProcesoNegocio.VerificarEliminaciones();            Log.WriteEntry("Finalizo la Verificacion de Eliminacion de Reparaciones por Estructura.\n", EventLogEntryType.Information);            Log.WriteEntry("Iniciando Proceso de Estimaciones por Estructura...", EventLogEntryType.Information);            EorEstructuraProcesoNegocio.VerificarEorEstructura(null);            Log.WriteEntry("Finalizo el Proceso de Estimaciones por Estructura.\n", EventLogEntryType.Information);
+
+
+
+
+
+            #endregion
+
+
+            #region Procesamiento de Estimaciones por Maquinaria
+            Log.WriteEntry("Iniciando Verificacion de Eliminacion de Reparaciones por Maquinaria...", EventLogEntryType.Information);            EorMaquinariaProcesoNegocio.VerificarEliminaciones();            Log.WriteEntry("Finalizo la Verificacion de Eliminacion de Reparaciones por Maquinaria.\n", EventLogEntryType.Information);            Log.WriteEntry("Iniciando Proceso de Estimaciones por Maquinaria...", EventLogEntryType.Information);            EorMaquinariaProcesoNegocio.VerificarEorMaquinaria(null);            Log.WriteEntry("Finalizo el Proceso de Estimaciones por Maquinaria.\n", EventLogEntryType.Information);            #endregion            #region Procesamiento de Estimaciones por Transito            Log.WriteEntry("Iniciando Verificacion de Eliminacion de Reparaciones por Transito...", EventLogEntryType.Information);            EorTransitoProcesoNegocio.VerificarEliminaciones();            Log.WriteEntry("Finalizo la Verificacion de Eliminacion de Reparaciones por Transito\n", EventLogEntryType.Information);            Log.WriteEntry("Iniciando Proceso de Estimaciones por Transito...", EventLogEntryType.Information);            EorTransitoProcesoNegocio.VerificarEorTransito(null);            Log.WriteEntry("Finalizo el Proceso de Estimaciones por Transito.\n", EventLogEntryType.Information);            #endregion            //}            //catch (ThreadAbortException ex)            //{            //    Log.WriteEntry("No se pudo procesar las estimaciones (ThreadAbortException): " + ex, EventLogEntryType.Information);            //}            //catch (Exception ex)            //{            //    Log.WriteEntry("No se pudo procesar las estimaciones "+ ex, EventLogEntryType.Information);            //}        }    }}

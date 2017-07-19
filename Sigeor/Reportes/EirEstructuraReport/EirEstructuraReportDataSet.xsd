@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EirEstructuraReportDataSet" targetNamespace="http://tempuri.org/EirEstructuraReportDataSet.xsd" xmlns:mstns="http://tempuri.org/EirEstructuraReportDataSet.xsd" xmlns="http://tempuri.org/EirEstructuraReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EirEstructuraReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EirEstructuraReportDataSet" msprop:Generator_UserDSName="EirEstructuraReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msdata:Locale="es-CR" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_EIR" msprop:Generator_ColumnVarNameInTable="columnID_EIR" msprop:Generator_ColumnPropNameInRow="ID_EIR" msprop:Generator_ColumnPropNameInTable="ID_EIRColumn" msprop:Generator_UserColumnName="ID_EIR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnCOD_DEPOSITO" msprop:Generator_ColumnPropNameInRow="COD_DEPOSITO" msprop:Generator_ColumnPropNameInTable="COD_DEPOSITOColumn" msprop:Generator_UserColumnName="COD_DEPOSITO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_LINEA" msprop:Generator_ColumnVarNameInTable="columnCOD_LINEA" msprop:Generator_ColumnPropNameInRow="COD_LINEA" msprop:Generator_ColumnPropNameInTable="COD_LINEAColumn" msprop:Generator_UserColumnName="COD_LINEA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOM_LINEA" msprop:Generator_ColumnVarNameInTable="columnNOM_LINEA" msprop:Generator_ColumnPropNameInRow="NOM_LINEA" msprop:Generator_ColumnPropNameInTable="NOM_LINEAColumn" msprop:Generator_UserColumnName="NOM_LINEA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NUM_CONTAINER" msprop:Generator_ColumnVarNameInTable="columnNUM_CONTAINER" msprop:Generator_ColumnPropNameInRow="NUM_CONTAINER" msprop:Generator_ColumnPropNameInTable="NUM_CONTAINERColumn" msprop:Generator_UserColumnName="NUM_CONTAINER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOM_TIPCONT" msprop:Generator_ColumnVarNameInTable="columnNOM_TIPCONT" msprop:Generator_ColumnPropNameInRow="NOM_TIPCONT" msprop:Generator_ColumnPropNameInTable="NOM_TIPCONTColumn" msprop:Generator_UserColumnName="NOM_TIPCONT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_AGENCIA" msprop:Generator_ColumnVarNameInTable="columnCOD_AGENCIA" msprop:Generator_ColumnPropNameInRow="COD_AGENCIA" msprop:Generator_ColumnPropNameInTable="COD_AGENCIAColumn" msprop:Generator_UserColumnName="COD_AGENCIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_AGENCIA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_AGENCIA" msprop:Generator_ColumnPropNameInRow="NOMBRE_AGENCIA" msprop:Generator_ColumnPropNameInTable="NOMBRE_AGENCIAColumn" msprop:Generator_UserColumnName="NOMBRE_AGENCIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:ID_EIR" />
+      <xs:field xpath="mstns:COD_DEPOSITO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

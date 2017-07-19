@@ -1,0 +1,1216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2016-05-04T14:53:02.5367990-05:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>c:\Sigeor</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Autenticacion/CambiarClave.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Autenticacion/Denegado.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Autenticacion/Login.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Autenticacion/RecuperarClave.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Autenticacion/SesionExpirada.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>05/04/2016 14:53:16</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:26:06</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:25:54</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:27:18</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:26:02</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:25:22</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:27:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>05/04/2016 14:53:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.DLL">
+      <publishTime>05/04/2016 14:53:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.DLL">
+      <publishTime>05/04/2016 14:53:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>02/21/2014 05:28:46</publishTime>
+    </File>
+    <File Include="bin/Negocio.dll">
+      <publishTime>05/04/2016 16:05:15</publishTime>
+    </File>
+    <File Include="bin/Negocio.pdb">
+      <publishTime>03/29/2016 12:48:32</publishTime>
+    </File>
+    <File Include="bin/pdfcrowd.dll">
+      <publishTime>05/04/2016 14:53:05</publishTime>
+    </File>
+    <File Include="bin/PersistenciaAretina.dll">
+      <publishTime>05/04/2016 14:53:13</publishTime>
+    </File>
+    <File Include="bin/PersistenciaAretina.pdb">
+      <publishTime>03/28/2016 09:21:58</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSap.dll">
+      <publishTime>05/04/2016 14:53:12</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSap.pdb">
+      <publishTime>03/28/2016 09:21:58</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSigeor.dll">
+      <publishTime>05/04/2016 16:05:11</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSigeor.pdb">
+      <publishTime>03/28/2016 16:42:07</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:25:24</publishTime>
+    </File>
+    <File Include="bin/Quartz.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:25:46</publishTime>
+    </File>
+    <File Include="bin/Sigeor.dll">
+      <publishTime>05/05/2016 15:09:44</publishTime>
+    </File>
+    <File Include="bin/Sigeor.pdb">
+      <publishTime>03/29/2016 12:48:39</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:27:58</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.SqlServer.Types.resources.dll">
+      <publishTime>02/21/2014 05:28:10</publishTime>
+    </File>
+    <File Include="Configuracion/ConfiguracionEmailWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Configuracion/EliminacionReparacionesWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Configuracion/GestionAuditoriasWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Configuracion/GestionDocumentosWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Configuracion/GestionModulosWebForm.aspx">
+      <publishTime>12/21/2015 12:15:26</publishTime>
+    </File>
+    <File Include="Configuracion/GestionPerfilesWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Configuracion/GestionUsuariosWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Configuracion/ValoresReparacionesWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ControlNavegadores/Compatibilidad.aspx">
+      <publishTime>03/10/2016 14:32:01</publishTime>
+    </File>
+    <File Include="GestionControl/EstimacionEstructuraWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/EstimacionMaquinariaWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/EstimacionTransitoWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/GestionDaniosWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/GestionNegociacionesLineaWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/GestionNegociacionesProveedorWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/GestionProveedorWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionControl/GestionReparacionesWebForm.aspx">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="GestionMgl/GestionProveedorWebForm.aspx">
+      <publishTime>12/19/2015 09:21:25</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>05/04/2016 14:53:09</publishTime>
+    </File>
+    <File Include="Menu/Alertas.aspx">
+      <publishTime>03/10/2016 14:32:02</publishTime>
+    </File>
+    <File Include="Menu/Dashboard.aspx">
+      <publishTime>05/05/2016 13:34:10</publishTime>
+    </File>
+    <File Include="Menu/Dashboard2.aspx">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Menu/MenuAlertas.aspx">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Menu/MenuConfiguracion.aspx">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Menu/MenuControl.aspx">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Menu/MenuReportes.aspx">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Menu/Principal.aspx">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="Reportes/ConsolidadoEorReport/ConsolidadoEorReport.rdlc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/ConsolidadoEorReport/ConsolidadoEorReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/ConsolidadoEorReport/ConsolidadoEorReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/ConsolidadoEorReport/EorDetalleConsolidadoReport.rdlc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/ConsolidadoEorReport/EorDetalleConsolidadoReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/ConsolidadoEorReport/EorDetalleConsolidadoReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EirEstructuraReport/EirEstructuraReport.xsc">
+      <publishTime>12/19/2015 09:21:25</publishTime>
+    </File>
+    <File Include="Reportes/EirEstructuraReport/EirEstructuraReport.xss">
+      <publishTime>12/19/2015 09:21:25</publishTime>
+    </File>
+    <File Include="Reportes/EirEstructuraReport/EirEstructuraReportDataSet.xsc">
+      <publishTime>12/19/2015 09:21:25</publishTime>
+    </File>
+    <File Include="Reportes/EirEstructuraReport/EirEstructuraReportDataSet.xss">
+      <publishTime>12/19/2015 09:21:25</publishTime>
+    </File>
+    <File Include="Reportes/EirMaquinariaReport/EirMaquinariaReport.rdlc">
+      <publishTime>12/19/2015 09:21:24</publishTime>
+    </File>
+    <File Include="Reportes/EirMaquinariaReport/EirMaquinariaReportDataSet.xsc">
+      <publishTime>12/19/2015 09:21:24</publishTime>
+    </File>
+    <File Include="Reportes/EirMaquinariaReport/EirMaquinariaReportDataSet.xss">
+      <publishTime>12/19/2015 09:21:24</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraEstructuraReport/EorCabeceraEstructuraReport.rdlc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraEstructuraReport/EorCabeceraEstructuraReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraEstructuraReport/EorCabeceraEstructuraReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraEstructuraReport/EorDetalleEstructuraReport.rdlc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraEstructuraReport/EorDetalleEstructuraReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraEstructuraReport/EorDetalleEstructuraReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraMaquinariaReport/EorCabeceraMaquinariaReport.rdlc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraMaquinariaReport/EorCabeceraMaquinariaReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraMaquinariaReport/EorCabeceraMaquinariaReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraMaquinariaReport/EorDetalleMaquinariaReport.rdlc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraMaquinariaReport/EorDetalleMaquinariaReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraMaquinariaReport/EorDetalleMaquinariaReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraTransitoReport/EorCabeceraTransitoReport.rdlc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraTransitoReport/EorCabeceraTransitoReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraTransitoReport/EorCabeceraTransitoReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraTransitoReport/EorDetalleTransitoReport.rdlc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraTransitoReport/EorDetalleTransitoReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EorCabeceraTransitoReport/EorDetalleTransitoReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:04</publishTime>
+    </File>
+    <File Include="Reportes/EstimacionEirReport/EorsPorEirReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EstimacionEirReport/EorsPorEirReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EstimacionEirReport/EstimacionEirReport.rdlc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EstimacionEirReport/EstimacionEirReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/EstimacionEirReport/EstimacionEirReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/PTIReport/PTIReport.rdlc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/PTIReport/PTIReportDataSet.xsc">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/PTIReport/PTIReportDataSet.xss">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="Reportes/VisorForm.aspx">
+      <publishTime>05/04/2016 14:53:03</publishTime>
+    </File>
+    <File Include="ReportesAspx/ConsolidadoEorsWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ReportesAspx/EorCabeceraEstructuraWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ReportesAspx/EorCabeceraMaquinariaWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ReportesAspx/EorCabeceraTransitoWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ReportesAspx/EstimacionEirWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ReportesAspx/EstimacionPtiWebForm.aspx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ReportesAspx/PTIWebForm.aspx">
+      <publishTime>03/15/2016 15:49:33</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/css/bootstrap-theme.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/css/bootstrap.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/css/bootstrap.min.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/css/EstilosAdicionales.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/css/EstilosGridView.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/js/bootstrap.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/js/bootstrap.min.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/js/npm.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/MultiSelect/css/bootstrap-multiselect.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/MultiSelect/js/bootstrap-multiselect.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Bootstrap/MultiSelect/js/CustomDropDownList.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Carousel/bootstrap-theme.min.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Carousel/bootstrap.min.css">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Carousel/bootstrap.min.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Carusel/bootstrap-theme.min.css">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Carusel/bootstrap.min.css">
+      <publishTime>12/29/2015 10:19:58</publishTime>
+    </File>
+    <File Include="Resources/Carusel/bootstrap.min.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/css/font-awesome.min.css">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/css/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/css/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/css/jquery-ui.min.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/css/ref.css">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/css/source-sans-pro.css">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/fonts/fontawesome-webfont.woff">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/highcharts.html">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-114x114.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-120x120.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-144x144.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-152x152.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-180x180.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-57x57.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-60x60.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-72x72.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/apple-touch-icon-76x76.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/favicon-160x160.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/favicon-16x16.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/favicon-192x192.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/favicon-32x32.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/favicon-96x96.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/Highcharts.svg">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/splash.svg">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/images/sprite.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/js/highcharts.json">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/js/jquery-1.11.3.min.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/js/jquery-ui.min.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/api/js/ref.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/ChartTotalesEstimadoReal.js">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/ChartTotalesEstimadoRealPorLinea.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/css/font-awesome.min.css">
+      <publishTime>05/04/2016 14:21:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/gfx/vml-radial-gradient.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/highslide/close.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/highslide/closeX.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/highslide/outlines/rounded-white.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/highslide/resize.gif">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/highslide/zoomout.cur">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/meteogram-symbols-30px.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/search.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/skies.jpg">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/snow.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/graphics/sun.png">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/adapters/standalone-framework.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/adapters/standalone-framework.src.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/exporting.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/highcharts-3d.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/highcharts-3d.src.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/highcharts-more.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/highcharts-more.src.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/highcharts.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/highcharts.src.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/broken-axis.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/broken-axis.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/canvas-tools.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/canvas-tools.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/data.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/data.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/drilldown.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/drilldown.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/exporting.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/exporting.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/funnel.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/funnel.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/heatmap.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/heatmap.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/no-data-to-display.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/no-data-to-display.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/solid-gauge.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/solid-gauge.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/treemap.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/modules/treemap.src.js">
+      <publishTime>12/28/2015 18:18:51</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/dark-blue.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/dark-green.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/dark-unica.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/gray.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/grid-light.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/grid.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/sand-signika.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/highcharts/4.1.5/themes/skies.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/jquery.min.js">
+      <publishTime>12/28/2015 18:18:52</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/adapters/standalone-framework.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/adapters/standalone-framework.src.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/highcharts-3d.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/highcharts-3d.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/highcharts-more.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/highcharts-more.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/highcharts.js">
+      <publishTime>05/04/2016 14:53:07</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/highcharts.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/boost.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/boost.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/broken-axis.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/broken-axis.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/canvas-tools.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/canvas-tools.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/data.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/data.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/drilldown.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/drilldown.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/exporting.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/exporting.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/funnel.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/funnel.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/heatmap.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/heatmap.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/no-data-to-display.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/no-data-to-display.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/offline-exporting.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/offline-exporting.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/solid-gauge.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/solid-gauge.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/treemap.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/modules/treemap.src.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/dark-blue.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/dark-green.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/dark-unica.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/gray.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/grid-light.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/grid.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/sand-signika.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Highcharts/js/themes/skies.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Calendar_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/checkbox_unchecked_icon.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Check_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/check_white.png">
+      <publishTime>01/13/2016 11:26:52</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Delete_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Download_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Edit_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Key_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/Lock_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/UnChecked_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/IconosGridView/uncheck_white.png">
+      <publishTime>01/13/2016 11:36:44</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Autenticacion/email.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Autenticacion/key.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Autenticacion/lock.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Autenticacion/user.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Logo/logo_innovaciones.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Alert.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Configuration.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Exit.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Help.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Home.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Information.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Monitor.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Menu/Reports.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Notificaciones/close.gif">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Notificaciones/close.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Notificaciones/error.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Notificaciones/notice.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Notificaciones/success.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Notificaciones/warning.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/ajax-loader.gif">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/calendar_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/check_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/delete_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/download_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/edit_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/find.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/key_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/lock_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/Paginas/un_check_blue.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Alerta.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Auditoria.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Configuraciones.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Documentos.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Estructura.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Maquinaria.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Negocio.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Perfil.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Reparacion.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Reporte EIR.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Reporte EOR.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Reporte PTI.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Repositorio.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Transito.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Imagenes/SubMenus/Usuario.png">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/ImagenesBrowsers/chrome.jpg">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesBrowsers/opera.jpg">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesBrowsers/safari.jpg">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesCredenciales/keyGeneracion.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesCredenciales/lockGeneracion.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesLogo/logo.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesLogo/sbclegacy_logo.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMensajes/close.gif">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMensajes/close.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMensajes/error.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMensajes/notice.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMensajes/success.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMensajes/warning.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMenuPrincipal/Alert_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMenuPrincipal/Configuration_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMenuPrincipal/Home_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMenuPrincipal/Monitor_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesMenuPrincipal/Reports_Gray.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesPiePagina/Exit.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesPiePagina/Help.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/ImagenesPiePagina/Information.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/ajax-loader.gif">
+      <publishTime>12/21/2015 10:05:15</publishTime>
+    </File>
+    <File Include="Resources/images/back.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/calendar_blue.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/calendar_gray.png">
+      <publishTime>12/19/2015 11:41:34</publishTime>
+    </File>
+    <File Include="Resources/images/derecha.png">
+      <publishTime>12/28/2015 18:43:59</publishTime>
+    </File>
+    <File Include="Resources/images/Edit.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/edit1.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/Edit_Disabled.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/email.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/find.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/izquierda.png">
+      <publishTime>12/28/2015 18:43:59</publishTime>
+    </File>
+    <File Include="Resources/images/Key.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/Lock.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/Plus.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/images/user.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/jquery.mobile/js/jquery.js">
+      <publishTime>03/24/2016 22:04:08</publishTime>
+    </File>
+    <File Include="Resources/jquery.mobile/js/jquery.mobile-1.4.2.min.js">
+      <publishTime>03/24/2016 22:04:40</publishTime>
+    </File>
+    <File Include="Resources/jquery.mobile/themes/jquery.mobile-1.4.2.min.css">
+      <publishTime>03/24/2016 22:03:47</publishTime>
+    </File>
+    <File Include="Resources/MarGlobal/Aretina.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/MarGlobal/LogoMarGlobal.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Alerta.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Auditoria.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Daño.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Documentos.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Email.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Estructura.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Maquinaria.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Negocio.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Perfil.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Reparacion.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Reporte EIR.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Reporte EOR.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Reporte PTI.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Repositorio.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Transito.png">
+      <publishTime>01/08/2016 14:11:29</publishTime>
+    </File>
+    <File Include="Resources/menuImages/Usuario.png">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Scripts/ComboEditable/bootstrap-select.min.js">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Scripts/ComboEditable/chosen.jquery.js">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Scripts/jquery-1.3.2.min.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/jquery-1.4.4.min.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/jquery-2.1.4.min.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/jquery.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/jquery.toastmessage.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/loginresponsive.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/Renderizar.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Scripts/Utilidades.js">
+      <publishTime>05/04/2016 14:53:08</publishTime>
+    </File>
+    <File Include="Resources/Styles/ButtonStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/CalendarStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/CargandoStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/CheckBoxHeaderStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/ComboboxStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/EstiloCargando/CargandoStyle.css">
+      <publishTime>12/21/2015 14:51:32</publishTime>
+    </File>
+    <File Include="Resources/Styles/EstiloCheckBox/CheckBoxHeaderStyle.css">
+      <publishTime>12/19/2015 12:37:55</publishTime>
+    </File>
+    <File Include="Resources/Styles/EstiloDrillDown.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/EstilosLogin/LoginStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/GridViewStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/HeaderStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/IFrame.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/jquery.toastmessage.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/LabelStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/LoginStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/MasterStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/MenuStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/ModalPanelStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/SubSubMenuStyle.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/TextBoxStyle.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Resources/Styles/TextBoxStyle1.css">
+      <publishTime>12/19/2015 09:21:28</publishTime>
+    </File>
+    <File Include="Resources/Styles/Utilidades.css">
+      <publishTime>05/04/2016 14:53:06</publishTime>
+    </File>
+    <File Include="Service References/GestionAutenticacionServiceReference/Sigeor.GestionAutenticacionServiceReference.CoordenadasEkey.datasource">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ServiciosAsmx/DashboardService.asmx">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="ServiciosAsmx/HighchartService.asmx">
+      <publishTime>12/28/2015 18:45:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/05/2016 15:03:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

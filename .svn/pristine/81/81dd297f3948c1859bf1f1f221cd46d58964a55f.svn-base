@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AretinaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="C_EIR">
+    <Key>
+      <PropertyRef Name="ID_EIR" />
+      <PropertyRef Name="COD_DEPOSITO" />
+    </Key>
+    <Property Name="ID_EIR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="COD_BL" Type="varchar" MaxLength="25" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="TIPO_MOV" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="CONDICION_EST" Type="char" MaxLength="1" />
+    <Property Name="CONDICION_MAQ" Type="char" MaxLength="1" />
+    <Property Name="IMPEXP" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="PREF_CONTAINER" Type="char" MaxLength="4" />
+    <Property Name="NUM_CONTAINER" Type="char" MaxLength="7" />
+    <Property Name="COD_TIPCONT" Type="varchar" MaxLength="4" />
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" />
+    <Property Name="COD_ITINERARIO" Type="decimal" Precision="9" Scale="0" />
+    <Property Name="COD_EXPORTA" Type="int" />
+    <Property Name="COD_IMPORTA" Type="int" />
+    <Property Name="COD_TRANSPORTISTA" Type="char" MaxLength="13" />
+    <Property Name="COD_PLACA" Type="varchar" MaxLength="7" />
+    <Property Name="COD_TRAFICO" Type="varchar" MaxLength="3" />
+    <Property Name="COD_CHOFER" Type="varchar" MaxLength="13" />
+    <Property Name="COD_INSPECTOR" Type="char" MaxLength="15" />
+    <Property Name="FECHA_EIR" Type="datetime" Nullable="false" />
+    <Property Name="HORA_EIR" Type="char" MaxLength="8" />
+    <Property Name="ORIDEST" Type="varchar" MaxLength="100" />
+    <Property Name="ORIGEN" Type="char" MaxLength="5" />
+    <Property Name="DESTINO" Type="char" MaxLength="5" />
+    <Property Name="COD_PRODUCTO" Type="varchar" MaxLength="6" />
+    <Property Name="COD_MOV" Type="char" MaxLength="2" />
+    <Property Name="ORDENAPG" Type="varchar" MaxLength="50" />
+    <Property Name="FACTURA" Type="int" />
+    <Property Name="SELLO1" Type="varchar" MaxLength="15" />
+    <Property Name="SELLO2" Type="varchar" MaxLength="15" />
+    <Property Name="SELLO3" Type="varchar" MaxLength="15" />
+    <Property Name="SELLO4" Type="varchar" MaxLength="15" />
+    <Property Name="NUMGUIA" Type="varchar" MaxLength="30" />
+    <Property Name="COD_CLASIFICA" Type="char" MaxLength="2" />
+    <Property Name="ESTADO_EIR" Type="int" />
+    <Property Name="ESTADO_EIRMAQ" Type="int" />
+    <Property Name="PESO" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="TARA" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="MAXGROSSWEIGHT" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PAYLOAD" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="OBSERVACIONES" Type="varchar" MaxLength="255" />
+    <Property Name="SUSTENTO" Type="varchar(max)" />
+    <Property Name="COD_AGENCIA" Type="char" MaxLength="10" />
+    <Property Name="CARGO" Type="char" MaxLength="1" />
+    <Property Name="VALOR_CARGO" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="FECDISPASIG" Type="datetime" />
+    <Property Name="APROBASIGNA" Type="char" MaxLength="1" />
+    <Property Name="USUASIGNA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHAAUTORIZAEST" Type="datetime" />
+    <Property Name="HORAAUTORIZAEST" Type="char" MaxLength="8" />
+    <Property Name="FECHAREPARAEST" Type="datetime" />
+    <Property Name="HORAREPARAEST" Type="char" MaxLength="8" />
+    <Property Name="FECHAAUTORIZAMAQ" Type="datetime" />
+    <Property Name="HORAAUTORIZAMAQ" Type="char" MaxLength="8" />
+    <Property Name="FECHAREPARAMAQ" Type="datetime" />
+    <Property Name="HORAREPARAMAQ" Type="char" MaxLength="8" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREA" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="NROCLIPPON" Type="varchar" MaxLength="10" />
+    <Property Name="ALMANIP" Type="char" MaxLength="1" />
+    <Property Name="TIPO_MANIPULEO" Type="char" MaxLength="1" />
+    <Property Name="SECUALMANIP" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="TIPO_SELLO1" Type="smallint" />
+    <Property Name="TIPO_SELLO2" Type="smallint" />
+    <Property Name="TIPO_SELLO3" Type="smallint" />
+    <Property Name="TIPO_SELLO4" Type="smallint" />
+    <Property Name="TIPO_SELLO5" Type="smallint" />
+    <Property Name="MARCAALMA" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="MARCA_EIRANTE" Type="char" MaxLength="1" />
+    <Property Name="MARCA_FLORENS" Type="char" MaxLength="1" />
+    <Property Name="USUARIO_SUBE" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_SUBE" Type="datetime" />
+    <Property Name="NRO_PRECLEAR" Type="varchar" MaxLength="15" />
+    <Property Name="FECHAEXP_PRECLEAR" Type="datetime" />
+    <Property Name="FECHAEXP_BOOK" Type="datetime" />
+    <Property Name="NRO_BOOKING" Type="varchar" MaxLength="25" />
+    <Property Name="NOMBFILEFLORENS" Type="varchar" MaxLength="20" />
+    <Property Name="NOMBFILECCNI" Type="varchar" MaxLength="50" />
+    <Property Name="NOMFILEFLORENSREPAIR" Type="varchar" MaxLength="20" />
+    <Property Name="COD_GARITERO" Type="char" MaxLength="15" />
+    <Property Name="ID_TIPOMANTE" Type="int" />
+    <Property Name="VALOR_MANTE" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="ID_MAQUINA" Type="int" />
+    <Property Name="FILE_EMC" Type="varchar" MaxLength="50" />
+    <Property Name="SERVFACT" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="FECHA_FILEEMC" Type="datetime" />
+    <Property Name="ULTIMOACTIVO" Type="char" MaxLength="1" />
+    <Property Name="NOMBFILEHANJIN" Type="varchar" MaxLength="50" />
+    <Property Name="COMMODITY" Type="varchar" MaxLength="150" />
+    <Property Name="NUM_PSD" Type="varchar" MaxLength="20" />
+    <Property Name="FECHA_SALIDAPTO" Type="datetime" />
+    <Property Name="OBSERV_CUTOFF" Type="varchar" MaxLength="300" />
+    <Property Name="ALMANIP_ITI" Type="bit" />
+    <Property Name="SECUALMANIP_ITI" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="FOOD_GRADE" Type="bit" />
+    <Property Name="DOC_SENAE" Type="varchar" MaxLength="50" />
+    <Property Name="NACIONALIZADO" Type="bit" />
+    <Property Name="TRANSPORT_SAP" Type="bit" />
+    <Property Name="ORDEN_CMP_SAP" Type="varchar" MaxLength="30" />
+    <Property Name="ORDEN_VTA_SAP" Type="varchar" MaxLength="30" />
+    <Property Name="BOOKING_LINEA" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="C_EORESTRUCTURA">
+    <Key>
+      <PropertyRef Name="NUM_EOREST" />
+      <PropertyRef Name="ID_EIR" />
+      <PropertyRef Name="COD_DEPOSITO" />
+    </Key>
+    <Property Name="NUM_EOREST" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="ID_EIR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="PREF_CONTAINER" Type="char" MaxLength="4" />
+    <Property Name="NUM_CONTAINER" Type="char" MaxLength="7" />
+    <Property Name="COD_INSPECTOR" Type="char" MaxLength="15" />
+    <Property Name="FECHA_EOR" Type="datetime" />
+    <Property Name="COD_RESPONSABLE" Type="varchar" MaxLength="15" />
+    <Property Name="COD_CONTRATISTA" Type="smallint" />
+    <Property Name="APROBADO" Type="char" MaxLength="1" />
+    <Property Name="FECHA_APROBACION" Type="datetime" />
+    <Property Name="OBSERVACION" Type="varchar" MaxLength="200" />
+    <Property Name="SUSTENTO" Type="varchar(max)" />
+    <Property Name="FECHA_INIREPARA" Type="datetime" />
+    <Property Name="HORA_INIREPARA" Type="char" MaxLength="8" />
+    <Property Name="FECHA_FINREPARA" Type="datetime" />
+    <Property Name="HORA_FINREPARA" Type="char" MaxLength="8" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="TOTALEST" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SECREVISION" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ISO_CODE" Type="varchar" MaxLength="5" />
+    <Property Name="COSTOMAOBRA" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PAS_ESTIMADO" Type="char" MaxLength="1" />
+    <Property Name="PAS_APROBADO" Type="char" MaxLength="1" />
+    <Property Name="PAS_REPARADO" Type="char" MaxLength="1" />
+    <Property Name="NUM_AUTORIZA" Type="varchar" MaxLength="20" />
+    <Property Name="INICIO_IAS" Type="char" MaxLength="1" />
+    <Property Name="NOMBFILECCNI" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBFILECCNI_EST" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBFILECCNI_REP" Type="varchar" MaxLength="50" />
+    <Property Name="CNT_REPO" Type="char" MaxLength="1" />
+    <Property Name="NOMBFILE_USER" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBFILEEMCFACT" Type="varchar" MaxLength="50" />
+    <Property Name="FACTURA" Type="varchar" MaxLength="7" />
+    <Property Name="FECHAFACTURA" Type="datetime" />
+    <Property Name="NOMBFILEEMCCR" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBDESTIM" Type="varchar" MaxLength="50" />
+    <Property Name="REFERENCIA_IAS" Type="varchar" MaxLength="50" />
+    <Property Name="COD_INSPECTOR1" Type="char" MaxLength="15" />
+    <Property Name="COD_INSPECTOR2" Type="char" MaxLength="15" />
+    <Property Name="COD_INSPECTOR3" Type="char" MaxLength="15" />
+    <Property Name="NUM_EORLINEA" Type="varchar" MaxLength="13" />
+    <Property Name="IMPRESO" Type="char" MaxLength="1" />
+    <Property Name="FECHA_IMPRESION" Type="datetime" />
+    <Property Name="NOMBEDIREPAIR" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="C_EORMAQUINARIA">
+    <Key>
+      <PropertyRef Name="NUM_EORMAQ" />
+      <PropertyRef Name="ID_EIR" />
+      <PropertyRef Name="COD_DEPOSITO" />
+    </Key>
+    <Property Name="NUM_EORMAQ" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="ID_EIR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="PREF_CONTAINER" Type="char" MaxLength="4" />
+    <Property Name="NUM_CONTAINER" Type="char" MaxLength="7" />
+    <Property Name="COD_INSPECTOR" Type="char" MaxLength="15" />
+    <Property Name="FECHA_EORMAQ" Type="datetime" />
+    <Property Name="COD_RESPONSABLE" Type="varchar" MaxLength="15" />
+    <Property Name="COD_CONTRATISTA" Type="smallint" />
+    <Property Name="APROBADO" Type="char" MaxLength="1" />
+    <Property Name="FECHA_APROBACION" Type="datetime" />
+    <Property Name="OBSERVACION" Type="varchar" MaxLength="200" />
+    <Property Name="SUSTENTO" Type="varchar(max)" />
+    <Property Name="FECHA_INIREPARA" Type="datetime" />
+    <Property Name="HORA_INIREPARA" Type="char" MaxLength="8" />
+    <Property Name="FECHA_FINREPARA" Type="datetime" />
+    <Property Name="HORA_FINREPARA" Type="char" MaxLength="8" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="char" MaxLength="18" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="TOTALMAQ" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SECREVISION" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ISO_CODE" Type="varchar" MaxLength="5" />
+    <Property Name="COSTOMAOBRA" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PAS_ESTIMADO" Type="char" MaxLength="1" />
+    <Property Name="PAS_APROBADO" Type="char" MaxLength="1" />
+    <Property Name="PAS_REPARADO" Type="char" MaxLength="1" />
+    <Property Name="NUM_AUTORIZA" Type="varchar" MaxLength="20" />
+    <Property Name="INICIO_IAS" Type="char" MaxLength="1" />
+    <Property Name="NOMBFILECCNI" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBFILECCNI_EST" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBFILECCNI_REP" Type="varchar" MaxLength="50" />
+    <Property Name="CNT_REPO" Type="char" MaxLength="1" />
+    <Property Name="NOMBFILE_USER" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBFILEEMCFACT" Type="varchar" MaxLength="50" />
+    <Property Name="FACTURA" Type="varchar" MaxLength="7" />
+    <Property Name="FECHAFACTURA" Type="datetime" />
+    <Property Name="NOMBFILEEMCCR" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBDESTIM" Type="varchar" MaxLength="50" />
+    <Property Name="REFERENCIA_IAS" Type="varchar" MaxLength="50" />
+    <Property Name="COD_TIPOSELLO" Type="smallint" />
+    <Property Name="SELLO" Type="varchar" MaxLength="15" />
+    <Property Name="COD_INSPECTOR1" Type="char" MaxLength="15" />
+    <Property Name="COD_INSPECTOR2" Type="char" MaxLength="15" />
+    <Property Name="NUM_EORLINEA" Type="varchar" MaxLength="13" />
+    <Property Name="IMPRESO" Type="char" MaxLength="1" />
+    <Property Name="FECHA_IMPRESION" Type="datetime" />
+    <Property Name="NOMBEDIREPAIR" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="C_EORTRANSITO">
+    <Key>
+      <PropertyRef Name="NUM_EORTRANSITO" />
+    </Key>
+    <Property Name="NUM_EORTRANSITO" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="PREF_CONTAINER" Type="char" MaxLength="4" />
+    <Property Name="NUM_CONTAINER" Type="char" MaxLength="7" />
+    <Property Name="COD_INSPECTOR" Type="char" MaxLength="15" />
+    <Property Name="COD_RESPONSABLEEST" Type="varchar" MaxLength="15" />
+    <Property Name="COD_RESPONSABLEMAQ" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_EOR" Type="datetime" />
+    <Property Name="COD_CONTRATISTA" Type="smallint" />
+    <Property Name="APROBADOEST" Type="char" MaxLength="1" />
+    <Property Name="APROBADOMAQ" Type="char" MaxLength="1" />
+    <Property Name="FECHA_APROBACIONEST" Type="datetime" />
+    <Property Name="FECHA_APROBACIONMAQ" Type="datetime" />
+    <Property Name="OBSERVACION" Type="varchar" MaxLength="200" />
+    <Property Name="SUSTENTO" Type="varchar(max)" />
+    <Property Name="SUSTENTOMAQ" Type="varchar(max)" />
+    <Property Name="FECHA_INIREPARAEST" Type="datetime" />
+    <Property Name="HORA_INIREPARAEST" Type="char" MaxLength="8" />
+    <Property Name="FECHA_FINREPARAEST" Type="datetime" />
+    <Property Name="HORA_FINREPARAEST" Type="char" MaxLength="8" />
+    <Property Name="FECHA_INIREPARAMAQ" Type="datetime" />
+    <Property Name="HORA_INIREPARAMAQ" Type="char" MaxLength="8" />
+    <Property Name="FECHA_FINREPARAMAQ" Type="datetime" />
+    <Property Name="HORA_FINREPARAMAQ" Type="char" MaxLength="8" />
+    <Property Name="ESTADOEST" Type="int" />
+    <Property Name="ESTADOMAQ" Type="int" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="TOTALEST" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="TOTALMAQ" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SECREVISION" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ISO_CODE" Type="varchar" MaxLength="5" />
+    <Property Name="PAS_ESTIMADO" Type="char" MaxLength="1" />
+    <Property Name="PAS_APROBADO" Type="char" MaxLength="1" />
+    <Property Name="PAS_REPARADO" Type="char" MaxLength="1" />
+    <Property Name="NOMBFILEEST" Type="varchar" MaxLength="100" />
+    <Property Name="NOMBFILEMAQ" Type="varchar" MaxLength="100" />
+    <Property Name="TIPO" Type="varchar" MaxLength="1" />
+    <Property Name="COD_DEPOSITO" Type="varchar" MaxLength="3" />
+    <Property Name="NOMBDESTIM" Type="varchar" MaxLength="50" />
+    <Property Name="NOMBEDIREPAIR" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="C_PTI">
+    <Key>
+      <PropertyRef Name="ID_EIR" />
+      <PropertyRef Name="COD_DEPOSITO" />
+      <PropertyRef Name="NUM_PTI" />
+    </Key>
+    <Property Name="ID_EIR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="NUM_PTI" Type="decimal" Precision="9" Scale="0" Nullable="false" />
+    <Property Name="FECHA_PTI" Type="datetime" />
+    <Property Name="COD_INSPECTOR" Type="char" MaxLength="15" />
+    <Property Name="COD_ATMOSFERA" Type="smallint" />
+    <Property Name="COD_FABRICANTE" Type="varchar" MaxLength="6" />
+    <Property Name="COD_MODELO" Type="smallint" />
+    <Property Name="UNIDAD_SERIE" Type="varchar" MaxLength="20" />
+    <Property Name="VOLTAJE" Type="varchar" MaxLength="10" />
+    <Property Name="REFRIGERANTE" Type="varchar" MaxLength="40" />
+    <Property Name="CANTIDADMAX" Type="varchar" MaxLength="10" />
+    <Property Name="TEMPMAX" Type="char" MaxLength="10" />
+    <Property Name="TEMPMIN" Type="char" MaxLength="10" />
+    <Property Name="TEMPAMBIENTE" Type="char" MaxLength="10" />
+    <Property Name="UNIDAD_SELECTOR" Type="varchar" MaxLength="10" />
+    <Property Name="NUM_VALVULA" Type="char" MaxLength="10" />
+    <Property Name="DISCO" Type="char" MaxLength="1" />
+    <Property Name="HUMEDAD" Type="char" MaxLength="1" />
+    <Property Name="ESTADO_MAQ" Type="char" MaxLength="1" />
+    <Property Name="MES_FABRICA" Type="varchar" MaxLength="25" />
+    <Property Name="ANIO_FABRICA" Type="varchar" MaxLength="4" />
+    <Property Name="OBSERVACION" Type="varchar" MaxLength="100" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREA" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="PEND_GARANTIA" Type="char" MaxLength="1" />
+    <Property Name="SERVFACT" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="COD_TIPOSELLO" Type="smallint" />
+    <Property Name="SELLO" Type="varchar" MaxLength="15" />
+    <Property Name="TOTALPTI" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="FLAME_TEST" Type="varchar" MaxLength="3" />
+    <Property Name="RESULT_FLAME_TEST" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="D_EORESTRUCTURA">
+    <Key>
+      <PropertyRef Name="NUM_EOREST" />
+      <PropertyRef Name="ID_EIR" />
+      <PropertyRef Name="COD_DEPOSITO" />
+      <PropertyRef Name="SECUENCIAL" />
+    </Key>
+    <Property Name="NUM_EOREST" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="ID_EIR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="SECUENCIAL" Type="decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="UBICA1" Type="char" MaxLength="1" />
+    <Property Name="UBICA2" Type="char" MaxLength="1" />
+    <Property Name="UBICA3" Type="char" MaxLength="1" />
+    <Property Name="UBICA4" Type="char" MaxLength="1" />
+    <Property Name="COD_UOM" Type="char" MaxLength="3" />
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" />
+    <Property Name="COD_MATERIAL" Type="char" MaxLength="2" />
+    <Property Name="COD_PARTY" Type="char" MaxLength="1" />
+    <Property Name="COD_REPAIR" Type="char" MaxLength="2" />
+    <Property Name="TIPO_DANIO" Type="char" MaxLength="2" />
+    <Property Name="COD_DAMAGE" Type="char" MaxLength="2" />
+    <Property Name="SUBGRUPO" Type="char" MaxLength="5" />
+    <Property Name="COD_TIPOCOMPO" Type="char" MaxLength="3" />
+    <Property Name="COD_ESTIMACOMPO" Type="char" MaxLength="3" />
+    <Property Name="DETAREPARACION" Type="varchar" MaxLength="200" />
+    <Property Name="LONGITUD" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ANCHO" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ALTO" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="CANTIDAD" Type="smallint" />
+    <Property Name="HORAS" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="COSTOMAOBRA" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTALMAOBRA" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="COSTOMATERIAL" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTALCOSTOMAT" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTAL" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="CODPARTE" Type="varchar" MaxLength="3" />
+    <Property Name="AproRepara" Type="char" MaxLength="1" />
+    <Property Name="COD_RESPONSABLE" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_APROBACION" Type="datetime" />
+    <Property Name="SUSTENTO" Type="varchar(max)" />
+    <Property Name="NUM_AUTORIZA" Type="varchar" MaxLength="20" />
+    <Property Name="EDIT_WEB" Type="bit" />
+    <Property Name="EDIT_USUARIOWEB" Type="varchar" MaxLength="50" />
+    <Property Name="EDIT_FECHAWEB" Type="datetime" />
+  </EntityType>
+  <EntityType Name="D_EORMAQUINARIA">
+    <Key>
+      <PropertyRef Name="NUM_EORMAQ" />
+      <PropertyRef Name="ID_EIR" />
+      <PropertyRef Name="COD_DEPOSITO" />
+      <PropertyRef Name="SECUENCIAL" />
+    </Key>
+    <Property Name="NUM_EORMAQ" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="ID_EIR" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="SECUENCIAL" Type="decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" />
+    <Property Name="UBICA1" Type="char" MaxLength="1" />
+    <Property Name="UBICA2" Type="char" MaxLength="1" />
+    <Property Name="UBICA3" Type="char" MaxLength="1" />
+    <Property Name="UBICA4" Type="char" MaxLength="1" />
+    <Property Name="COD_UOM" Type="char" MaxLength="3" />
+    <Property Name="COD_MATERIAL" Type="char" MaxLength="2" />
+    <Property Name="COD_REPAIR" Type="char" MaxLength="2" />
+    <Property Name="COD_PARTY" Type="char" MaxLength="1" />
+    <Property Name="TIPO_DANIO" Type="char" MaxLength="2" />
+    <Property Name="COD_DAMAGE" Type="char" MaxLength="2" />
+    <Property Name="SUBGRUPO" Type="char" MaxLength="5" />
+    <Property Name="COD_TIPOCOMPO" Type="char" MaxLength="3" />
+    <Property Name="COD_ESTIMACOMPO" Type="char" MaxLength="3" />
+    <Property Name="DETAREPARACION" Type="varchar" MaxLength="200" />
+    <Property Name="LONGITUD" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ANCHO" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ALTO" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="CANTIDAD" Type="smallint" />
+    <Property Name="HORAS" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="COSTOMAOBRA" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTALMAOBRA" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="COSTOMATERIAL" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTALCOSTOMAT" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTAL" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="CODPARTE" Type="varchar" MaxLength="3" />
+    <Property Name="AproRepara" Type="char" MaxLength="1" />
+    <Property Name="COD_RESPONSABLE" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_APROBACION" Type="datetime" />
+    <Property Name="SUSTENTO" Type="varchar(max)" />
+    <Property Name="NUM_AUTORIZA" Type="varchar" MaxLength="20" />
+    <Property Name="ID_PRODUCTO" Type="varchar" MaxLength="15" />
+    <Property Name="EDIT_WEB" Type="bit" />
+    <Property Name="EDIT_USUARIOWEB" Type="varchar" MaxLength="50" />
+    <Property Name="EDIT_FECHAWEB" Type="datetime" />
+  </EntityType>
+  <EntityType Name="D_EORTRANSITO">
+    <Key>
+      <PropertyRef Name="NUM_EORTRANSITO" />
+      <PropertyRef Name="TIPODETALLE" />
+      <PropertyRef Name="SECUENCIA" />
+    </Key>
+    <Property Name="NUM_EORTRANSITO" Type="varchar" MaxLength="13" Nullable="false" />
+    <Property Name="TIPODETALLE" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="SECUENCIA" Type="decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="UBICA1" Type="char" MaxLength="1" />
+    <Property Name="UBICA2" Type="char" MaxLength="1" />
+    <Property Name="UBICA3" Type="char" MaxLength="1" />
+    <Property Name="UBICA4" Type="char" MaxLength="1" />
+    <Property Name="COD_UOM" Type="char" MaxLength="3" />
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" />
+    <Property Name="COD_MATERIAL" Type="char" MaxLength="2" />
+    <Property Name="COD_PARTY" Type="char" MaxLength="1" />
+    <Property Name="COD_REPAIR" Type="char" MaxLength="2" />
+    <Property Name="TIPO_DANIO" Type="char" MaxLength="2" />
+    <Property Name="COD_DAMAGE" Type="char" MaxLength="2" />
+    <Property Name="SUBGRUPO" Type="char" MaxLength="5" />
+    <Property Name="COD_TIPOCOMPO" Type="char" MaxLength="3" />
+    <Property Name="COD_ESTIMACOMPO" Type="char" MaxLength="3" />
+    <Property Name="DETAREPARACION" Type="varchar" MaxLength="200" />
+    <Property Name="LONGITUD" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ANCHO" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="ALTO" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="CANTIDAD" Type="smallint" />
+    <Property Name="HORAS" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="COSTOMAOBRA" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTALMAOBRA" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="COSTOMATERIAL" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTALCOSTOMAT" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TOTAL" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="ID_PRODUCTO" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="ESTADO_EIR">
+    <Key>
+      <PropertyRef Name="ESTADO_EIR1" />
+    </Key>
+    <Property Name="ESTADO_EIR1" Type="int" Nullable="false" />
+    <Property Name="NOM_ESTADO" Type="varchar" MaxLength="50" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="TIPO_ESTADO" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="ESTIMATE_COMPONENT_CODE">
+    <Key>
+      <PropertyRef Name="COD_TIPOCOMPO" />
+      <PropertyRef Name="COD_ESTIMACOMPO" />
+    </Key>
+    <Property Name="COD_TIPOCOMPO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="COD_ESTIMACOMPO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="SUBGRUPO" Type="char" MaxLength="5" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="100" />
+    <Property Name="LOCALIZACION" Type="char" MaxLength="4" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="C20DV" Type="char" MaxLength="1" />
+    <Property Name="C20HC" Type="char" MaxLength="1" />
+    <Property Name="C20IS" Type="char" MaxLength="1" />
+    <Property Name="C20OT" Type="char" MaxLength="1" />
+    <Property Name="C20RH" Type="char" MaxLength="1" />
+    <Property Name="C20TK" Type="char" MaxLength="1" />
+    <Property Name="C20FR" Type="char" MaxLength="1" />
+    <Property Name="C20VT" Type="char" MaxLength="1" />
+    <Property Name="C20FC" Type="char" MaxLength="1" />
+    <Property Name="C20RF" Type="char" MaxLength="1" />
+    <Property Name="C20FL" Type="char" MaxLength="1" />
+    <Property Name="C40DV" Type="char" MaxLength="1" />
+    <Property Name="C40FR" Type="char" MaxLength="1" />
+    <Property Name="C40HC" Type="char" MaxLength="1" />
+    <Property Name="C40IS" Type="char" MaxLength="1" />
+    <Property Name="C40OT" Type="char" MaxLength="1" />
+    <Property Name="C40RF" Type="char" MaxLength="1" />
+    <Property Name="C40RH" Type="char" MaxLength="1" />
+    <Property Name="C40FC" Type="char" MaxLength="1" />
+    <Property Name="C40FL" Type="char" MaxLength="1" />
+    <Property Name="C40TK" Type="char" MaxLength="1" />
+    <Property Name="C40VT" Type="char" MaxLength="1" />
+    <Property Name="EMCCODE" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="ESTIMATE_DAMAGE_CODE">
+    <Key>
+      <PropertyRef Name="COD_LINEA" />
+      <PropertyRef Name="TIPO_DANIO" />
+      <PropertyRef Name="COD_DAMAGE" />
+    </Key>
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="TIPO_DANIO" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="COD_DAMAGE" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="DESCRIP" Type="varchar" MaxLength="50" />
+    <Property Name="TIPO_REPARACION" Type="char" MaxLength="1" />
+    <Property Name="CANTHH" Type="smallint" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="EMCCode" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="ESTIMATE_PARTY_RESPON">
+    <Key>
+      <PropertyRef Name="COD_PARTY" />
+    </Key>
+    <Property Name="COD_PARTY" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="DESCRIP" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="EmcCode" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="ESTIMATE_REPAIR_CODE">
+    <Key>
+      <PropertyRef Name="COD_LINEA" />
+      <PropertyRef Name="COD_REPAIR" />
+    </Key>
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="COD_REPAIR" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="DESCRIP" Type="varchar" MaxLength="50" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="EmcCode" Type="varchar" MaxLength="3" />
+    <Property Name="COD_LINEA_BAK" Type="varchar" MaxLength="5" />
+    <Property Name="COD_REPAIR_BAK" Type="varchar" MaxLength="2" />
+    <Property Name="DESCRIP_BAK" Type="varchar" MaxLength="50" />
+    <Property Name="ESTADO_BAK" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Inv_H_CEgrProducto">
+    <Key>
+      <PropertyRef Name="Id_EgrProducto" />
+    </Key>
+    <Property Name="Id_EgrProducto" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Id_Proveedor" Type="varchar" MaxLength="13" />
+    <Property Name="Cod_Deposito" Type="char" MaxLength="3" />
+    <Property Name="Id_Bodega" Type="int" />
+    <Property Name="Id_TipoSalida" Type="varchar" MaxLength="2" />
+    <Property Name="Resp_Recepcion" Type="varchar" MaxLength="50" />
+    <Property Name="Num_Eor" Type="varchar" MaxLength="13" />
+    <Property Name="Num_Eir" Type="varchar" MaxLength="15" />
+    <Property Name="Pref_Container" Type="varchar" MaxLength="4" />
+    <Property Name="Num_container" Type="varchar" MaxLength="7" />
+    <Property Name="FechaSalida" Type="datetime" />
+    <Property Name="UsuarioCrea" Type="varchar" MaxLength="15" />
+    <Property Name="FechaCrea" Type="datetime" />
+    <Property Name="obs" Type="varchar(max)" />
+    <Property Name="exportSAP" Type="bit" Nullable="false" />
+    <Property Name="numEgrSAP" Type="varchar" MaxLength="50" />
+    <Property Name="fechaTransferSAP" Type="datetime" />
+    <Property Name="usuarioTransferSAP" Type="varchar" MaxLength="50" />
+    <Property Name="codLinea" Type="varchar" MaxLength="30" />
+    <Property Name="codServicio" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Inv_H_DEgrProducto">
+    <Key>
+      <PropertyRef Name="Id_EgrProducto" />
+      <PropertyRef Name="Id_SecEgreso" />
+    </Key>
+    <Property Name="Id_EgrProducto" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Id_SecEgreso" Type="int" Nullable="false" />
+    <Property Name="Cod_deposito" Type="char" MaxLength="3" />
+    <Property Name="id_bodega" Type="int" />
+    <Property Name="id_producto" Type="varchar" MaxLength="15" />
+    <Property Name="tipo" Type="char" MaxLength="1" />
+    <Property Name="Cantidad" Type="decimal" Precision="12" Scale="4" />
+    <Property Name="Costo" Type="decimal" Precision="12" Scale="4" />
+    <Property Name="Total" Type="decimal" Precision="12" Scale="4" />
+    <Property Name="Costo_Iva" Type="decimal" Precision="12" Scale="4" />
+    <Property Name="Total_iva" Type="decimal" Precision="12" Scale="4" />
+    <Property Name="id_Secdanio" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Aretina.dbo.Inv_M_Producto' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Inv_M_Producto">
+    <Key>
+      <PropertyRef Name="id_Producto" />
+    </Key>
+    <Property Name="id_Producto" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="id_categoria1" Type="varchar" MaxLength="4" />
+    <Property Name="Id_categoria2" Type="varchar" MaxLength="4" />
+    <Property Name="Id_Categoria3" Type="varchar" MaxLength="4" />
+    <Property Name="Id_TipoProducto" Type="int" />
+    <Property Name="Id_TipoCompo" Type="varchar" MaxLength="3" />
+    <Property Name="Id_TipoMedida" Type="int" />
+    <Property Name="Completo" Type="varchar" MaxLength="1" />
+    <Property Name="Area" Type="numeric" Precision="8" Scale="2" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="PtoReorden" Type="numeric" Precision="8" Scale="2" />
+    <Property Name="Pvp" Type="numeric" Precision="12" Scale="4" />
+    <Property Name="Observacion" Type="varchar" MaxLength="80" />
+    <Property Name="UsuarioCrea" Type="varchar" MaxLength="15" />
+    <Property Name="FechaCrea" Type="datetime" />
+    <Property Name="UsuarioModifica" Type="varchar" MaxLength="15" />
+    <Property Name="FechaModifica" Type="datetime" />
+    <Property Name="NroParte" Type="varchar" MaxLength="30" />
+    <Property Name="COD_SAP" Type="varchar" MaxLength="30" />
+    <Property Name="Estado" Type="varchar" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="M_AGENCIA">
+    <Key>
+      <PropertyRef Name="COD_AGENCIA" />
+    </Key>
+    <Property Name="COD_AGENCIA" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="NOMBRE_AGENCIA" Type="varchar" MaxLength="50" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="CAMPO_COD1" Type="varchar" MaxLength="15" />
+    <Property Name="CAMPO_COD2" Type="varchar" MaxLength="15" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Aretina.dbo.M_BRAND' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="M_BRAND">
+    <Key>
+      <PropertyRef Name="COD_BRAND" />
+    </Key>
+    <Property Name="COD_BRAND" Type="varchar" MaxLength="6" Nullable="false" />
+    <Property Name="NOMBRE_BRAND" Type="varchar" MaxLength="150" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="M_CONTAINER">
+    <Key>
+      <PropertyRef Name="PREF_CONTAINER" />
+      <PropertyRef Name="NUM_CONTAINER" />
+    </Key>
+    <Property Name="PREF_CONTAINER" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="NUM_CONTAINER" Type="char" MaxLength="7" Nullable="false" />
+    <Property Name="COD_TIPCONT" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="TAMAÑO" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="TARA" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="COD_CONTAINER1" Type="varchar" MaxLength="15" />
+    <Property Name="COD_CONTAINER2" Type="varchar" MaxLength="15" />
+    <Property Name="COD_CONTAINER3" Type="varchar" MaxLength="15" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="FECHA_CREACION" Type="datetime" Nullable="false" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+    <Property Name="PROVEEDOR" Type="char" MaxLength="1" />
+    <Property Name="MESFABRICA" Type="char" MaxLength="15" />
+    <Property Name="ANIOFABRICA" Type="char" MaxLength="4" />
+    <Property Name="MAXGROSSW" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PAYLOAD" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="PESO" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SECU_CONEX" Type="decimal" Precision="10" Scale="0" />
+    <Property Name="ESTADO_CONEX" Type="char" MaxLength="1" />
+    <Property Name="NOVALIDA_ISO" Type="char" MaxLength="1" />
+    <Property Name="ISO_CODE" Type="char" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="M_DEPOSITO">
+    <Key>
+      <PropertyRef Name="COD_DEPOSITO" />
+    </Key>
+    <Property Name="COD_DEPOSITO" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="NOMBRE_DEPOSITO" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="30" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="100" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="CIUDAD" Type="char" MaxLength="5" />
+    <Property Name="MOSTREPSELLO" Type="char" MaxLength="1" />
+    <Property Name="DEPOGENFILE" Type="varchar" MaxLength="10" />
+    <Property Name="MARCA_DEPORPTALMA" Type="char" MaxLength="1" />
+    <Property Name="CodIas" Type="varchar" MaxLength="50" />
+    <Property Name="ISDEPOT" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="M_INSPECTOR">
+    <Key>
+      <PropertyRef Name="COD_INSPECTOR" />
+    </Key>
+    <Property Name="COD_INSPECTOR" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="NOMBRES" Type="varchar" MaxLength="50" />
+    <Property Name="APELLIDOS" Type="varchar" MaxLength="50" />
+    <Property Name="TELEFONO" Type="varchar" MaxLength="15" />
+    <Property Name="OBSERVACION" Type="varchar" MaxLength="100" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="USUARIO_CREA" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_CREACION" Type="datetime" />
+    <Property Name="USUARIO_MOD" Type="varchar" MaxLength="15" />
+    <Property Name="FECHA_MOD" Type="datetime" />
+  </EntityType>
+  <EntityType Name="M_LINEA">
+    <Key>
+      <PropertyRef Name="COD_LINEA" />
+    </Key>
+    <Property Name="COD_LINEA" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="NOM_LINEA" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DESC_LINEA" Type="varchar" MaxLength="100" />
+    <Property Name="COD_COMERCIAL" Type="varchar" MaxLength="4" />
+    <Property Name="COD_LINEA1" Type="varchar" MaxLength="15" />
+    <Property Name="COD_LINEA2" Type="varchar" MaxLength="15" />
+    <Property Name="COD_LINEA3" Type="varchar" MaxLength="15" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="LOG_LINEA" Type="varbinary(max)" />
+    <Property Name="ASIGPAGDANOP" Type="char" MaxLength="1" />
+    <Property Name="MOSTREPSELLO" Type="char" MaxLength="1" />
+    <Property Name="LINEGENFILE" Type="varchar" MaxLength="10" />
+    <Property Name="REPARADEPOT" Type="char" MaxLength="1" />
+    <Property Name="COD_SAP" Type="varchar" MaxLength="50" />
+    <Property Name="COD_CLISAP" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="M_TIPCONTAINER">
+    <Key>
+      <PropertyRef Name="COD_TIPCONT" />
+    </Key>
+    <Property Name="COD_TIPCONT" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="NOM_TIPCONT" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DES_TIPCONT" Type="varchar" MaxLength="50" />
+    <Property Name="VAL_TARA" Type="decimal" Precision="7" Scale="2" />
+    <Property Name="COD_TIPCONT1" Type="varchar" MaxLength="15" />
+    <Property Name="COD_TIPCONT2" Type="varchar" MaxLength="15" />
+    <Property Name="COD_TIPCONT3" Type="varchar" MaxLength="15" />
+    <Property Name="ESREEFER" Type="char" MaxLength="1" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="TIP_CONECTADO" Type="char" MaxLength="1" />
+    <Property Name="TIPO_EQUIPO" Type="varchar" MaxLength="3" />
+    <Property Name="TIPO_EQUIPOFLOR" Type="varchar" MaxLength="3" />
+  </EntityType>
+  <Function Name="GET_EGRESO_EOR_TRINITY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NUM_EOR" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="AretinaModelStoreContainer">
+    <EntitySet Name="C_EIR" EntityType="Self.C_EIR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="C_EORESTRUCTURA" EntityType="Self.C_EORESTRUCTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="C_EORMAQUINARIA" EntityType="Self.C_EORMAQUINARIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="C_EORTRANSITO" EntityType="Self.C_EORTRANSITO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="C_PTI" EntityType="Self.C_PTI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="D_EORESTRUCTURA" EntityType="Self.D_EORESTRUCTURA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="D_EORMAQUINARIA" EntityType="Self.D_EORMAQUINARIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="D_EORTRANSITO" EntityType="Self.D_EORTRANSITO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ESTADO_EIR" EntityType="Self.ESTADO_EIR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ESTIMATE_COMPONENT_CODE" EntityType="Self.ESTIMATE_COMPONENT_CODE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ESTIMATE_DAMAGE_CODE" EntityType="Self.ESTIMATE_DAMAGE_CODE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ESTIMATE_PARTY_RESPON" EntityType="Self.ESTIMATE_PARTY_RESPON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ESTIMATE_REPAIR_CODE" EntityType="Self.ESTIMATE_REPAIR_CODE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inv_H_CEgrProducto" EntityType="Self.Inv_H_CEgrProducto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inv_H_DEgrProducto" EntityType="Self.Inv_H_DEgrProducto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_AGENCIA" EntityType="Self.M_AGENCIA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_CONTAINER" EntityType="Self.M_CONTAINER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_DEPOSITO" EntityType="Self.M_DEPOSITO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_INSPECTOR" EntityType="Self.M_INSPECTOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_LINEA" EntityType="Self.M_LINEA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_TIPCONTAINER" EntityType="Self.M_TIPCONTAINER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Inv_M_Producto" EntityType="Self.Inv_M_Producto" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Inv_M_Producto].[id_Producto] AS [id_Producto], 
+[Inv_M_Producto].[id_categoria1] AS [id_categoria1], 
+[Inv_M_Producto].[Id_categoria2] AS [Id_categoria2], 
+[Inv_M_Producto].[Id_Categoria3] AS [Id_Categoria3], 
+[Inv_M_Producto].[Id_TipoProducto] AS [Id_TipoProducto], 
+[Inv_M_Producto].[Id_TipoCompo] AS [Id_TipoCompo], 
+[Inv_M_Producto].[Id_TipoMedida] AS [Id_TipoMedida], 
+[Inv_M_Producto].[Completo] AS [Completo], 
+[Inv_M_Producto].[Area] AS [Area], 
+[Inv_M_Producto].[Nombre] AS [Nombre], 
+[Inv_M_Producto].[PtoReorden] AS [PtoReorden], 
+[Inv_M_Producto].[Pvp] AS [Pvp], 
+[Inv_M_Producto].[Observacion] AS [Observacion], 
+[Inv_M_Producto].[UsuarioCrea] AS [UsuarioCrea], 
+[Inv_M_Producto].[FechaCrea] AS [FechaCrea], 
+[Inv_M_Producto].[UsuarioModifica] AS [UsuarioModifica], 
+[Inv_M_Producto].[FechaModifica] AS [FechaModifica], 
+[Inv_M_Producto].[NroParte] AS [NroParte], 
+[Inv_M_Producto].[COD_SAP] AS [COD_SAP], 
+[Inv_M_Producto].[Estado] AS [Estado]
+FROM [dbo].[Inv_M_Producto] AS [Inv_M_Producto]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="M_BRAND" EntityType="Self.M_BRAND" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[M_BRAND].[COD_BRAND] AS [COD_BRAND], 
+[M_BRAND].[NOMBRE_BRAND] AS [NOMBRE_BRAND], 
+[M_BRAND].[ESTADO] AS [ESTADO]
+FROM [dbo].[M_BRAND] AS [M_BRAND]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

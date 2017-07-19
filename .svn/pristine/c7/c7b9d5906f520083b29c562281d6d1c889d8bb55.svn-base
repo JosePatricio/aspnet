@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+    <connectionStrings>
+      <add name="SigeorEntities" connectionString="metadata=res://*/;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.237;initial catalog=Sigeor;user id=sa;password=Innovaciones2014;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+      <add name="SAP_BOEntities" connectionString="metadata=res://*/;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.237;initial catalog=B1_PRB_ARETINA;user id=sa;password=Innovaciones2014;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+    </connectionStrings>
+
+    <system.serviceModel>
+        <behaviors>
+            <serviceBehaviors>
+                <behavior>
+                    <!-- Para evitar revelar información de los metadatos, establezca el valor siguiente en false y quite el extremo superior de los metadatos antes de la implementación -->
+                    <serviceMetadata httpGetEnabled="true"/>
+                    <!-- Para recibir detalles de las excepciones en los fallos, con el fin de poder realizar la depuración, establezca el valor siguiente en true. Para no revelar información sobre las excepciones, establézcalo en false antes de la implementación -->
+                    <serviceDebug includeExceptionDetailInFaults="false"/>
+                </behavior>
+            </serviceBehaviors>
+        </behaviors>
+        <serviceHostingEnvironment multipleSiteBindingsEnabled="true" />
+    </system.serviceModel>
+    <system.webServer>
+        <modules runAllManagedModulesForAllRequests="true"/>
+    </system.webServer>
+
+</configuration>

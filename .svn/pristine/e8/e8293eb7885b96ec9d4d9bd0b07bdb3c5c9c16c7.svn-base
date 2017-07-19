@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\SigeorServices</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Autenticacion/AutenticacionService.svc">
+      <publishTime>05/04/2016 14:53:11</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/Negocio.dll">
+      <publishTime>05/04/2016 16:05:15</publishTime>
+    </File>
+    <File Include="bin/Negocio.pdb">
+      <publishTime>05/04/2016 16:05:15</publishTime>
+    </File>
+    <File Include="bin/PersistenciaAretina.dll">
+      <publishTime>05/04/2016 14:53:13</publishTime>
+    </File>
+    <File Include="bin/PersistenciaAretina.pdb">
+      <publishTime>05/04/2016 14:53:13</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSap.dll">
+      <publishTime>05/04/2016 14:53:12</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSap.pdb">
+      <publishTime>05/04/2016 14:53:12</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSigeor.dll">
+      <publishTime>05/04/2016 16:05:11</publishTime>
+    </File>
+    <File Include="bin/PersistenciaSigeor.pdb">
+      <publishTime>05/04/2016 16:05:11</publishTime>
+    </File>
+    <File Include="bin/Quartz.dll">
+      <publishTime>05/04/2016 14:53:02</publishTime>
+    </File>
+    <File Include="bin/SigeorServices.dll">
+      <publishTime>05/05/2016 15:03:49</publishTime>
+    </File>
+    <File Include="bin/SigeorServices.pdb">
+      <publishTime>05/05/2016 15:03:49</publishTime>
+    </File>
+    <File Include="Configuracion/ConfiguracionService.svc">
+      <publishTime>05/04/2016 14:53:11</publishTime>
+    </File>
+    <File Include="GestionControl/ControlService.svc">
+      <publishTime>05/04/2016 14:53:12</publishTime>
+    </File>
+    <File Include="GestionMgl/GestionMglService.svc">
+      <publishTime>05/04/2016 14:53:11</publishTime>
+    </File>
+    <File Include="GestionMgl/MglService.svc">
+      <publishTime>12/30/2015 14:35:40</publishTime>
+    </File>
+    <File Include="LecturaAretina/LecturaAretina.svc">
+      <publishTime>01/04/2016 11:05:37</publishTime>
+    </File>
+    <File Include="LecturaAretina/LecturaAretinaService.svc">
+      <publishTime>12/30/2015 14:38:58</publishTime>
+    </File>
+    <File Include="Reportes/ReportesService.svc">
+      <publishTime>05/04/2016 14:53:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/05/2016 15:04:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+﻿using System;using System.Collections.Generic;using System.Diagnostics;using System.Linq;using Negocio.Utilidades;using PersistenciaSigeor;using System.Transactions;namespace Negocio.Reportes{    public class EgresoNegocio    {    }}

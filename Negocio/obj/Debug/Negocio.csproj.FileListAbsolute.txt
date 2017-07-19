@@ -1,0 +1,102 @@
+E:\Proyectos .NET\MARGLOBAL\Negocio\bin\Debug\Negocio.dll
+E:\Proyectos .NET\MARGLOBAL\Negocio\bin\Debug\Negocio.pdb
+E:\Proyectos .NET\MARGLOBAL\Negocio\bin\Debug\PersistenciaSigeor.dll
+E:\Proyectos .NET\MARGLOBAL\Negocio\bin\Debug\PersistenciaSigeor.pdb
+E:\Proyectos .NET\MARGLOBAL\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+E:\Proyectos .NET\MARGLOBAL\Negocio\obj\Debug\Negocio.dll
+E:\Proyectos .NET\MARGLOBAL\Negocio\obj\Debug\Negocio.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\bin\Debug\Negocio.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\bin\Debug\Negocio.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\bin\Debug\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\bin\Debug\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\obj\Debug\Negocio.dll
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\obj\Debug\Negocio.pdb
+C:\Users\fyaulema\Desktop\MARGLOBAL\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\bin\Debug\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\bin\Debug\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\bin\Debug\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\bin\Debug\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\obj\Debug\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR_DARKCOLORS\Negocio\obj\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\bin\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\bin\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\bin\Debug\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\bin\Debug\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\obj\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\obj\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\MarGlobal-Projects\Current- 19-12-2015\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\bin\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\bin\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\bin\Debug\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\bin\Debug\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\obj\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II\Negocio\obj\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaAretina.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSap.dll
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaAretina.pdb
+D:\WORKSPACE\VS.NET\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\Negocio.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaAretina.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSap.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSigeor.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaAretina.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSap.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSigeor.pdb
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.dll
+C:\Users\fyaulema\Desktop\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaAretina.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaAretina.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\bin\Debug\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF\Negocio\obj\Debug\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\Negocio.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\PersistenciaAretina.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\PersistenciaSigeor.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\PersistenciaAretina.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\bin\Debug\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\obj\Debug\Negocio.dll
+C:\Users\agonzalez\Documents\Visual Studio 2010\SIGEOR II-APPLICATION-WCF_COLORS\Negocio\obj\Debug\Negocio.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\Negocio.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\Negocio.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\PersistenciaAretina.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\PersistenciaSap.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\PersistenciaSigeor.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\PersistenciaAretina.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\PersistenciaSap.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\bin\Debug\PersistenciaSigeor.pdb
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\obj\Debug\Negocio.dll
+C:\Users\agonzalez\Desktop\SIGEOR II-APPLICATION-WCF_COLOR\Negocio\obj\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\Negocio.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\PersistenciaAretina.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\PersistenciaSap.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\PersistenciaSigeor.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\PersistenciaAretina.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\PersistenciaSap.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\bin\Debug\PersistenciaSigeor.pdb
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\obj\Debug\Negocio.dll
+D:\WORKSPACE\VS.NET\Sigeor Project\Sigeor\Negocio\obj\Debug\Negocio.pdb
+D:\PROYECTOS\ASPNET\MarGlobal\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache

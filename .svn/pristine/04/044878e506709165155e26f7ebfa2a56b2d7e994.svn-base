@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<configuration>
+  <connectionStrings>
+    <add name="SigeorEntities" connectionString="metadata=res://*/SigeorModel.csdl|res://*/SigeorModel.ssdl|res://*/SigeorModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.237;Database=SigeorEF;persist security info=True;user id=sa;password=Innovaciones2014;multipleactiveresultsets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="AretinaEntities" connectionString="metadata=res://*/AretinaModel.csdl|res://*/AretinaModel.ssdl|res://*/AretinaModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.237;initial catalog=Aretina;persist security info=True;user id=sa;password=Innovaciones2014;multipleactiveresultsets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="SapEntities" connectionString="metadata=res://*/SapModel.csdl|res://*/SapModel.ssdl|res://*/SapModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=192.168.0.237;initial catalog=B1_PRB_ARETINA_SAP;persist security info=True;user id=sa;password=Innovaciones2014;multipleactiveresultsets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+  <system.serviceModel>
+    <behaviors>
+      <serviceBehaviors>
+        <behavior>
+          <!-- Para evitar revelar información de los metadatos, establezca el valor siguiente en false y quite el extremo superior de los metadatos antes de la implementación -->
+          <serviceMetadata httpGetEnabled="true"/>
+          <!-- Para recibir detalles de las excepciones en los fallos, con el fin de poder realizar la depuración, establezca el valor siguiente en true. Para no revelar información sobre las excepciones, establézcalo en false antes de la implementación -->
+          <serviceDebug includeExceptionDetailInFaults="false"/>
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
+    <serviceHostingEnvironment multipleSiteBindingsEnabled="true"/>
+  </system.serviceModel>
+  <system.webServer>
+    <modules runAllManagedModulesForAllRequests="true"/>
+    <defaultDocument>
+      <files>
+        <add value="/Autenticacion/Login.aspx"/>
+      </files>
+    </defaultDocument>
+  </system.webServer>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0"/>
+    <pages controlRenderingCompatibilityVersion="4.0"/>
+  </system.web>
+</configuration>

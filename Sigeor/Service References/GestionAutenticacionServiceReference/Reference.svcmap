@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="092794d2-c02b-41a4-8d3b-9feb180b2bb1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="PersistenciaSigeor" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AutenticacionService.wsdl" MetadataType="Wsdl" ID="09acadb5-6bcd-4916-9664-9d9760e3371b" SourceId="1" SourceUrl="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?wsdl" />
+    <MetadataFile FileName="AutenticacionService.xsd" MetadataType="Schema" ID="67f772c3-0cec-44ef-b535-87e2c76dac79" SourceId="1" SourceUrl="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AutenticacionService1.xsd" MetadataType="Schema" ID="b0e0acb0-4877-47df-8269-ae4e8315ec91" SourceId="1" SourceUrl="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AutenticacionService2.xsd" MetadataType="Schema" ID="d59c139f-2a5b-408c-bac4-eda41c452db6" SourceId="1" SourceUrl="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AutenticacionService3.xsd" MetadataType="Schema" ID="7ea6febf-a0dc-4db0-9b47-f8c316ad04e8" SourceId="1" SourceUrl="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AutenticacionService4.xsd" MetadataType="Schema" ID="de83b2b8-dc80-4fd1-a0d9-283c43757af7" SourceId="1" SourceUrl="http://localhost/SigeorServices/Autenticacion/AutenticacionService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

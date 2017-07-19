@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EirMaquinariaReportDataSet" targetNamespace="http://tempuri.org/EirMaquinariaReportDataSet.xsd" xmlns:mstns="http://tempuri.org/EirMaquinariaReportDataSet.xsd" xmlns="http://tempuri.org/EirMaquinariaReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="SigeorConnectionString1" IsAppSettingsProperty="true" Modifier="Assembly" Name="SigeorConnectionString1 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.SigeorConnectionString1.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="SigeorConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SigeorConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.SigeorConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SigeorConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT a.ID_EIR,e.NUM_EORMAQ,g.COD_DEPOSITO,g.NOMBRE_DEPOSITO,a.COD_LINEA,b.NOM_LINEA,a.NUM_CONTAINER,d.NOM_TIPCONT,A.COD_AGENCIA,c.NOMBRE_AGENCIA,a.ESTADO,e.ESTADO as ESTADO_MAQU
+	FROM [MGL].[C_EIR]   a INNER JOIN [Mgl].[M_LINEA]  b 
+	ON a.COD_LINEA=b.COD_LINEA
+	INNER JOIN [Mgl].[M_AGENCIA]  c
+	ON a.COD_AGENCIA=c.COD_AGENCIA 
+	INNER JOIN [Mgl].[M_TIPCONTAINER] d
+	ON a.COD_TIPCONT=d.COD_TIPCONT 
+	INNER JOIN [Mgl].[C_EORMAQUINARIA] e
+	ON a.ID_EIR=e.ID_EIR
+	INNER JOIN [Mgl].[C_PTI] f
+	ON a.ID_EIR=f.ID_EIR
+	INNER JOIN [Mgl].[M_DEPOSITO] g
+	on g.COD_DEPOSITO=a.COD_DEPOSITO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_EIR" DataSetColumn="ID_EIR" />
+              <Mapping SourceColumn="NUM_EORMAQ" DataSetColumn="NUM_EORMAQ" />
+              <Mapping SourceColumn="COD_DEPOSITO" DataSetColumn="COD_DEPOSITO" />
+              <Mapping SourceColumn="NOMBRE_DEPOSITO" DataSetColumn="NOMBRE_DEPOSITO" />
+              <Mapping SourceColumn="COD_LINEA" DataSetColumn="COD_LINEA" />
+              <Mapping SourceColumn="NOM_LINEA" DataSetColumn="NOM_LINEA" />
+              <Mapping SourceColumn="NUM_CONTAINER" DataSetColumn="NUM_CONTAINER" />
+              <Mapping SourceColumn="NOM_TIPCONT" DataSetColumn="NOM_TIPCONT" />
+              <Mapping SourceColumn="COD_AGENCIA" DataSetColumn="COD_AGENCIA" />
+              <Mapping SourceColumn="NOMBRE_AGENCIA" DataSetColumn="NOMBRE_AGENCIA" />
+              <Mapping SourceColumn="ESTADO" DataSetColumn="ESTADO" />
+              <Mapping SourceColumn="ESTADO_MAQU" DataSetColumn="ESTADO_MAQU" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EirMaquinariaReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="EirMaquinariaReportDataSet" msprop:Generator_UserDSName="EirMaquinariaReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_EIR" msprop:Generator_ColumnVarNameInTable="columnID_EIR" msprop:Generator_ColumnPropNameInRow="ID_EIR" msprop:Generator_ColumnPropNameInTable="ID_EIRColumn" msprop:Generator_UserColumnName="ID_EIR">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NUM_EORMAQ" msprop:Generator_ColumnVarNameInTable="columnNUM_EORMAQ" msprop:Generator_ColumnPropNameInRow="NUM_EORMAQ" msprop:Generator_ColumnPropNameInTable="NUM_EORMAQColumn" msprop:Generator_UserColumnName="NUM_EORMAQ">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnCOD_DEPOSITO" msprop:Generator_ColumnPropNameInRow="COD_DEPOSITO" msprop:Generator_ColumnPropNameInTable="COD_DEPOSITOColumn" msprop:Generator_UserColumnName="COD_DEPOSITO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_DEPOSITO" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_DEPOSITO" msprop:Generator_ColumnPropNameInRow="NOMBRE_DEPOSITO" msprop:Generator_ColumnPropNameInTable="NOMBRE_DEPOSITOColumn" msprop:Generator_UserColumnName="NOMBRE_DEPOSITO">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_LINEA" msprop:Generator_ColumnVarNameInTable="columnCOD_LINEA" msprop:Generator_ColumnPropNameInRow="COD_LINEA" msprop:Generator_ColumnPropNameInTable="COD_LINEAColumn" msprop:Generator_UserColumnName="COD_LINEA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOM_LINEA" msprop:Generator_ColumnVarNameInTable="columnNOM_LINEA" msprop:Generator_ColumnPropNameInRow="NOM_LINEA" msprop:Generator_ColumnPropNameInTable="NOM_LINEAColumn" msprop:Generator_UserColumnName="NOM_LINEA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NUM_CONTAINER" msprop:Generator_ColumnVarNameInTable="columnNUM_CONTAINER" msprop:Generator_ColumnPropNameInRow="NUM_CONTAINER" msprop:Generator_ColumnPropNameInTable="NUM_CONTAINERColumn" msprop:Generator_UserColumnName="NUM_CONTAINER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOM_TIPCONT" msprop:Generator_ColumnVarNameInTable="columnNOM_TIPCONT" msprop:Generator_ColumnPropNameInRow="NOM_TIPCONT" msprop:Generator_ColumnPropNameInTable="NOM_TIPCONTColumn" msprop:Generator_UserColumnName="NOM_TIPCONT">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COD_AGENCIA" msprop:Generator_ColumnVarNameInTable="columnCOD_AGENCIA" msprop:Generator_ColumnPropNameInRow="COD_AGENCIA" msprop:Generator_ColumnPropNameInTable="COD_AGENCIAColumn" msprop:Generator_UserColumnName="COD_AGENCIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOMBRE_AGENCIA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_AGENCIA" msprop:Generator_ColumnPropNameInRow="NOMBRE_AGENCIA" msprop:Generator_ColumnPropNameInTable="NOMBRE_AGENCIAColumn" msprop:Generator_UserColumnName="NOMBRE_AGENCIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ESTADO_MAQU" msprop:Generator_ColumnVarNameInTable="columnESTADO_MAQU" msprop:Generator_ColumnPropNameInRow="ESTADO_MAQU" msprop:Generator_ColumnPropNameInTable="ESTADO_MAQUColumn" msprop:Generator_UserColumnName="ESTADO_MAQU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
